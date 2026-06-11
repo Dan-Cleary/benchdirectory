@@ -15,6 +15,13 @@ Every score on IndieBench comes from the benchmark owner's own published results
 | SnitchBench | [Theo](https://x.com/theo) | `snitching-analysis.json` in [T3-Content/SnitchBench](https://github.com/T3-Content/SnitchBench) |
 | BullshitBench | [Peter Gostev](https://x.com/petergostev) | `data/v2/latest/leaderboard.csv` in [petergpt/bullshit-benchmark](https://github.com/petergpt/bullshit-benchmark) (`data/latest/` is the stale v1 export) |
 | SlopBench | [Dan Cleary](https://x.com/DanJCleary) | public leaderboard query on the production [SlopBench](https://slop-bench.vercel.app) backend |
+| SkateBench | [Theo](https://x.com/theo) | `visualizer/data/benchmark-results.json` in [T3-Content/skatebench](https://github.com/T3-Content/skatebench) |
+| ScreenshotBench | [Dan Cleary](https://x.com/DanJCleary) | public matrix query on the production [screenshotbench.com](https://screenshotbench.com) backend |
+| DeepSWE | [Datacurve](https://deepswe.datacurve.ai) | server-rendered leaderboard at [deepswe.datacurve.ai](https://deepswe.datacurve.ai) (HTML parse — no structured export published; adapter fails loudly if the markup changes) |
+| Senior Engineer Bench | [Every / Dan Shipper](https://every.to/vibe-check) | hand-curated from published [Vibe Check](https://every.to/vibe-check) articles (scores are published in prose only) |
+| CursorBench | [Cursor](https://cursor.com/cursorbench) | hand-curated from the published leaderboard page (benchmark itself is closed-source) |
+
+Hand-curated tables are clearly marked in the UI and carry their source link. They're the fallback for benches whose owners publish numbers but not data files.
 
 ## How it works
 

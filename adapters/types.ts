@@ -20,6 +20,8 @@ export interface BenchmarkMeta {
   direction: ScoreDirection;
   /** One-sentence plain-English description of what the score means. */
   scoreExplainer: string;
+  /** Set when the snapshot is hand-curated from prose/leaderboard pages rather than structured data. */
+  curatedNote?: string;
 }
 
 export interface Entry {

@@ -1,0 +1,213 @@
+{
+  "benchmark": {
+    "slug": "cursorbench",
+    "name": "CursorBench",
+    "tagline": "Ambiguous, multi-file tasks from real Cursor engineering sessions.",
+    "owner": {
+      "name": "Cursor",
+      "xHandle": "cursor_ai",
+      "url": "https://cursor.com"
+    },
+    "siteUrl": "https://cursor.com/cursorbench",
+    "repoUrl": "https://cursor.com/blog/cursorbench",
+    "scoreLabel": "Score",
+    "direction": "higher-better",
+    "scoreExplainer": "CursorBench 3.1: correctness, code quality, efficiency, and interaction behavior on tasks sourced from real Cursor sessions.",
+    "curatedNote": "The benchmark is closed-source; only the leaderboard is public. This table is hand-curated from cursor.com/cursorbench."
+  },
+  "retrievedAt": "2026-06-11T14:19:01.260Z",
+  "sourceDataUrl": "https://cursor.com/cursorbench",
+  "entries": [
+    {
+      "rank": 1,
+      "model": "Fable 5",
+      "variant": "Max",
+      "score": 72.9,
+      "display": "72.9%"
+    },
+    {
+      "rank": 2,
+      "model": "Fable 5",
+      "variant": "Extra High",
+      "score": 72,
+      "display": "72.0%"
+    },
+    {
+      "rank": 3,
+      "model": "Fable 5",
+      "variant": "High",
+      "score": 70.6,
+      "display": "70.6%"
+    },
+    {
+      "rank": 4,
+      "model": "Fable 5",
+      "variant": "Medium",
+      "score": 69.8,
+      "display": "69.8%"
+    },
+    {
+      "rank": 5,
+      "model": "Opus 4.7",
+      "variant": "Max",
+      "score": 64.8,
+      "display": "64.8%"
+    },
+    {
+      "rank": 6,
+      "model": "GPT-5.5",
+      "variant": "Extra High",
+      "score": 64.3,
+      "display": "64.3%"
+    },
+    {
+      "rank": 7,
+      "model": "Fable 5",
+      "variant": "Low",
+      "score": 64.2,
+      "display": "64.2%"
+    },
+    {
+      "rank": 8,
+      "model": "Opus 4.8",
+      "variant": "Max",
+      "score": 63.8,
+      "display": "63.8%"
+    },
+    {
+      "rank": 9,
+      "model": "Composer 2.5",
+      "score": 63.2,
+      "display": "63.2%"
+    },
+    {
+      "rank": 10,
+      "model": "GPT-5.5",
+      "variant": "High",
+      "score": 62.6,
+      "display": "62.6%"
+    },
+    {
+      "rank": 11,
+      "model": "Opus 4.8",
+      "variant": "Extra High",
+      "score": 62.1,
+      "display": "62.1%"
+    },
+    {
+      "rank": 12,
+      "model": "Opus 4.7",
+      "variant": "Extra High",
+      "score": 61.6,
+      "display": "61.6%"
+    },
+    {
+      "rank": 13,
+      "model": "Opus 4.7",
+      "variant": "High",
+      "score": 59.4,
+      "display": "59.4%"
+    },
+    {
+      "rank": 14,
+      "model": "GPT-5.5",
+      "variant": "Medium",
+      "score": 59.2,
+      "display": "59.2%"
+    },
+    {
+      "rank": 15,
+      "model": "Opus 4.8",
+      "variant": "High",
+      "score": 58.4,
+      "display": "58.4%"
+    },
+    {
+      "rank": 16,
+      "model": "Opus 4.8",
+      "variant": "Medium",
+      "score": 56.6,
+      "display": "56.6%"
+    },
+    {
+      "rank": 17,
+      "model": "Opus 4.8",
+      "variant": "Low",
+      "score": 54.3,
+      "display": "54.3%"
+    },
+    {
+      "rank": 18,
+      "model": "Opus 4.7",
+      "variant": "Medium",
+      "score": 52.7,
+      "display": "52.7%"
+    },
+    {
+      "rank": 19,
+      "model": "Composer 2",
+      "score": 52.2,
+      "display": "52.2%"
+    },
+    {
+      "rank": 20,
+      "model": "Gemini 3.5 Flash",
+      "score": 49.8,
+      "display": "49.8%"
+    },
+    {
+      "rank": 21,
+      "model": "Sonnet 4.6",
+      "variant": "Max",
+      "score": 49,
+      "display": "49.0%"
+    },
+    {
+      "rank": 22,
+      "model": "GPT-5.5",
+      "variant": "Low",
+      "score": 48.8,
+      "display": "48.8%"
+    },
+    {
+      "rank": 23,
+      "model": "Sonnet 4.6",
+      "variant": "High",
+      "score": 48.8,
+      "display": "48.8%"
+    },
+    {
+      "rank": 24,
+      "model": "Opus 4.7",
+      "variant": "Low",
+      "score": 48.3,
+      "display": "48.3%"
+    },
+    {
+      "rank": 25,
+      "model": "Kimi 2.6",
+      "score": 47.6,
+      "display": "47.6%"
+    },
+    {
+      "rank": 26,
+      "model": "Sonnet 4.6",
+      "variant": "Medium",
+      "score": 46,
+      "display": "46.0%"
+    },
+    {
+      "rank": 27,
+      "model": "Sonnet 4.6",
+      "variant": "Low",
+      "score": 41.5,
+      "display": "41.5%"
+    },
+    {
+      "rank": 28,
+      "model": "Kimi 2.5",
+      "score": 31.9,
+      "display": "31.9%"
+    }
+  ]
+}

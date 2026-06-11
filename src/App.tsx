@@ -6,7 +6,16 @@ const modules = import.meta.glob<{ default: Snapshot }>("./data/*.json", {
   eager: true,
 });
 
-const ORDER = ["snitchbench", "bullshitbench", "slopbench"];
+const ORDER = [
+  "snitchbench",
+  "bullshitbench",
+  "slopbench",
+  "skatebench",
+  "screenshotbench",
+  "deepswe",
+  "every-senior-engineer",
+  "cursorbench",
+];
 
 const snapshots = Object.values(modules)
   .map((m) => m.default)

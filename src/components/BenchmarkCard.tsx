@@ -1,5 +1,6 @@
 import { useState } from "react";
 import type { Snapshot } from "../../adapters/types";
+import { ScoreChart } from "./ScoreChart";
 
 const COLLAPSED_ROWS = 10;
 
@@ -48,6 +49,10 @@ export function BenchmarkCard({ snapshot }: { snapshot: Snapshot }) {
             : `Data pulled ${timeAgo(retrievedAt)} from the owner's published results.`}
         </span>
       </p>
+
+      {b.curatedNote && <p className="curated-note">✎ {b.curatedNote}</p>}
+
+      <ScoreChart entries={entries} />
 
       <table>
         <thead>

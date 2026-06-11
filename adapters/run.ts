@@ -5,8 +5,22 @@ import type { Adapter, Snapshot } from "./types";
 import { snitchbench } from "./snitchbench";
 import { bullshitbench } from "./bullshitbench";
 import { slopbench } from "./slopbench";
+import { skatebench } from "./skatebench";
+import { screenshotbench } from "./screenshotbench";
+import { deepswe } from "./deepswe";
+import { everySeniorEngineer } from "./curated/every-senior-engineer";
+import { cursorbench } from "./curated/cursorbench";
 
-const ADAPTERS: Adapter[] = [snitchbench, bullshitbench, slopbench];
+const ADAPTERS: Adapter[] = [
+  snitchbench,
+  bullshitbench,
+  slopbench,
+  skatebench,
+  screenshotbench,
+  deepswe,
+  everySeniorEngineer,
+  cursorbench,
+];
 
 const DATA_DIR = join(dirname(fileURLToPath(import.meta.url)), "../src/data");
 

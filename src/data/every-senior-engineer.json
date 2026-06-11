@@ -1,0 +1,41 @@
+{
+  "benchmark": {
+    "slug": "every-senior-engineer",
+    "name": "Senior Engineer Bench",
+    "tagline": "Can the agent rewrite a vibe-coded production codebase from first principles?",
+    "owner": {
+      "name": "Every (Dan Shipper)",
+      "xHandle": "danshipper",
+      "url": "https://every.to"
+    },
+    "siteUrl": "https://every.to/vibe-check",
+    "repoUrl": "https://github.com/everyinc",
+    "scoreLabel": "Score (0–100)",
+    "direction": "higher-better",
+    "scoreExplainer": "Graded rewrite of a real vibe-coded codebase that needed a senior engineer. A human senior engineer scores high 80s to low 90s.",
+    "curatedNote": "Every publishes these scores in prose (Vibe Check articles), not as data — this table is hand-curated from their published numbers."
+  },
+  "retrievedAt": "2026-06-11T14:19:01.240Z",
+  "sourceGeneratedAt": "2026-06-09T00:00:00.000Z",
+  "sourceDataUrl": "https://every.to/anthropic-mythos-our-fable-vibe-check",
+  "entries": [
+    {
+      "rank": 1,
+      "model": "Claude Fable 5",
+      "score": 91,
+      "display": "91"
+    },
+    {
+      "rank": 2,
+      "model": "Claude Opus 4.8",
+      "score": 63,
+      "display": "63"
+    },
+    {
+      "rank": 3,
+      "model": "GPT-5.5",
+      "score": 62,
+      "display": "62"
+    }
+  ]
+}

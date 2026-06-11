@@ -1,0 +1,138 @@
+{
+  "benchmark": {
+    "slug": "screenshotbench",
+    "name": "ScreenshotBench",
+    "tagline": "Hand the model one screenshot — how faithfully does it rebuild the UI in React?",
+    "owner": {
+      "name": "Dan Cleary",
+      "xHandle": "DanJCleary",
+      "url": "https://x.com/DanJCleary"
+    },
+    "siteUrl": "https://screenshotbench.com",
+    "repoUrl": "https://github.com/Dan-Cleary/screenshotbench",
+    "scoreLabel": "Avg judge score",
+    "direction": "higher-better",
+    "scoreExplainer": "LLM judge scores visual fidelity 0-100 (layout, palette, polish, completeness) per reference screenshot, averaged across references."
+  },
+  "retrievedAt": "2026-06-11T14:19:02.421Z",
+  "sourceDataUrl": "https://efficient-anteater-70.convex.cloud/api/query (runs:matrix, models:list)",
+  "entries": [
+    {
+      "rank": 1,
+      "model": "Composer 2",
+      "org": "Cursor",
+      "score": 74.66666666666667,
+      "display": "74.7",
+      "extras": [
+        {
+          "label": "Cells",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "model": "Gemini 3.1 Pro",
+      "org": "Google",
+      "score": 73.66666666666667,
+      "display": "73.7",
+      "extras": [
+        {
+          "label": "Cells",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "model": "Fable 5",
+      "org": "Anthropic",
+      "score": 73,
+      "display": "73.0",
+      "extras": [
+        {
+          "label": "Cells",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "model": "GPT-5.5",
+      "org": "OpenAI",
+      "score": 73,
+      "display": "73.0",
+      "extras": [
+        {
+          "label": "Cells",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "model": "Opus 4.8",
+      "org": "Anthropic",
+      "score": 71.66666666666667,
+      "display": "71.7",
+      "extras": [
+        {
+          "label": "Cells",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "model": "Opus 4.7",
+      "org": "Anthropic",
+      "score": 70,
+      "display": "70.0",
+      "extras": [
+        {
+          "label": "Cells",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "model": "Sonnet 4.6",
+      "org": "Anthropic",
+      "score": 69.33333333333333,
+      "display": "69.3",
+      "extras": [
+        {
+          "label": "Cells",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "model": "Grok Build 0.1",
+      "org": "xAI",
+      "score": 63,
+      "display": "63.0",
+      "extras": [
+        {
+          "label": "Cells",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "model": "Gemini 3 Flash",
+      "org": "Google",
+      "score": 62.333333333333336,
+      "display": "62.3",
+      "extras": [
+        {
+          "label": "Cells",
+          "value": "3"
+        }
+      ]
+    }
+  ]
+}

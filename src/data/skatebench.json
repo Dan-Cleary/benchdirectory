@@ -1,0 +1,407 @@
+{
+  "benchmark": {
+    "slug": "skatebench",
+    "name": "SkateBench",
+    "tagline": "Can the model name the skateboard trick from its technical definition?",
+    "owner": {
+      "name": "Theo",
+      "xHandle": "theo",
+      "url": "https://t3.gg"
+    },
+    "siteUrl": "https://skatebench.t3.gg",
+    "repoUrl": "https://github.com/T3-Content/skatebench",
+    "license": "MIT",
+    "scoreLabel": "Success rate",
+    "direction": "higher-better",
+    "scoreExplainer": "Share of trick-terminology questions answered correctly. Higher means the model knows its skateboarding."
+  },
+  "retrievedAt": "2026-06-11T14:19:01.631Z",
+  "sourceGeneratedAt": "2026-02-20T22:02:25.042Z",
+  "sourceDataUrl": "https://raw.githubusercontent.com/T3-Content/skatebench/main/visualizer/data/benchmark-results.json",
+  "entries": [
+    {
+      "rank": 1,
+      "model": "gemini-3.1-pro-preview",
+      "score": 100,
+      "display": "100.0%",
+      "extras": [
+        {
+          "label": "Correct",
+          "value": "210/210"
+        },
+        {
+          "label": "Run cost",
+          "value": "$1.61"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "model": "gpt-5-high",
+      "score": 98.09523809523809,
+      "display": "98.1%",
+      "extras": [
+        {
+          "label": "Correct",
+          "value": "206/210"
+        },
+        {
+          "label": "Run cost",
+          "value": "$3.08"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "model": "gpt-5-default",
+      "score": 97.14285714285714,
+      "display": "97.1%",
+      "extras": [
+        {
+          "label": "Correct",
+          "value": "204/210"
+        },
+        {
+          "label": "Run cost",
+          "value": "$1.45"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "model": "gemini-3-flash-high",
+      "score": 93.80952380952381,
+      "display": "93.8%",
+      "extras": [
+        {
+          "label": "Correct",
+          "value": "197/210"
+        },
+        {
+          "label": "Run cost",
+          "value": "$0.19"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "model": "gemini-3-flash-low",
+      "score": 91.42857142857143,
+      "display": "91.4%",
+      "extras": [
+        {
+          "label": "Correct",
+          "value": "192/210"
+        },
+        {
+          "label": "Run cost",
+          "value": "$0.15"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "model": "gpt-5.1-high",
+      "score": 91.42857142857143,
+      "display": "91.4%",
+      "extras": [
+        {
+          "label": "Correct",
+          "value": "192/210"
+        },
+        {
+          "label": "Run cost",
+          "value": "$1.45"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "model": "gemini-3-pro-preview",
+      "score": 87.14285714285714,
+      "display": "87.1%",
+      "extras": [
+        {
+          "label": "Correct",
+          "value": "183/210"
+        },
+        {
+          "label": "Run cost",
+          "value": "$1.85"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "model": "gpt-5.2-xhigh",
+      "score": 86.66666666666667,
+      "display": "86.7%",
+      "extras": [
+        {
+          "label": "Correct",
+          "value": "182/210"
+        },
+        {
+          "label": "Run cost",
+          "value": "$5.37"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "model": "glm-5",
+      "score": 83.33333333333334,
+      "display": "83.3%",
+      "extras": [
+        {
+          "label": "Correct",
+          "value": "175/210"
+        },
+        {
+          "label": "Run cost",
+          "value": "$0.78"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "model": "gpt-5.2-pro",
+      "score": 82.85714285714286,
+      "display": "82.9%",
+      "extras": [
+        {
+          "label": "Correct",
+          "value": "174/210"
+        },
+        {
+          "label": "Run cost",
+          "value": "$12.78"
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "model": "kimi-k2.5",
+      "score": 77.14285714285715,
+      "display": "77.1%",
+      "extras": [
+        {
+          "label": "Correct",
+          "value": "162/210"
+        },
+        {
+          "label": "Run cost",
+          "value": "$1.01"
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "model": "claude-4.6-opus-thinking-high",
+      "score": 75.23809523809524,
+      "display": "75.2%",
+      "extras": [
+        {
+          "label": "Correct",
+          "value": "158/210"
+        },
+        {
+          "label": "Run cost",
+          "value": "$2.88"
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "model": "grok-4",
+      "score": 75.23809523809524,
+      "display": "75.2%",
+      "extras": [
+        {
+          "label": "Correct",
+          "value": "158/210"
+        },
+        {
+          "label": "Run cost",
+          "value": "$4.70"
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "model": "claude-4.6-sonnet",
+      "score": 69.04761904761905,
+      "display": "69.0%",
+      "extras": [
+        {
+          "label": "Correct",
+          "value": "145/210"
+        },
+        {
+          "label": "Run cost",
+          "value": "$5.40"
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "model": "deepseek-v3.2-thinking-high",
+      "score": 65.23809523809524,
+      "display": "65.2%",
+      "extras": [
+        {
+          "label": "Correct",
+          "value": "137/210"
+        },
+        {
+          "label": "Run cost",
+          "value": "$0.11"
+        }
+      ]
+    },
+    {
+      "rank": 16,
+      "model": "claude-4.5-opus-thinking-high",
+      "score": 62.857142857142854,
+      "display": "62.9%",
+      "extras": [
+        {
+          "label": "Correct",
+          "value": "132/210"
+        },
+        {
+          "label": "Run cost",
+          "value": "$8.83"
+        }
+      ]
+    },
+    {
+      "rank": 17,
+      "model": "kimi-k2-thinking",
+      "score": 53.80952380952381,
+      "display": "53.8%",
+      "extras": [
+        {
+          "label": "Correct",
+          "value": "113/210"
+        },
+        {
+          "label": "Run cost",
+          "value": "$0.41"
+        }
+      ]
+    },
+    {
+      "rank": 18,
+      "model": "gpt-5.2-high",
+      "score": 53.333333333333336,
+      "display": "53.3%",
+      "extras": [
+        {
+          "label": "Correct",
+          "value": "112/210"
+        },
+        {
+          "label": "Run cost",
+          "value": "$0.90"
+        }
+      ]
+    },
+    {
+      "rank": 19,
+      "model": "gpt-5-mini",
+      "score": 51.90476190476191,
+      "display": "51.9%",
+      "extras": [
+        {
+          "label": "Correct",
+          "value": "109/210"
+        },
+        {
+          "label": "Run cost",
+          "value": "$0.34"
+        }
+      ]
+    },
+    {
+      "rank": 20,
+      "model": "gpt-5.2-default",
+      "score": 42.38095238095238,
+      "display": "42.4%",
+      "extras": [
+        {
+          "label": "Correct",
+          "value": "89/210"
+        },
+        {
+          "label": "Run cost",
+          "value": "$0.66"
+        }
+      ]
+    },
+    {
+      "rank": 21,
+      "model": "grok-4.1-fast",
+      "score": 39.523809523809526,
+      "display": "39.5%",
+      "extras": [
+        {
+          "label": "Correct",
+          "value": "83/210"
+        },
+        {
+          "label": "Run cost",
+          "value": "$0.18"
+        }
+      ]
+    },
+    {
+      "rank": 22,
+      "model": "gpt-oss-120b-high",
+      "score": 17.61904761904762,
+      "display": "17.6%",
+      "extras": [
+        {
+          "label": "Correct",
+          "value": "37/210"
+        },
+        {
+          "label": "Run cost",
+          "value": "$0.12"
+        }
+      ]
+    },
+    {
+      "rank": 23,
+      "model": "minimax-m2.5",
+      "score": 16.19047619047619,
+      "display": "16.2%",
+      "extras": [
+        {
+          "label": "Correct",
+          "value": "34/210"
+        },
+        {
+          "label": "Run cost",
+          "value": "$0.09"
+        }
+      ]
+    },
+    {
+      "rank": 24,
+      "model": "gpt-5-minimal",
+      "score": 12.857142857142856,
+      "display": "12.9%",
+      "extras": [
+        {
+          "label": "Correct",
+          "value": "27/210"
+        },
+        {
+          "label": "Run cost",
+          "value": "$0.08"
+        }
+      ]
+    }
+  ]
+}
