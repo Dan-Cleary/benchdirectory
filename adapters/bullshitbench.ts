@@ -3,11 +3,13 @@ import { fetchText, parseCsv, pct } from "./lib";
 
 // BullshitBench by Peter Gostev. Throws professionally-worded nonsense
 // questions at models and scores whether they push back (green), hedge
-// (amber), or confidently answer the unanswerable (red). Scored rows are
-// exported by Peter's pipeline to data/latest/leaderboard.csv.
+// (amber), or confidently answer the unanswerable (red).
+// NOTE: data/latest/ is the stale v1 export — the live exports Peter's
+// pipeline updates (per CHANGELOG, includes the newest model runs) are
+// under data/v2/latest/.
 
 const DATA_URL =
-  "https://raw.githubusercontent.com/petergpt/bullshit-benchmark/main/data/latest/leaderboard.csv";
+  "https://raw.githubusercontent.com/petergpt/bullshit-benchmark/main/data/v2/latest/leaderboard.csv";
 
 export const bullshitbench: Adapter = {
   slug: "bullshitbench",
@@ -47,6 +49,7 @@ export const bullshitbench: Adapter = {
           extras: [
             { label: "Green", value: pct(Number(r.green_rate) * 100, 0) },
             { label: "Red", value: pct(Number(r.red_rate) * 100, 0) },
+            { label: "Refused", value: pct(Number(r.refusal_rate) * 100, 0) },
             { label: "Questions", value: r.nonsense_count },
           ],
         };

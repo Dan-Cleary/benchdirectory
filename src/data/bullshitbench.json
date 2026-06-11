@@ -14,38 +14,16 @@
     "direction": "higher-better",
     "scoreExplainer": "Average over trap questions: 2 = clear pushback, 1 = hedges but plays along, 0 = accepts the nonsense. Higher means less bullshitting."
   },
-  "retrievedAt": "2026-06-11T13:49:10.678Z",
-  "sourceDataUrl": "https://raw.githubusercontent.com/petergpt/bullshit-benchmark/main/data/latest/leaderboard.csv",
+  "retrievedAt": "2026-06-11T13:56:07.553Z",
+  "sourceDataUrl": "https://raw.githubusercontent.com/petergpt/bullshit-benchmark/main/data/v2/latest/leaderboard.csv",
   "entries": [
     {
       "rank": 1,
       "model": "claude-opus-4.8",
       "org": "anthropic",
       "variant": "reasoning=none",
-      "score": 1.9636,
-      "display": "1.96",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "96%"
-        },
-        {
-          "label": "Red",
-          "value": "0%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 2,
-      "model": "claude-sonnet-4.6",
-      "org": "anthropic",
-      "variant": "reasoning=none",
-      "score": 1.897,
-      "display": "1.90",
+      "score": 1.93,
+      "display": "1.93",
       "extras": [
         {
           "label": "Green",
@@ -53,11 +31,41 @@
         },
         {
           "label": "Red",
-          "value": "2%"
+          "value": "1%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
         },
         {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "model": "claude-opus-4.8",
+      "org": "anthropic",
+      "variant": "reasoning=xhigh",
+      "score": 1.9233,
+      "display": "1.92",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "94%"
+        },
+        {
+          "label": "Red",
+          "value": "1%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
         }
       ]
     },
@@ -66,42 +74,50 @@
       "model": "claude-sonnet-4.6",
       "org": "anthropic",
       "variant": "reasoning=high",
-      "score": 1.897,
-      "display": "1.90",
+      "score": 1.87,
+      "display": "1.87",
       "extras": [
         {
           "label": "Green",
-          "value": "93%"
+          "value": "91%"
         },
         {
           "label": "Red",
+          "value": "3%"
+        },
+        {
+          "label": "Refused",
           "value": "0%"
         },
         {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
       "rank": 4,
-      "model": "claude-opus-4.8",
+      "model": "claude-sonnet-4.6",
       "org": "anthropic",
-      "variant": "reasoning=xhigh",
-      "score": 1.8909,
-      "display": "1.89",
+      "variant": "reasoning=none",
+      "score": 1.86,
+      "display": "1.86",
       "extras": [
         {
           "label": "Green",
-          "value": "93%"
+          "value": "89%"
         },
         {
           "label": "Red",
           "value": "2%"
         },
         {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
@@ -110,20 +126,24 @@
       "model": "claude-opus-4.5",
       "org": "anthropic",
       "variant": "reasoning=high",
-      "score": 1.8849,
-      "display": "1.88",
+      "score": 1.8433,
+      "display": "1.84",
       "extras": [
         {
           "label": "Green",
-          "value": "91%"
+          "value": "90%"
         },
         {
           "label": "Red",
+          "value": "2%"
+        },
+        {
+          "label": "Refused",
           "value": "0%"
         },
         {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
@@ -131,53 +151,9 @@
       "rank": 6,
       "model": "claude-opus-4.6",
       "org": "anthropic",
-      "variant": "reasoning=none",
-      "score": 1.8788,
-      "display": "1.88",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "93%"
-        },
-        {
-          "label": "Red",
-          "value": "2%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 7,
-      "model": "claude-opus-4.6",
-      "org": "anthropic",
       "variant": "reasoning=high",
-      "score": 1.8545,
-      "display": "1.85",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "89%"
-        },
-        {
-          "label": "Red",
-          "value": "4%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "model": "claude-haiku-4.5",
-      "org": "anthropic",
-      "variant": "reasoning=high",
-      "score": 1.7879,
-      "display": "1.79",
+      "score": 1.8367,
+      "display": "1.84",
       "extras": [
         {
           "label": "Green",
@@ -185,373 +161,77 @@
         },
         {
           "label": "Red",
-          "value": "4%"
+          "value": "3%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
         },
         {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "model": "claude-opus-4.6",
+      "org": "anthropic",
+      "variant": "reasoning=none",
+      "score": 1.7933,
+      "display": "1.79",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "83%"
+        },
+        {
+          "label": "Red",
+          "value": "3%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "model": "claude-opus-4.7",
+      "org": "anthropic",
+      "variant": "reasoning=none",
+      "score": 1.7833,
+      "display": "1.78",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "83%"
+        },
+        {
+          "label": "Red",
+          "value": "4%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
         }
       ]
     },
     {
       "rank": 9,
-      "model": "claude-opus-4.5",
+      "model": "claude-fable-5",
       "org": "anthropic",
-      "variant": "reasoning=none",
-      "score": 1.7697,
-      "display": "1.77",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "80%"
-        },
-        {
-          "label": "Red",
-          "value": "2%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 10,
-      "model": "claude-haiku-4.5",
-      "org": "anthropic",
-      "variant": "reasoning=none",
-      "score": 1.7333,
-      "display": "1.73",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "82%"
-        },
-        {
-          "label": "Red",
-          "value": "5%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 11,
-      "model": "claude-opus-4.7",
-      "org": "anthropic",
-      "variant": "reasoning=none",
-      "score": 1.697,
-      "display": "1.70",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "80%"
-        },
-        {
-          "label": "Red",
-          "value": "9%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 12,
-      "model": "qwen3.5-397b-a17b",
-      "org": "qwen",
-      "variant": "reasoning=none",
-      "score": 1.497,
-      "display": "1.50",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "65%"
-        },
-        {
-          "label": "Red",
-          "value": "13%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 13,
-      "model": "grok-4.20-multi-agent-beta",
-      "org": "x-ai",
       "variant": "reasoning=xhigh",
-      "score": 1.4788,
-      "display": "1.48",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "67%"
-        },
-        {
-          "label": "Red",
-          "value": "22%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 14,
-      "model": "claude-sonnet-4.5",
-      "org": "anthropic",
-      "variant": "reasoning=high",
-      "score": 1.4606,
-      "display": "1.46",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "65%"
-        },
-        {
-          "label": "Red",
-          "value": "16%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 15,
-      "model": "grok-4.20-multi-agent-beta",
-      "org": "x-ai",
-      "variant": "reasoning=low",
-      "score": 1.4424,
-      "display": "1.44",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "67%"
-        },
-        {
-          "label": "Red",
-          "value": "24%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 16,
-      "model": "nemotron-3-super-120b-a12b:free",
-      "org": "nvidia",
-      "variant": "reasoning=xhigh",
-      "score": 1.4061,
-      "display": "1.41",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "65%"
-        },
-        {
-          "label": "Red",
-          "value": "18%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 17,
-      "model": "claude-opus-4.7",
-      "org": "anthropic",
-      "variant": "reasoning=max",
-      "score": 1.3879,
-      "display": "1.39",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "60%"
-        },
-        {
-          "label": "Red",
-          "value": "20%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 18,
-      "model": "qwen3.5-397b-a17b",
-      "org": "qwen",
-      "variant": "reasoning=high",
-      "score": 1.3455,
-      "display": "1.35",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "53%"
-        },
-        {
-          "label": "Red",
-          "value": "16%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 19,
-      "model": "claude-3.7-sonnet:thinking",
-      "org": "anthropic",
-      "variant": "reasoning=default",
-      "score": 1.3428,
-      "display": "1.34",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "55%"
-        },
-        {
-          "label": "Red",
-          "value": "17%"
-        },
-        {
-          "label": "Questions",
-          "value": "53"
-        }
-      ]
-    },
-    {
-      "rank": 20,
-      "model": "grok-4.3",
-      "org": "x-ai",
-      "variant": "reasoning=minimal",
-      "score": 1.3394,
-      "display": "1.34",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "62%"
-        },
-        {
-          "label": "Red",
-          "value": "22%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 21,
-      "model": "claude-sonnet-4.5",
-      "org": "anthropic",
-      "variant": "reasoning=none",
-      "score": 1.3273,
-      "display": "1.33",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "53%"
-        },
-        {
-          "label": "Red",
-          "value": "18%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 22,
-      "model": "claude-3.5-haiku",
-      "org": "anthropic",
-      "variant": "reasoning=default",
-      "score": 1.297,
-      "display": "1.30",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "58%"
-        },
-        {
-          "label": "Red",
-          "value": "27%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 23,
-      "model": "qwen3.7-max",
-      "org": "qwen",
-      "variant": "reasoning=none",
-      "score": 1.297,
-      "display": "1.30",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "53%"
-        },
-        {
-          "label": "Red",
-          "value": "18%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 24,
-      "model": "grok-4.20-beta",
-      "org": "x-ai",
-      "variant": "reasoning=low",
-      "score": 1.2909,
-      "display": "1.29",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "62%"
-        },
-        {
-          "label": "Red",
-          "value": "31%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 25,
-      "model": "grok-4.3",
-      "org": "x-ai",
-      "variant": "reasoning=xhigh",
-      "score": 1.2667,
-      "display": "1.27",
+      "score": 1.7562,
+      "display": "1.76",
       "extras": [
         {
           "label": "Green",
@@ -559,131 +239,103 @@
         },
         {
           "label": "Red",
-          "value": "27%"
+          "value": "3%"
+        },
+        {
+          "label": "Refused",
+          "value": "33%"
         },
         {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
-      "rank": 26,
-      "model": "grok-4.20-beta",
-      "org": "x-ai",
-      "variant": "reasoning=xhigh",
-      "score": 1.2364,
-      "display": "1.24",
+      "rank": 10,
+      "model": "qwen3.5-397b-a17b",
+      "org": "qwen",
+      "variant": "reasoning=high",
+      "score": 1.7033,
+      "display": "1.70",
       "extras": [
         {
           "label": "Green",
-          "value": "58%"
+          "value": "78%"
         },
         {
           "label": "Red",
-          "value": "31%"
+          "value": "5%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
         },
         {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
-      "rank": 27,
-      "model": "llama-4-maverick",
-      "org": "meta",
-      "variant": "reasoning=default",
-      "score": 1.2364,
-      "display": "1.24",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "55%"
-        },
-        {
-          "label": "Red",
-          "value": "27%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 28,
-      "model": "minimax-m3",
-      "org": "minimax",
-      "variant": "reasoning=xhigh",
-      "score": 1.2121,
-      "display": "1.21",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "47%"
-        },
-        {
-          "label": "Red",
-          "value": "24%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 29,
-      "model": "claude-3.7-sonnet",
+      "rank": 11,
+      "model": "claude-sonnet-4.5",
       "org": "anthropic",
-      "variant": "reasoning=default",
-      "score": 1.197,
-      "display": "1.20",
+      "variant": "reasoning=high",
+      "score": 1.6767,
+      "display": "1.68",
       "extras": [
         {
           "label": "Green",
-          "value": "51%"
+          "value": "79%"
         },
         {
           "label": "Red",
-          "value": "27%"
+          "value": "8%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
         },
         {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
-      "rank": 30,
-      "model": "kimi-k2.5",
-      "org": "moonshotai",
+      "rank": 12,
+      "model": "claude-opus-4.5",
+      "org": "anthropic",
       "variant": "reasoning=none",
-      "score": 1.1818,
-      "display": "1.18",
+      "score": 1.67,
+      "display": "1.67",
       "extras": [
         {
           "label": "Green",
-          "value": "47%"
+          "value": "79%"
         },
         {
           "label": "Red",
-          "value": "24%"
+          "value": "11%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
         },
         {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
-      "rank": 31,
-      "model": "minimax-m3",
-      "org": "minimax",
-      "variant": "reasoning=none",
-      "score": 1.1818,
-      "display": "1.18",
+      "rank": 13,
+      "model": "claude-fable-5",
+      "org": "anthropic",
+      "variant": "reasoning=low",
+      "score": 1.6406,
+      "display": "1.64",
       "extras": [
         {
           "label": "Green",
@@ -691,43 +343,701 @@
         },
         {
           "label": "Red",
-          "value": "22%"
+          "value": "4%"
+        },
+        {
+          "label": "Refused",
+          "value": "36%"
         },
         {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "model": "claude-haiku-4.5",
+      "org": "anthropic",
+      "variant": "reasoning=high",
+      "score": 1.64,
+      "display": "1.64",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "77%"
+        },
+        {
+          "label": "Red",
+          "value": "11%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "model": "claude-haiku-4.5",
+      "org": "anthropic",
+      "variant": "reasoning=none",
+      "score": 1.6267,
+      "display": "1.63",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "71%"
+        },
+        {
+          "label": "Red",
+          "value": "8%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 16,
+      "model": "claude-opus-4.7",
+      "org": "anthropic",
+      "variant": "reasoning=max",
+      "score": 1.6167,
+      "display": "1.62",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "74%"
+        },
+        {
+          "label": "Red",
+          "value": "11%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 17,
+      "model": "claude-sonnet-4.5",
+      "org": "anthropic",
+      "variant": "reasoning=none",
+      "score": 1.59,
+      "display": "1.59",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "74%"
+        },
+        {
+          "label": "Red",
+          "value": "13%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 18,
+      "model": "qwen3.7-max",
+      "org": "qwen",
+      "variant": "reasoning=none",
+      "score": 1.5667,
+      "display": "1.57",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "71%"
+        },
+        {
+          "label": "Red",
+          "value": "13%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 19,
+      "model": "qwen3.6-plus",
+      "org": "qwen",
+      "variant": "reasoning=none",
+      "score": 1.5567,
+      "display": "1.56",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "72%"
+        },
+        {
+          "label": "Red",
+          "value": "14%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 20,
+      "model": "qwen3.5-397b-a17b",
+      "org": "qwen",
+      "variant": "reasoning=none",
+      "score": 1.5267,
+      "display": "1.53",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "69%"
+        },
+        {
+          "label": "Red",
+          "value": "15%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 21,
+      "model": "qwen3-max-thinking",
+      "org": "qwen",
+      "variant": "reasoning=high",
+      "score": 1.5033,
+      "display": "1.50",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "63%"
+        },
+        {
+          "label": "Red",
+          "value": "8%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 22,
+      "model": "kimi-k2.6",
+      "org": "moonshotai",
+      "variant": "reasoning=none",
+      "score": 1.4933,
+      "display": "1.49",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "65%"
+        },
+        {
+          "label": "Red",
+          "value": "14%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 23,
+      "model": "minimax-m3",
+      "org": "minimax",
+      "variant": "reasoning=xhigh",
+      "score": 1.4767,
+      "display": "1.48",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "63%"
+        },
+        {
+          "label": "Red",
+          "value": "14%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 24,
+      "model": "minimax-m3",
+      "org": "minimax",
+      "variant": "reasoning=none",
+      "score": 1.4367,
+      "display": "1.44",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "62%"
+        },
+        {
+          "label": "Red",
+          "value": "15%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 25,
+      "model": "grok-4.20-multi-agent-beta",
+      "org": "x-ai",
+      "variant": "reasoning=xhigh",
+      "score": 1.4333,
+      "display": "1.43",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "64%"
+        },
+        {
+          "label": "Red",
+          "value": "20%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 26,
+      "model": "grok-4.20-multi-agent-beta",
+      "org": "x-ai",
+      "variant": "reasoning=low",
+      "score": 1.43,
+      "display": "1.43",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "67%"
+        },
+        {
+          "label": "Red",
+          "value": "19%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 27,
+      "model": "mimo-v2.5-pro",
+      "org": "xiaomi",
+      "variant": "reasoning=xhigh",
+      "score": 1.4233,
+      "display": "1.42",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "62%"
+        },
+        {
+          "label": "Red",
+          "value": "15%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 28,
+      "model": "qwen3.6-plus",
+      "org": "qwen",
+      "variant": "reasoning=xhigh",
+      "score": 1.4167,
+      "display": "1.42",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "59%"
+        },
+        {
+          "label": "Red",
+          "value": "14%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 29,
+      "model": "qwen3.7-max",
+      "org": "qwen",
+      "variant": "reasoning=xhigh",
+      "score": 1.3333,
+      "display": "1.33",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "56%"
+        },
+        {
+          "label": "Red",
+          "value": "23%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 30,
+      "model": "grok-4.3",
+      "org": "x-ai",
+      "variant": "reasoning=minimal",
+      "score": 1.3033,
+      "display": "1.30",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "50%"
+        },
+        {
+          "label": "Red",
+          "value": "19%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 31,
+      "model": "grok-4.20-beta",
+      "org": "x-ai",
+      "variant": "reasoning=xhigh",
+      "score": 1.27,
+      "display": "1.27",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "54%"
+        },
+        {
+          "label": "Red",
+          "value": "25%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
         }
       ]
     },
     {
       "rank": 32,
-      "model": "claude-3.5-sonnet",
-      "org": "anthropic",
-      "variant": "reasoning=default",
-      "score": 1.1515,
-      "display": "1.15",
+      "model": "kimi-k2.6",
+      "org": "moonshotai",
+      "variant": "reasoning=xhigh",
+      "score": 1.27,
+      "display": "1.27",
       "extras": [
         {
           "label": "Green",
-          "value": "53%"
+          "value": "50%"
         },
         {
           "label": "Red",
-          "value": "35%"
+          "value": "19%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
         },
         {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
       "rank": 33,
-      "model": "nemotron-3-ultra-550b-a55b",
-      "org": "nvidia",
+      "model": "gpt-5.5",
+      "org": "openai",
+      "variant": "reasoning=xhigh",
+      "score": 1.2667,
+      "display": "1.27",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "47%"
+        },
+        {
+          "label": "Red",
+          "value": "13%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 34,
+      "model": "grok-4.20-beta",
+      "org": "x-ai",
+      "variant": "reasoning=low",
+      "score": 1.2567,
+      "display": "1.26",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "56%"
+        },
+        {
+          "label": "Red",
+          "value": "26%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 35,
+      "model": "gpt-5.4",
+      "org": "openai",
       "variant": "reasoning=none",
-      "score": 1.1091,
-      "display": "1.11",
+      "score": 1.25,
+      "display": "1.25",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "48%"
+        },
+        {
+          "label": "Red",
+          "value": "16%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 36,
+      "model": "nemotron-3-super-120b-a12b:free",
+      "org": "nvidia",
+      "variant": "reasoning=xhigh",
+      "score": 1.2267,
+      "display": "1.23",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "54%"
+        },
+        {
+          "label": "Red",
+          "value": "30%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 37,
+      "model": "kimi-k2.5",
+      "org": "moonshotai",
+      "variant": "reasoning=none",
+      "score": 1.2267,
+      "display": "1.23",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "52%"
+        },
+        {
+          "label": "Red",
+          "value": "28%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 38,
+      "model": "gpt-5.5",
+      "org": "openai",
+      "variant": "reasoning=none",
+      "score": 1.2233,
+      "display": "1.22",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "45%"
+        },
+        {
+          "label": "Red",
+          "value": "16%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 39,
+      "model": "gpt-5.5",
+      "org": "openai",
+      "variant": "reasoning=low",
+      "score": 1.2,
+      "display": "1.20",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "45%"
+        },
+        {
+          "label": "Red",
+          "value": "18%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 40,
+      "model": "gpt-5.4",
+      "org": "openai",
+      "variant": "reasoning=xhigh",
+      "score": 1.1667,
+      "display": "1.17",
       "extras": [
         {
           "label": "Green",
@@ -735,20 +1045,362 @@
         },
         {
           "label": "Red",
-          "value": "33%"
+          "value": "20%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
         },
         {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
-      "rank": 34,
-      "model": "mimo-v2.5-pro",
-      "org": "xiaomi",
+      "rank": 41,
+      "model": "claude-3.7-sonnet:thinking",
+      "org": "anthropic",
+      "variant": "reasoning=default",
+      "score": 1.1433,
+      "display": "1.14",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "49%"
+        },
+        {
+          "label": "Red",
+          "value": "34%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 42,
+      "model": "qwen3-max-thinking",
+      "org": "qwen",
+      "variant": "reasoning=none",
+      "score": 1.1433,
+      "display": "1.14",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "46%"
+        },
+        {
+          "label": "Red",
+          "value": "26%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 43,
+      "model": "gpt-5.2-codex",
+      "org": "openai",
+      "variant": "reasoning=low",
+      "score": 1.1367,
+      "display": "1.14",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "45%"
+        },
+        {
+          "label": "Red",
+          "value": "29%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 44,
+      "model": "gemini-3-pro-preview",
+      "org": "google",
+      "variant": "reasoning=low",
+      "score": 1.1267,
+      "display": "1.13",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "48%"
+        },
+        {
+          "label": "Red",
+          "value": "37%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 45,
+      "model": "claude-opus-4.1",
+      "org": "anthropic",
+      "variant": "reasoning=none",
+      "score": 1.1233,
+      "display": "1.12",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "43%"
+        },
+        {
+          "label": "Red",
+          "value": "29%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 46,
+      "model": "nemotron-3-super-120b-a12b",
+      "org": "nvidia",
+      "variant": "reasoning=high",
+      "score": 1.1167,
+      "display": "1.12",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "47%"
+        },
+        {
+          "label": "Red",
+          "value": "35%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 47,
+      "model": "grok-4.3",
+      "org": "x-ai",
       "variant": "reasoning=xhigh",
-      "score": 1.0606,
+      "score": 1.1167,
+      "display": "1.12",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "46%"
+        },
+        {
+          "label": "Red",
+          "value": "31%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 48,
+      "model": "claude-opus-4.1",
+      "org": "anthropic",
+      "variant": "reasoning=high",
+      "score": 1.1167,
+      "display": "1.12",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "42%"
+        },
+        {
+          "label": "Red",
+          "value": "29%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 49,
+      "model": "claude-3.5-haiku",
+      "org": "anthropic",
+      "variant": "reasoning=default",
+      "score": 1.1067,
+      "display": "1.11",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "50%"
+        },
+        {
+          "label": "Red",
+          "value": "35%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 50,
+      "model": "gpt-5.2",
+      "org": "openai",
+      "variant": "reasoning=none",
+      "score": 1.1,
+      "display": "1.10",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "38%"
+        },
+        {
+          "label": "Red",
+          "value": "23%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 51,
+      "model": "gpt-5.5-pro",
+      "org": "openai",
+      "variant": "reasoning=medium",
+      "score": 1.0867,
+      "display": "1.09",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "34%"
+        },
+        {
+          "label": "Red",
+          "value": "20%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 52,
+      "model": "nemotron-3-ultra-550b-a55b",
+      "org": "nvidia",
+      "variant": "reasoning=none",
+      "score": 1.07,
+      "display": "1.07",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "49%"
+        },
+        {
+          "label": "Red",
+          "value": "42%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 53,
+      "model": "gpt-5.5-pro",
+      "org": "openai",
+      "variant": "reasoning=xhigh",
+      "score": 1.07,
+      "display": "1.07",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "36%"
+        },
+        {
+          "label": "Red",
+          "value": "21%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 54,
+      "model": "claude-3.5-sonnet",
+      "org": "anthropic",
+      "variant": "reasoning=default",
+      "score": 1.0633,
       "display": "1.06",
       "extras": [
         {
@@ -757,43 +1409,25 @@
         },
         {
           "label": "Red",
-          "value": "38%"
+          "value": "36%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
         },
         {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
-      "rank": 35,
-      "model": "nemotron-3-super-120b-a12b:free",
-      "org": "nvidia",
-      "variant": "reasoning=none",
-      "score": 1.0424,
-      "display": "1.04",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "38%"
-        },
-        {
-          "label": "Red",
-          "value": "29%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 36,
-      "model": "claude-opus-4.1",
-      "org": "anthropic",
-      "variant": "reasoning=none",
-      "score": 1.0182,
-      "display": "1.02",
+      "rank": 55,
+      "model": "gpt-5.3-chat",
+      "org": "openai",
+      "variant": "reasoning=default",
+      "score": 1.06,
+      "display": "1.06",
       "extras": [
         {
           "label": "Green",
@@ -801,197 +1435,519 @@
         },
         {
           "label": "Red",
-          "value": "38%"
+          "value": "31%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
         },
         {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
-      "rank": 37,
+      "rank": 56,
       "model": "gpt-5.1-chat",
       "org": "openai",
       "variant": "reasoning=default",
-      "score": 1.0121,
-      "display": "1.01",
+      "score": 1.0533,
+      "display": "1.05",
       "extras": [
         {
           "label": "Green",
-          "value": "36%"
+          "value": "45%"
         },
         {
           "label": "Red",
           "value": "36%"
         },
         {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
-      "rank": 38,
-      "model": "gpt-5.2-codex",
-      "org": "openai",
+      "rank": 57,
+      "model": "gemini-3.1-pro-preview",
+      "org": "google",
       "variant": "reasoning=low",
-      "score": 0.9394,
-      "display": "0.94",
+      "score": 1.0467,
+      "display": "1.05",
       "extras": [
         {
           "label": "Green",
-          "value": "36%"
-        },
-        {
-          "label": "Red",
-          "value": "36%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 39,
-      "model": "gpt-5.4",
-      "org": "openai",
-      "variant": "reasoning=none",
-      "score": 0.9394,
-      "display": "0.94",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "25%"
-        },
-        {
-          "label": "Red",
-          "value": "27%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 40,
-      "model": "qwen3.7-max",
-      "org": "qwen",
-      "variant": "reasoning=xhigh",
-      "score": 0.9212,
-      "display": "0.92",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "38%"
-        },
-        {
-          "label": "Red",
-          "value": "44%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 41,
-      "model": "gpt-5.5",
-      "org": "openai",
-      "variant": "reasoning=none",
-      "score": 0.9152,
-      "display": "0.92",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "27%"
-        },
-        {
-          "label": "Red",
-          "value": "33%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 42,
-      "model": "llama-4-scout",
-      "org": "meta",
-      "variant": "reasoning=default",
-      "score": 0.8849,
-      "display": "0.88",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "36%"
-        },
-        {
-          "label": "Red",
-          "value": "44%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 43,
-      "model": "llama-3.1-8b-instruct",
-      "org": "meta",
-      "variant": "reasoning=default",
-      "score": 0.8849,
-      "display": "0.88",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "35%"
-        },
-        {
-          "label": "Red",
-          "value": "44%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 44,
-      "model": "gpt-5.2",
-      "org": "openai",
-      "variant": "reasoning=none",
-      "score": 0.8727,
-      "display": "0.87",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "27%"
+          "value": "37%"
         },
         {
           "label": "Red",
           "value": "31%"
         },
         {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
-      "rank": 45,
+      "rank": 58,
       "model": "gpt-5.4-mini",
       "org": "openai",
       "variant": "reasoning=xhigh",
-      "score": 0.8727,
-      "display": "0.87",
+      "score": 1.0467,
+      "display": "1.05",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "31%"
+        },
+        {
+          "label": "Red",
+          "value": "22%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 59,
+      "model": "claude-3.7-sonnet",
+      "org": "anthropic",
+      "variant": "reasoning=default",
+      "score": 1.0267,
+      "display": "1.03",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "43%"
+        },
+        {
+          "label": "Red",
+          "value": "38%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 60,
+      "model": "nemotron-3-super-120b-a12b:free",
+      "org": "nvidia",
+      "variant": "reasoning=none",
+      "score": 1.0233,
+      "display": "1.02",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "43%"
+        },
+        {
+          "label": "Red",
+          "value": "36%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 61,
+      "model": "hunter-alpha",
+      "org": "stealth",
+      "variant": "reasoning=none",
+      "score": 1.02,
+      "display": "1.02",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "43%"
+        },
+        {
+          "label": "Red",
+          "value": "38%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 62,
+      "model": "gpt-5.2",
+      "org": "openai",
+      "variant": "reasoning=high",
+      "score": 1.02,
+      "display": "1.02",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "28%"
+        },
+        {
+          "label": "Red",
+          "value": "22%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 63,
+      "model": "gpt-5.5-chat",
+      "org": "openai",
+      "variant": "reasoning=default",
+      "score": 1.0133,
+      "display": "1.01",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "34%"
+        },
+        {
+          "label": "Red",
+          "value": "27%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 64,
+      "model": "gpt-5-codex",
+      "org": "openai",
+      "variant": "reasoning=default",
+      "score": 1.0067,
+      "display": "1.01",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "39%"
+        },
+        {
+          "label": "Red",
+          "value": "35%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 65,
+      "model": "gpt-5.2-codex",
+      "org": "openai",
+      "variant": "reasoning=xhigh",
+      "score": 1.0067,
+      "display": "1.01",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "39%"
+        },
+        {
+          "label": "Red",
+          "value": "33%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 66,
+      "model": "claude-opus-4",
+      "org": "anthropic",
+      "variant": "reasoning=default",
+      "score": 0.99,
+      "display": "0.99",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "34%"
+        },
+        {
+          "label": "Red",
+          "value": "30%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 67,
+      "model": "gpt-5.4-mini",
+      "org": "openai",
+      "variant": "reasoning=high",
+      "score": 0.9833,
+      "display": "0.98",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "32%"
+        },
+        {
+          "label": "Red",
+          "value": "31%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 68,
+      "model": "gpt-5.2-codex",
+      "org": "openai",
+      "variant": "reasoning=high",
+      "score": 0.9733,
+      "display": "0.97",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "37%"
+        },
+        {
+          "label": "Red",
+          "value": "36%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 69,
+      "model": "kimi-k2.5",
+      "org": "moonshotai",
+      "variant": "reasoning=high",
+      "score": 0.9533,
+      "display": "0.95",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "31%"
+        },
+        {
+          "label": "Red",
+          "value": "34%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 70,
+      "model": "gemini-3-pro-preview",
+      "org": "google",
+      "variant": "reasoning=high",
+      "score": 0.9433,
+      "display": "0.94",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "36%"
+        },
+        {
+          "label": "Red",
+          "value": "41%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 71,
+      "model": "gpt-5.4-mini",
+      "org": "openai",
+      "variant": "reasoning=none",
+      "score": 0.9433,
+      "display": "0.94",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "32%"
+        },
+        {
+          "label": "Red",
+          "value": "32%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 72,
+      "model": "nemotron-3-ultra-550b-a55b",
+      "org": "nvidia",
+      "variant": "reasoning=xhigh",
+      "score": 0.9367,
+      "display": "0.94",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "40%"
+        },
+        {
+          "label": "Red",
+          "value": "46%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 73,
+      "model": "mimo-v2.5-pro",
+      "org": "xiaomi",
+      "variant": "reasoning=none",
+      "score": 0.9367,
+      "display": "0.94",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "38%"
+        },
+        {
+          "label": "Red",
+          "value": "41%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 74,
+      "model": "healer-alpha",
+      "org": "stealth",
+      "variant": "reasoning=none",
+      "score": 0.9167,
+      "display": "0.92",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "37%"
+        },
+        {
+          "label": "Red",
+          "value": "43%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 75,
+      "model": "gpt-5.1",
+      "org": "openai",
+      "variant": "reasoning=default",
+      "score": 0.8767,
+      "display": "0.88",
       "extras": [
         {
           "label": "Green",
@@ -999,43 +1955,77 @@
         },
         {
           "label": "Red",
-          "value": "36%"
+          "value": "31%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
         },
         {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
-      "rank": 46,
-      "model": "gpt-5.3-chat",
-      "org": "openai",
-      "variant": "reasoning=default",
-      "score": 0.8667,
+      "rank": 76,
+      "model": "claude-sonnet-4",
+      "org": "anthropic",
+      "variant": "reasoning=none",
+      "score": 0.87,
       "display": "0.87",
       "extras": [
         {
           "label": "Green",
-          "value": "27%"
+          "value": "29%"
         },
         {
           "label": "Red",
           "value": "42%"
         },
         {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
-      "rank": 47,
-      "model": "gpt-5-codex",
-      "org": "openai",
-      "variant": "reasoning=default",
-      "score": 0.8606,
-      "display": "0.86",
+      "rank": 77,
+      "model": "mimo-v2.5",
+      "org": "xiaomi",
+      "variant": "reasoning=xhigh",
+      "score": 0.8667,
+      "display": "0.87",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "35%"
+        },
+        {
+          "label": "Red",
+          "value": "43%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 78,
+      "model": "gemini-3.1-pro-preview",
+      "org": "google",
+      "variant": "reasoning=high",
+      "score": 0.8667,
+      "display": "0.87",
       "extras": [
         {
           "label": "Green",
@@ -1043,21 +2033,259 @@
         },
         {
           "label": "Red",
-          "value": "45%"
+          "value": "46%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
         },
         {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
-      "rank": 48,
-      "model": "gpt-5.4-mini",
-      "org": "openai",
-      "variant": "reasoning=high",
-      "score": 0.8606,
+      "rank": 79,
+      "model": "hunter-alpha",
+      "org": "stealth",
+      "variant": "reasoning=xhigh",
+      "score": 0.8633,
       "display": "0.86",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "35%"
+        },
+        {
+          "label": "Red",
+          "value": "45%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 80,
+      "model": "claude-sonnet-4",
+      "org": "anthropic",
+      "variant": "reasoning=high",
+      "score": 0.8533,
+      "display": "0.85",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "30%"
+        },
+        {
+          "label": "Red",
+          "value": "43%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 81,
+      "model": "gpt-5.1-codex",
+      "org": "openai",
+      "variant": "reasoning=default",
+      "score": 0.8433,
+      "display": "0.84",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "32%"
+        },
+        {
+          "label": "Red",
+          "value": "43%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 82,
+      "model": "llama-4-maverick",
+      "org": "meta",
+      "variant": "reasoning=default",
+      "score": 0.8333,
+      "display": "0.83",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "28%"
+        },
+        {
+          "label": "Red",
+          "value": "42%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 83,
+      "model": "gpt-5.2-chat",
+      "org": "openai",
+      "variant": "reasoning=default",
+      "score": 0.83,
+      "display": "0.83",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "27%"
+        },
+        {
+          "label": "Red",
+          "value": "40%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 84,
+      "model": "gpt-5.3-codex",
+      "org": "openai",
+      "variant": "reasoning=low",
+      "score": 0.83,
+      "display": "0.83",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "24%"
+        },
+        {
+          "label": "Red",
+          "value": "37%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 85,
+      "model": "gpt-5",
+      "org": "openai",
+      "variant": "reasoning=default",
+      "score": 0.82,
+      "display": "0.82",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "21%"
+        },
+        {
+          "label": "Red",
+          "value": "37%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 86,
+      "model": "glm-5-turbo",
+      "org": "z-ai",
+      "variant": "reasoning=high",
+      "score": 0.78,
+      "display": "0.78",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "31%"
+        },
+        {
+          "label": "Red",
+          "value": "52%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 87,
+      "model": "nemotron-3-super-120b-a12b",
+      "org": "nvidia",
+      "variant": "reasoning=none",
+      "score": 0.77,
+      "display": "0.77",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "31%"
+        },
+        {
+          "label": "Red",
+          "value": "57%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 88,
+      "model": "gemma-4-31b-it",
+      "org": "google",
+      "variant": "reasoning=high",
+      "score": 0.74,
+      "display": "0.74",
       "extras": [
         {
           "label": "Green",
@@ -1065,501 +2293,125 @@
         },
         {
           "label": "Red",
-          "value": "38%"
+          "value": "51%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
         },
         {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
-      "rank": 49,
-      "model": "gpt-5.4",
-      "org": "openai",
-      "variant": "reasoning=xhigh",
-      "score": 0.8606,
-      "display": "0.86",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "22%"
-        },
-        {
-          "label": "Red",
-          "value": "38%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 50,
-      "model": "hunter-alpha",
-      "org": "stealth",
-      "variant": "reasoning=none",
-      "score": 0.8545,
-      "display": "0.85",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "33%"
-        },
-        {
-          "label": "Red",
-          "value": "47%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 51,
-      "model": "kimi-k2.5",
-      "org": "moonshotai",
+      "rank": 89,
+      "model": "glm-5",
+      "org": "z-ai",
       "variant": "reasoning=high",
-      "score": 0.8545,
-      "display": "0.85",
+      "score": 0.7267,
+      "display": "0.73",
       "extras": [
         {
           "label": "Green",
-          "value": "31%"
-        },
-        {
-          "label": "Red",
-          "value": "44%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 52,
-      "model": "claude-opus-4.1",
-      "org": "anthropic",
-      "variant": "reasoning=high",
-      "score": 0.8485,
-      "display": "0.85",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "35%"
+          "value": "28%"
         },
         {
           "label": "Red",
           "value": "53%"
         },
         {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
-      "rank": 53,
-      "model": "claude-sonnet-4",
-      "org": "anthropic",
-      "variant": "reasoning=none",
-      "score": 0.8424,
-      "display": "0.84",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "25%"
-        },
-        {
-          "label": "Red",
-          "value": "45%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 54,
-      "model": "claude-opus-4",
-      "org": "anthropic",
-      "variant": "reasoning=default",
-      "score": 0.8242,
-      "display": "0.82",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "33%"
-        },
-        {
-          "label": "Red",
-          "value": "47%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 55,
-      "model": "gpt-5.4-mini",
-      "org": "openai",
-      "variant": "reasoning=none",
-      "score": 0.8061,
-      "display": "0.81",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "24%"
-        },
-        {
-          "label": "Red",
-          "value": "42%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 56,
+      "rank": 90,
       "model": "nemotron-3-nano-30b-a3b:free",
       "org": "nvidia",
       "variant": "reasoning=none",
-      "score": 0.7939,
-      "display": "0.79",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "27%"
-        },
-        {
-          "label": "Red",
-          "value": "44%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 57,
-      "model": "mimo-v2.5",
-      "org": "xiaomi",
-      "variant": "reasoning=none",
-      "score": 0.7879,
-      "display": "0.79",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "31%"
-        },
-        {
-          "label": "Red",
-          "value": "51%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 58,
-      "model": "nemotron-3-ultra-550b-a55b",
-      "org": "nvidia",
-      "variant": "reasoning=xhigh",
-      "score": 0.7879,
-      "display": "0.79",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "31%"
-        },
-        {
-          "label": "Red",
-          "value": "49%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 59,
-      "model": "gpt-5.2-codex",
-      "org": "openai",
-      "variant": "reasoning=high",
-      "score": 0.7636,
-      "display": "0.76",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "29%"
-        },
-        {
-          "label": "Red",
-          "value": "51%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 60,
-      "model": "step-3.5-flash",
-      "org": "stepfun",
-      "variant": "reasoning=minimal",
-      "score": 0.7636,
-      "display": "0.76",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "25%"
-        },
-        {
-          "label": "Red",
-          "value": "49%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 61,
-      "model": "gpt-5.1",
-      "org": "openai",
-      "variant": "reasoning=default",
-      "score": 0.7455,
-      "display": "0.75",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "25%"
-        },
-        {
-          "label": "Red",
-          "value": "51%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 62,
-      "model": "hunter-alpha",
-      "org": "stealth",
-      "variant": "reasoning=xhigh",
-      "score": 0.7394,
-      "display": "0.74",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "27%"
-        },
-        {
-          "label": "Red",
-          "value": "56%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 63,
-      "model": "claude-sonnet-4",
-      "org": "anthropic",
-      "variant": "reasoning=high",
-      "score": 0.7394,
-      "display": "0.74",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "24%"
-        },
-        {
-          "label": "Red",
-          "value": "51%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 64,
-      "model": "gemini-3-pro-preview",
-      "org": "google",
-      "variant": "reasoning=low",
-      "score": 0.7333,
-      "display": "0.73",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "31%"
-        },
-        {
-          "label": "Red",
-          "value": "56%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 65,
-      "model": "gpt-5.1-codex",
-      "org": "openai",
-      "variant": "reasoning=default",
-      "score": 0.7333,
-      "display": "0.73",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "29%"
-        },
-        {
-          "label": "Red",
-          "value": "56%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 66,
-      "model": "gpt-5.2-codex",
-      "org": "openai",
-      "variant": "reasoning=xhigh",
-      "score": 0.7212,
-      "display": "0.72",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "25%"
-        },
-        {
-          "label": "Red",
-          "value": "49%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 67,
-      "model": "gpt-5.2",
-      "org": "openai",
-      "variant": "reasoning=high",
-      "score": 0.703,
+      "score": 0.7,
       "display": "0.70",
       "extras": [
         {
           "label": "Green",
-          "value": "24%"
+          "value": "28%"
         },
         {
           "label": "Red",
-          "value": "51%"
+          "value": "54%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
         },
         {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
-      "rank": 68,
-      "model": "healer-alpha",
-      "org": "stealth",
-      "variant": "reasoning=none",
-      "score": 0.697,
-      "display": "0.70",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "29%"
-        },
-        {
-          "label": "Red",
-          "value": "58%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 69,
-      "model": "mimo-v2.5-pro",
-      "org": "xiaomi",
-      "variant": "reasoning=none",
-      "score": 0.6909,
+      "rank": 91,
+      "model": "gpt-5.3-codex",
+      "org": "openai",
+      "variant": "reasoning=high",
+      "score": 0.69,
       "display": "0.69",
       "extras": [
         {
           "label": "Green",
-          "value": "29%"
+          "value": "20%"
         },
         {
           "label": "Red",
-          "value": "58%"
+          "value": "46%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
         },
         {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
-      "rank": 70,
-      "model": "gpt-5.4-nano",
+      "rank": 92,
+      "model": "gpt-5.3-codex",
       "org": "openai",
-      "variant": "reasoning=none",
-      "score": 0.6849,
+      "variant": "reasoning=xhigh",
+      "score": 0.6767,
       "display": "0.68",
       "extras": [
         {
           "label": "Green",
-          "value": "16%"
+          "value": "19%"
         },
         {
           "label": "Red",
-          "value": "45%"
+          "value": "50%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
         },
         {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
-      "rank": 71,
-      "model": "gpt-5",
+      "rank": 93,
+      "model": "o3",
       "org": "openai",
       "variant": "reasoning=default",
       "score": 0.6667,
@@ -1567,25 +2419,107 @@
       "extras": [
         {
           "label": "Green",
-          "value": "22%"
+          "value": "26%"
         },
         {
           "label": "Red",
-          "value": "55%"
+          "value": "58%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
         },
         {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
-      "rank": 72,
-      "model": "o3",
-      "org": "openai",
-      "variant": "reasoning=low",
-      "score": 0.6606,
+      "rank": 94,
+      "model": "healer-alpha",
+      "org": "stealth",
+      "variant": "reasoning=xhigh",
+      "score": 0.6633,
       "display": "0.66",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "26%"
+        },
+        {
+          "label": "Red",
+          "value": "57%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 95,
+      "model": "gemma-4-26b-a4b-it",
+      "org": "google",
+      "variant": "reasoning=xhigh",
+      "score": 0.6467,
+      "display": "0.65",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "21%"
+        },
+        {
+          "label": "Red",
+          "value": "56%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 96,
+      "model": "gpt-5-chat",
+      "org": "openai",
+      "variant": "reasoning=default",
+      "score": 0.6367,
+      "display": "0.64",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "18%"
+        },
+        {
+          "label": "Red",
+          "value": "52%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 97,
+      "model": "mimo-v2.5",
+      "org": "xiaomi",
+      "variant": "reasoning=none",
+      "score": 0.6333,
+      "display": "0.63",
       "extras": [
         {
           "label": "Green",
@@ -1593,43 +2527,25 @@
         },
         {
           "label": "Red",
-          "value": "56%"
+          "value": "60%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
         },
         {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
-      "rank": 73,
-      "model": "mimo-v2.5",
-      "org": "xiaomi",
-      "variant": "reasoning=xhigh",
-      "score": 0.6545,
-      "display": "0.65",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "20%"
-        },
-        {
-          "label": "Red",
-          "value": "51%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 74,
-      "model": "trinity-large-thinking",
-      "org": "arcee-ai",
-      "variant": "reasoning=xhigh",
-      "score": 0.6364,
-      "display": "0.64",
+      "rank": 98,
+      "model": "qwen3-coder",
+      "org": "qwen",
+      "variant": "reasoning=default",
+      "score": 0.6333,
+      "display": "0.63",
       "extras": [
         {
           "label": "Green",
@@ -1640,18 +2556,100 @@
           "value": "55%"
         },
         {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
-      "rank": 75,
+      "rank": 99,
+      "model": "glm-5-turbo",
+      "org": "z-ai",
+      "variant": "reasoning=none",
+      "score": 0.62,
+      "display": "0.62",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "23%"
+        },
+        {
+          "label": "Red",
+          "value": "61%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 100,
+      "model": "glm-5.1",
+      "org": "z-ai",
+      "variant": "reasoning=xhigh",
+      "score": 0.6067,
+      "display": "0.61",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "22%"
+        },
+        {
+          "label": "Red",
+          "value": "60%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 101,
       "model": "step-3.5-flash",
       "org": "stepfun",
       "variant": "reasoning=xhigh",
-      "score": 0.6303,
-      "display": "0.63",
+      "score": 0.5967,
+      "display": "0.60",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "22%"
+        },
+        {
+          "label": "Red",
+          "value": "57%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 102,
+      "model": "gemini-2.5-pro",
+      "org": "google",
+      "variant": "reasoning=default",
+      "score": 0.5967,
+      "display": "0.60",
       "extras": [
         {
           "label": "Green",
@@ -1662,84 +2660,22 @@
           "value": "58%"
         },
         {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
-      "rank": 76,
-      "model": "gpt-5.5-chat",
-      "org": "openai",
-      "variant": "reasoning=default",
-      "score": 0.6303,
-      "display": "0.63",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "15%"
-        },
-        {
-          "label": "Red",
-          "value": "49%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 77,
-      "model": "claude-3-haiku",
-      "org": "anthropic",
-      "variant": "reasoning=default",
-      "score": 0.6273,
-      "display": "0.63",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "18%"
-        },
-        {
-          "label": "Red",
-          "value": "55%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 78,
-      "model": "gpt-5.4-nano",
-      "org": "openai",
-      "variant": "reasoning=high",
-      "score": 0.6182,
-      "display": "0.62",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "11%"
-        },
-        {
-          "label": "Red",
-          "value": "51%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 79,
-      "model": "qwen3-coder",
-      "org": "qwen",
-      "variant": "reasoning=default",
-      "score": 0.6061,
-      "display": "0.61",
+      "rank": 103,
+      "model": "glm-5",
+      "org": "z-ai",
+      "variant": "reasoning=none",
+      "score": 0.5867,
+      "display": "0.59",
       "extras": [
         {
           "label": "Green",
@@ -1747,791 +2683,363 @@
         },
         {
           "label": "Red",
-          "value": "60%"
+          "value": "58%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
         },
         {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
-      "rank": 80,
-      "model": "gemma-4-31b-it",
-      "org": "google",
-      "variant": "reasoning=high",
-      "score": 0.6049,
-      "display": "0.60",
+      "rank": 104,
+      "model": "deepseek-v4-flash",
+      "org": "deepseek",
+      "variant": "reasoning=none",
+      "score": 0.58,
+      "display": "0.58",
       "extras": [
         {
           "label": "Green",
-          "value": "22%"
+          "value": "18%"
+        },
+        {
+          "label": "Red",
+          "value": "58%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 105,
+      "model": "grok-4.1-fast",
+      "org": "x-ai",
+      "variant": "reasoning=high",
+      "score": 0.5767,
+      "display": "0.58",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "19%"
+        },
+        {
+          "label": "Red",
+          "value": "59%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 106,
+      "model": "deepseek-v4-pro",
+      "org": "deepseek",
+      "variant": "reasoning=xhigh",
+      "score": 0.5733,
+      "display": "0.57",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "14%"
+        },
+        {
+          "label": "Red",
+          "value": "59%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 107,
+      "model": "llama-4-scout",
+      "org": "meta",
+      "variant": "reasoning=default",
+      "score": 0.5633,
+      "display": "0.56",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "19%"
+        },
+        {
+          "label": "Red",
+          "value": "61%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 108,
+      "model": "llama-3.1-8b-instruct",
+      "org": "meta",
+      "variant": "reasoning=default",
+      "score": 0.5633,
+      "display": "0.56",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "14%"
+        },
+        {
+          "label": "Red",
+          "value": "61%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 109,
+      "model": "gemma-4-31b-it",
+      "org": "google",
+      "variant": "reasoning=none",
+      "score": 0.5567,
+      "display": "0.56",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "20%"
+        },
+        {
+          "label": "Red",
+          "value": "62%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 110,
+      "model": "gemini-3.5-flash",
+      "org": "google",
+      "variant": "reasoning=xhigh",
+      "score": 0.5567,
+      "display": "0.56",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "20%"
         },
         {
           "label": "Red",
           "value": "63%"
         },
         {
-          "label": "Questions",
-          "value": "54"
-        }
-      ]
-    },
-    {
-      "rank": 81,
-      "model": "trinity-large-thinking",
-      "org": "arcee-ai",
-      "variant": "reasoning=minimal",
-      "score": 0.6,
-      "display": "0.60",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "18%"
-        },
-        {
-          "label": "Red",
-          "value": "55%"
+          "label": "Refused",
+          "value": "0%"
         },
         {
           "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 82,
-      "model": "gemini-3.1-pro-preview",
-      "org": "google",
-      "variant": "reasoning=low",
-      "score": 0.5879,
-      "display": "0.59",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "22%"
-        },
-        {
-          "label": "Red",
-          "value": "62%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 83,
-      "model": "mimo-v2-flash",
-      "org": "xiaomi",
-      "variant": "reasoning=none",
-      "score": 0.5879,
-      "display": "0.59",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "16%"
-        },
-        {
-          "label": "Red",
-          "value": "56%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 84,
-      "model": "gpt-5.4-nano",
-      "org": "openai",
-      "variant": "reasoning=xhigh",
-      "score": 0.5818,
-      "display": "0.58",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "15%"
-        },
-        {
-          "label": "Red",
-          "value": "56%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 85,
-      "model": "gemini-3-pro-preview",
-      "org": "google",
-      "variant": "reasoning=high",
-      "score": 0.5758,
-      "display": "0.58",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "24%"
-        },
-        {
-          "label": "Red",
-          "value": "62%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 86,
-      "model": "glm-5",
-      "org": "z-ai",
-      "variant": "reasoning=high",
-      "score": 0.5455,
-      "display": "0.55",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "20%"
-        },
-        {
-          "label": "Red",
-          "value": "65%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 87,
-      "model": "deepseek-v4-flash",
-      "org": "deepseek",
-      "variant": "reasoning=none",
-      "score": 0.5455,
-      "display": "0.55",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "16%"
-        },
-        {
-          "label": "Red",
-          "value": "60%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 88,
-      "model": "gemini-2.5-pro",
-      "org": "google",
-      "variant": "reasoning=default",
-      "score": 0.5394,
-      "display": "0.54",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "24%"
-        },
-        {
-          "label": "Red",
-          "value": "67%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 89,
-      "model": "gemini-3.1-pro-preview",
-      "org": "google",
-      "variant": "reasoning=high",
-      "score": 0.5333,
-      "display": "0.53",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "18%"
-        },
-        {
-          "label": "Red",
-          "value": "65%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 90,
-      "model": "gpt-4o-2024-08-06",
-      "org": "openai",
-      "variant": "reasoning=default",
-      "score": 0.5333,
-      "display": "0.53",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "16%"
-        },
-        {
-          "label": "Red",
-          "value": "58%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 91,
-      "model": "gpt-4o",
-      "org": "openai",
-      "variant": "reasoning=default",
-      "score": 0.5333,
-      "display": "0.53",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "15%"
-        },
-        {
-          "label": "Red",
-          "value": "56%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 92,
-      "model": "gpt-5-chat",
-      "org": "openai",
-      "variant": "reasoning=default",
-      "score": 0.5273,
-      "display": "0.53",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "15%"
-        },
-        {
-          "label": "Red",
-          "value": "60%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 93,
-      "model": "grok-4.1-fast",
-      "org": "x-ai",
-      "variant": "reasoning=high",
-      "score": 0.5273,
-      "display": "0.53",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "15%"
-        },
-        {
-          "label": "Red",
-          "value": "60%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 94,
-      "model": "kimi-k2",
-      "org": "moonshotai",
-      "variant": "reasoning=default",
-      "score": 0.5212,
-      "display": "0.52",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "20%"
-        },
-        {
-          "label": "Red",
-          "value": "67%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 95,
-      "model": "healer-alpha",
-      "org": "stealth",
-      "variant": "reasoning=xhigh",
-      "score": 0.5212,
-      "display": "0.52",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "18%"
-        },
-        {
-          "label": "Red",
-          "value": "65%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 96,
-      "model": "ernie-4.5-300b-a47b",
-      "org": "baidu",
-      "variant": "reasoning=default",
-      "score": 0.5212,
-      "display": "0.52",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "13%"
-        },
-        {
-          "label": "Red",
-          "value": "60%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 97,
-      "model": "gpt-5.2-chat",
-      "org": "openai",
-      "variant": "reasoning=default",
-      "score": 0.503,
-      "display": "0.50",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "15%"
-        },
-        {
-          "label": "Red",
-          "value": "62%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 98,
-      "model": "minimax-m2.5",
-      "org": "minimax",
-      "variant": "reasoning=low",
-      "score": 0.497,
-      "display": "0.50",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "13%"
-        },
-        {
-          "label": "Red",
-          "value": "65%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 99,
-      "model": "deepseek-v4-pro",
-      "org": "deepseek",
-      "variant": "reasoning=none",
-      "score": 0.4788,
-      "display": "0.48",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "15%"
-        },
-        {
-          "label": "Red",
-          "value": "69%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 100,
-      "model": "gpt-5.3-codex",
-      "org": "openai",
-      "variant": "reasoning=high",
-      "score": 0.4788,
-      "display": "0.48",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "13%"
-        },
-        {
-          "label": "Red",
-          "value": "62%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 101,
-      "model": "gpt-5.3-codex",
-      "org": "openai",
-      "variant": "reasoning=low",
-      "score": 0.4727,
-      "display": "0.47",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "15%"
-        },
-        {
-          "label": "Red",
-          "value": "64%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 102,
-      "model": "gemma-4-26b-a4b-it",
-      "org": "google",
-      "variant": "reasoning=xhigh",
-      "score": 0.4667,
-      "display": "0.47",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "15%"
-        },
-        {
-          "label": "Red",
-          "value": "65%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 103,
-      "model": "gemini-2.0-flash-001",
-      "org": "google",
-      "variant": "reasoning=default",
-      "score": 0.4667,
-      "display": "0.47",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "13%"
-        },
-        {
-          "label": "Red",
-          "value": "71%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 104,
-      "model": "hy3-preview:free",
-      "org": "tencent",
-      "variant": "reasoning=xhigh",
-      "score": 0.4667,
-      "display": "0.47",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "13%"
-        },
-        {
-          "label": "Red",
-          "value": "67%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 105,
-      "model": "gemini-2.5-flash",
-      "org": "google",
-      "variant": "reasoning=default",
-      "score": 0.4636,
-      "display": "0.46",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "15%"
-        },
-        {
-          "label": "Red",
-          "value": "69%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 106,
-      "model": "deepseek-v3.2",
-      "org": "deepseek",
-      "variant": "reasoning=none",
-      "score": 0.4606,
-      "display": "0.46",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "13%"
-        },
-        {
-          "label": "Red",
-          "value": "67%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 107,
-      "model": "minimax-m2.5",
-      "org": "minimax",
-      "variant": "reasoning=high",
-      "score": 0.4545,
-      "display": "0.45",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "16%"
-        },
-        {
-          "label": "Red",
-          "value": "69%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 108,
-      "model": "gpt-4.1",
-      "org": "openai",
-      "variant": "reasoning=default",
-      "score": 0.4545,
-      "display": "0.45",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "15%"
-        },
-        {
-          "label": "Red",
-          "value": "67%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 109,
-      "model": "glm-5",
-      "org": "z-ai",
-      "variant": "reasoning=none",
-      "score": 0.4424,
-      "display": "0.44",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "16%"
-        },
-        {
-          "label": "Red",
-          "value": "69%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 110,
-      "model": "ernie-4.5-vl-424b-a47b",
-      "org": "baidu",
-      "variant": "reasoning=xhigh",
-      "score": 0.4424,
-      "display": "0.44",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "15%"
-        },
-        {
-          "label": "Red",
-          "value": "69%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
       "rank": 111,
-      "model": "gpt-5.3-codex",
-      "org": "openai",
-      "variant": "reasoning=xhigh",
-      "score": 0.4424,
-      "display": "0.44",
+      "model": "mimo-v2-flash",
+      "org": "xiaomi",
+      "variant": "reasoning=none",
+      "score": 0.55,
+      "display": "0.55",
       "extras": [
         {
           "label": "Green",
-          "value": "11%"
+          "value": "16%"
         },
         {
           "label": "Red",
-          "value": "67%"
+          "value": "56%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
         },
         {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
       "rank": 112,
-      "model": "gemma-4-31b-it",
-      "org": "google",
+      "model": "hy3-preview:free",
+      "org": "tencent",
       "variant": "reasoning=none",
-      "score": 0.4424,
-      "display": "0.44",
+      "score": 0.55,
+      "display": "0.55",
       "extras": [
         {
           "label": "Green",
-          "value": "11%"
+          "value": "16%"
         },
         {
           "label": "Red",
-          "value": "65%"
+          "value": "57%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
         },
         {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
       "rank": 113,
-      "model": "intellect-3",
-      "org": "prime-intellect",
-      "variant": "reasoning=high",
-      "score": 0.4364,
-      "display": "0.44",
+      "model": "gemini-2.5-flash",
+      "org": "google",
+      "variant": "reasoning=default",
+      "score": 0.54,
+      "display": "0.54",
       "extras": [
         {
           "label": "Green",
-          "value": "11%"
+          "value": "19%"
         },
         {
           "label": "Red",
           "value": "67%"
         },
         {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
       "rank": 114,
-      "model": "deepseek-r1",
-      "org": "deepseek",
-      "variant": "reasoning=none",
-      "score": 0.4303,
-      "display": "0.43",
+      "model": "gpt-5.4-nano",
+      "org": "openai",
+      "variant": "reasoning=high",
+      "score": 0.5233,
+      "display": "0.52",
       "extras": [
         {
           "label": "Green",
-          "value": "13%"
+          "value": "14%"
         },
         {
           "label": "Red",
-          "value": "73%"
+          "value": "56%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
         },
         {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
       "rank": 115,
-      "model": "deepseek-v4-flash",
-      "org": "deepseek",
-      "variant": "reasoning=xhigh",
-      "score": 0.4182,
-      "display": "0.42",
+      "model": "trinity-large-thinking",
+      "org": "arcee-ai",
+      "variant": "reasoning=minimal",
+      "score": 0.51,
+      "display": "0.51",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "17%"
+        },
+        {
+          "label": "Red",
+          "value": "61%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 116,
+      "model": "glm-5.1",
+      "org": "z-ai",
+      "variant": "reasoning=none",
+      "score": 0.5033,
+      "display": "0.50",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "18%"
+        },
+        {
+          "label": "Red",
+          "value": "63%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 117,
+      "model": "gpt-5.4-nano",
+      "org": "openai",
+      "variant": "reasoning=none",
+      "score": 0.4933,
+      "display": "0.49",
       "extras": [
         {
           "label": "Green",
@@ -2539,43 +3047,103 @@
         },
         {
           "label": "Red",
-          "value": "71%"
+          "value": "61%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
         },
         {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
-      "rank": 116,
-      "model": "hy3-preview:free",
-      "org": "tencent",
-      "variant": "reasoning=none",
-      "score": 0.4121,
-      "display": "0.41",
+      "rank": 118,
+      "model": "gpt-4o-2024-08-06",
+      "org": "openai",
+      "variant": "reasoning=default",
+      "score": 0.4933,
+      "display": "0.49",
       "extras": [
         {
           "label": "Green",
-          "value": "13%"
+          "value": "12%"
+        },
+        {
+          "label": "Red",
+          "value": "61%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 119,
+      "model": "gemini-3.5-flash",
+      "org": "google",
+      "variant": "reasoning=minimal",
+      "score": 0.4867,
+      "display": "0.49",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "19%"
         },
         {
           "label": "Red",
           "value": "69%"
         },
         {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
-      "rank": 117,
-      "model": "glm-4.5",
-      "org": "z-ai",
-      "variant": "reasoning=xhigh",
-      "score": 0.4061,
-      "display": "0.41",
+      "rank": 120,
+      "model": "deepseek-v4-pro",
+      "org": "deepseek",
+      "variant": "reasoning=none",
+      "score": 0.4867,
+      "display": "0.49",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "14%"
+        },
+        {
+          "label": "Red",
+          "value": "66%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 121,
+      "model": "gemini-2.0-flash-001",
+      "org": "google",
+      "variant": "reasoning=default",
+      "score": 0.48,
+      "display": "0.48",
       "extras": [
         {
           "label": "Green",
@@ -2583,99 +3151,15 @@
         },
         {
           "label": "Red",
-          "value": "78%"
+          "value": "66%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
         },
         {
           "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 118,
-      "model": "intellect-3",
-      "org": "prime-intellect",
-      "variant": "reasoning=low",
-      "score": 0.4,
-      "display": "0.40",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "13%"
-        },
-        {
-          "label": "Red",
-          "value": "73%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 119,
-      "model": "o4-mini",
-      "org": "openai",
-      "variant": "reasoning=low",
-      "score": 0.4,
-      "display": "0.40",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "9%"
-        },
-        {
-          "label": "Red",
-          "value": "67%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 120,
-      "model": "nemotron-nano-9b-v2:free",
-      "org": "nvidia",
-      "variant": "reasoning=xhigh",
-      "score": 0.4,
-      "display": "0.40",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "7%"
-        },
-        {
-          "label": "Red",
-          "value": "67%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 121,
-      "model": "qwen3-235b-a22b",
-      "org": "qwen",
-      "variant": "reasoning=none",
-      "score": 0.3939,
-      "display": "0.39",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "7%"
-        },
-        {
-          "label": "Red",
-          "value": "67%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
@@ -2684,30 +3168,8 @@
       "model": "deepseek-v3.2",
       "org": "deepseek",
       "variant": "reasoning=high",
-      "score": 0.3758,
-      "display": "0.38",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "15%"
-        },
-        {
-          "label": "Red",
-          "value": "75%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 123,
-      "model": "ernie-4.5-vl-424b-a47b",
-      "org": "baidu",
-      "variant": "reasoning=none",
-      "score": 0.3697,
-      "display": "0.37",
+      "score": 0.46,
+      "display": "0.46",
       "extras": [
         {
           "label": "Green",
@@ -2715,21 +3177,51 @@
         },
         {
           "label": "Red",
-          "value": "73%"
+          "value": "64%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
         },
         {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 123,
+      "model": "hy3-preview:free",
+      "org": "tencent",
+      "variant": "reasoning=xhigh",
+      "score": 0.4567,
+      "display": "0.46",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "8%"
+        },
+        {
+          "label": "Red",
+          "value": "58%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
         }
       ]
     },
     {
       "rank": 124,
-      "model": "gemma-4-26b-a4b-it",
-      "org": "google",
-      "variant": "reasoning=none",
-      "score": 0.3697,
-      "display": "0.37",
+      "model": "minimax-m2.5",
+      "org": "minimax",
+      "variant": "reasoning=low",
+      "score": 0.4433,
+      "display": "0.44",
       "extras": [
         {
           "label": "Green",
@@ -2737,263 +3229,181 @@
         },
         {
           "label": "Red",
-          "value": "71%"
+          "value": "62%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
         },
         {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
       "rank": 125,
-      "model": "deepseek-r1",
-      "org": "deepseek",
-      "variant": "reasoning=xhigh",
-      "score": 0.3697,
-      "display": "0.37",
+      "model": "gpt-4.1",
+      "org": "openai",
+      "variant": "reasoning=default",
+      "score": 0.4333,
+      "display": "0.43",
       "extras": [
         {
           "label": "Green",
-          "value": "7%"
+          "value": "14%"
         },
         {
           "label": "Red",
           "value": "67%"
         },
         {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
       "rank": 126,
-      "model": "mimo-v2-flash",
-      "org": "xiaomi",
-      "variant": "reasoning=high",
-      "score": 0.3636,
-      "display": "0.36",
+      "model": "step-3.5-flash",
+      "org": "stepfun",
+      "variant": "reasoning=minimal",
+      "score": 0.4267,
+      "display": "0.43",
       "extras": [
         {
           "label": "Green",
-          "value": "9%"
+          "value": "13%"
         },
         {
           "label": "Red",
-          "value": "73%"
+          "value": "68%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
         },
         {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
       "rank": 127,
-      "model": "nemotron-nano-9b-v2:free",
-      "org": "nvidia",
-      "variant": "reasoning=none",
-      "score": 0.3636,
-      "display": "0.36",
+      "model": "trinity-large-thinking",
+      "org": "arcee-ai",
+      "variant": "reasoning=xhigh",
+      "score": 0.4233,
+      "display": "0.42",
       "extras": [
         {
           "label": "Green",
-          "value": "7%"
+          "value": "13%"
+        },
+        {
+          "label": "Red",
+          "value": "70%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 128,
+      "model": "gpt-5.4-nano",
+      "org": "openai",
+      "variant": "reasoning=xhigh",
+      "score": 0.4167,
+      "display": "0.42",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "10%"
+        },
+        {
+          "label": "Red",
+          "value": "70%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 129,
+      "model": "gemma-4-26b-a4b-it",
+      "org": "google",
+      "variant": "reasoning=none",
+      "score": 0.4067,
+      "display": "0.41",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "11%"
         },
         {
           "label": "Red",
           "value": "71%"
         },
         {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 128,
-      "model": "seed-1.6",
-      "org": "bytedance-seed",
-      "variant": "reasoning=none",
-      "score": 0.3515,
-      "display": "0.35",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "11%"
-        },
-        {
-          "label": "Red",
-          "value": "73%"
+          "label": "Refused",
+          "value": "0%"
         },
         {
           "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 129,
-      "model": "gemini-3-flash-preview",
-      "org": "google",
-      "variant": "reasoning=high",
-      "score": 0.3455,
-      "display": "0.35",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "11%"
-        },
-        {
-          "label": "Red",
-          "value": "73%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
       "rank": 130,
-      "model": "o4-mini",
-      "org": "openai",
+      "model": "gemini-3-flash-preview",
+      "org": "google",
       "variant": "reasoning=high",
-      "score": 0.3455,
-      "display": "0.35",
+      "score": 0.4067,
+      "display": "0.41",
       "extras": [
         {
           "label": "Green",
-          "value": "11%"
+          "value": "10%"
         },
         {
           "label": "Red",
-          "value": "73%"
+          "value": "71%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
         },
         {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
       "rank": 131,
-      "model": "grok-4.1-fast",
-      "org": "x-ai",
-      "variant": "reasoning=none",
-      "score": 0.3455,
-      "display": "0.35",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "11%"
-        },
-        {
-          "label": "Red",
-          "value": "76%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 132,
-      "model": "nemotron-3-nano-30b-a3b:free",
-      "org": "nvidia",
-      "variant": "reasoning=xhigh",
-      "score": 0.3455,
-      "display": "0.35",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "11%"
-        },
-        {
-          "label": "Red",
-          "value": "75%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 133,
-      "model": "gemini-3.5-flash",
-      "org": "google",
-      "variant": "reasoning=minimal",
-      "score": 0.3394,
-      "display": "0.34",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "9%"
-        },
-        {
-          "label": "Red",
-          "value": "73%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 134,
-      "model": "gemini-3.5-flash",
-      "org": "google",
-      "variant": "reasoning=xhigh",
-      "score": 0.3394,
-      "display": "0.34",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "9%"
-        },
-        {
-          "label": "Red",
-          "value": "75%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 135,
-      "model": "deepseek-v4-pro",
-      "org": "deepseek",
-      "variant": "reasoning=xhigh",
-      "score": 0.3333,
-      "display": "0.33",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "11%"
-        },
-        {
-          "label": "Red",
-          "value": "78%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 136,
       "model": "seed-1.6",
       "org": "bytedance-seed",
       "variant": "reasoning=high",
-      "score": 0.3333,
-      "display": "0.33",
+      "score": 0.4067,
+      "display": "0.41",
       "extras": [
         {
           "label": "Green",
@@ -3001,43 +3411,285 @@
         },
         {
           "label": "Red",
-          "value": "73%"
+          "value": "61%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
         },
         {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 132,
+      "model": "gemini-3.1-flash-lite-preview",
+      "org": "google",
+      "variant": "reasoning=default",
+      "score": 0.4033,
+      "display": "0.40",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "11%"
+        },
+        {
+          "label": "Red",
+          "value": "74%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 133,
+      "model": "deepseek-v4-flash",
+      "org": "deepseek",
+      "variant": "reasoning=xhigh",
+      "score": 0.4,
+      "display": "0.40",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "14%"
+        },
+        {
+          "label": "Red",
+          "value": "71%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 134,
+      "model": "mimo-v2-flash",
+      "org": "xiaomi",
+      "variant": "reasoning=high",
+      "score": 0.3967,
+      "display": "0.40",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "13%"
+        },
+        {
+          "label": "Red",
+          "value": "72%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 135,
+      "model": "seed-1.6",
+      "org": "bytedance-seed",
+      "variant": "reasoning=none",
+      "score": 0.3967,
+      "display": "0.40",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "11%"
+        },
+        {
+          "label": "Red",
+          "value": "69%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 136,
+      "model": "gpt-oss-120b",
+      "org": "openai",
+      "variant": "reasoning=low",
+      "score": 0.3967,
+      "display": "0.40",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "11%"
+        },
+        {
+          "label": "Red",
+          "value": "67%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
         }
       ]
     },
     {
       "rank": 137,
-      "model": "gpt-oss-120b",
-      "org": "openai",
-      "variant": "reasoning=low",
-      "score": 0.3333,
-      "display": "0.33",
+      "model": "deepseek-v3.2",
+      "org": "deepseek",
+      "variant": "reasoning=none",
+      "score": 0.3967,
+      "display": "0.40",
       "extras": [
         {
           "label": "Green",
-          "value": "4%"
+          "value": "10%"
+        },
+        {
+          "label": "Red",
+          "value": "69%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 138,
+      "model": "minimax-m2.7",
+      "org": "minimax",
+      "variant": "reasoning=low",
+      "score": 0.3967,
+      "display": "0.40",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "7%"
         },
         {
           "label": "Red",
           "value": "65%"
         },
         {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
-      "rank": 138,
-      "model": "gpt-4o-mini-2024-07-18",
-      "org": "openai",
+      "rank": 139,
+      "model": "minimax-m2.5",
+      "org": "minimax",
+      "variant": "reasoning=high",
+      "score": 0.3933,
+      "display": "0.39",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "8%"
+        },
+        {
+          "label": "Red",
+          "value": "66%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 140,
+      "model": "ernie-4.5-vl-424b-a47b",
+      "org": "baidu",
+      "variant": "reasoning=xhigh",
+      "score": 0.3567,
+      "display": "0.36",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "11%"
+        },
+        {
+          "label": "Red",
+          "value": "73%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 141,
+      "model": "claude-3-haiku",
+      "org": "anthropic",
       "variant": "reasoning=default",
-      "score": 0.3212,
-      "display": "0.32",
+      "score": 0.3433,
+      "display": "0.34",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "10%"
+        },
+        {
+          "label": "Red",
+          "value": "75%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 142,
+      "model": "deepseek-r1",
+      "org": "deepseek",
+      "variant": "reasoning=none",
+      "score": 0.3433,
+      "display": "0.34",
       "extras": [
         {
           "label": "Green",
@@ -3045,20 +3697,284 @@
         },
         {
           "label": "Red",
-          "value": "71%"
+          "value": "73%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
         },
         {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
-      "rank": 139,
+      "rank": 143,
+      "model": "gemini-3-flash-preview",
+      "org": "google",
+      "variant": "reasoning=none",
+      "score": 0.3367,
+      "display": "0.34",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "10%"
+        },
+        {
+          "label": "Red",
+          "value": "74%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 144,
+      "model": "glm-4.5",
+      "org": "z-ai",
+      "variant": "reasoning=xhigh",
+      "score": 0.3367,
+      "display": "0.34",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "8%"
+        },
+        {
+          "label": "Red",
+          "value": "72%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 145,
+      "model": "nemotron-3-nano-30b-a3b:free",
+      "org": "nvidia",
+      "variant": "reasoning=xhigh",
+      "score": 0.33,
+      "display": "0.33",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "10%"
+        },
+        {
+          "label": "Red",
+          "value": "78%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 146,
+      "model": "kimi-k2",
+      "org": "moonshotai",
+      "variant": "reasoning=default",
+      "score": 0.3267,
+      "display": "0.33",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "10%"
+        },
+        {
+          "label": "Red",
+          "value": "77%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 147,
+      "model": "minimax-m2.7",
+      "org": "minimax",
+      "variant": "reasoning=high",
+      "score": 0.3267,
+      "display": "0.33",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "8%"
+        },
+        {
+          "label": "Red",
+          "value": "74%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 148,
+      "model": "mistral-small-2603",
+      "org": "mistralai",
+      "variant": "reasoning=high",
+      "score": 0.3267,
+      "display": "0.33",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "6%"
+        },
+        {
+          "label": "Red",
+          "value": "70%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 149,
+      "model": "deepseek-r1",
+      "org": "deepseek",
+      "variant": "reasoning=xhigh",
+      "score": 0.31,
+      "display": "0.31",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "8%"
+        },
+        {
+          "label": "Red",
+          "value": "76%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 150,
       "model": "qwen3-235b-a22b",
       "org": "qwen",
-      "variant": "reasoning=xhigh",
-      "score": 0.297,
+      "variant": "reasoning=none",
+      "score": 0.3067,
+      "display": "0.31",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "6%"
+        },
+        {
+          "label": "Red",
+          "value": "78%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 151,
+      "model": "grok-4.1-fast",
+      "org": "x-ai",
+      "variant": "reasoning=none",
+      "score": 0.3,
+      "display": "0.30",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "10%"
+        },
+        {
+          "label": "Red",
+          "value": "80%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 152,
+      "model": "glm-4.5",
+      "org": "z-ai",
+      "variant": "reasoning=none",
+      "score": 0.3,
+      "display": "0.30",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "6%"
+        },
+        {
+          "label": "Red",
+          "value": "74%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 153,
+      "model": "gpt-oss-120b",
+      "org": "openai",
+      "variant": "reasoning=high",
+      "score": 0.2967,
       "display": "0.30",
       "extras": [
         {
@@ -3067,109 +3983,129 @@
         },
         {
           "label": "Red",
-          "value": "76%"
+          "value": "72%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
         },
         {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
-      "rank": 140,
-      "model": "gemini-3.1-flash-lite-preview",
-      "org": "google",
-      "variant": "reasoning=default",
-      "score": 0.2849,
-      "display": "0.28",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "9%"
-        },
-        {
-          "label": "Red",
-          "value": "78%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 141,
-      "model": "gemini-3-flash-preview",
-      "org": "google",
-      "variant": "reasoning=none",
-      "score": 0.2849,
-      "display": "0.28",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "7%"
-        },
-        {
-          "label": "Red",
-          "value": "76%"
-        },
-        {
-          "label": "Questions",
-          "value": "55"
-        }
-      ]
-    },
-    {
-      "rank": 142,
-      "model": "gpt-4o-mini",
+      "rank": 154,
+      "model": "o4-mini",
       "org": "openai",
-      "variant": "reasoning=default",
-      "score": 0.2849,
-      "display": "0.28",
+      "variant": "reasoning=high",
+      "score": 0.2933,
+      "display": "0.29",
       "extras": [
         {
           "label": "Green",
-          "value": "5%"
+          "value": "4%"
         },
         {
           "label": "Red",
-          "value": "75%"
+          "value": "71%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
         },
         {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
-      "rank": 143,
-      "model": "jamba-large-1.7",
-      "org": "ai21",
-      "variant": "reasoning=default",
-      "score": 0.2727,
+      "rank": 155,
+      "model": "ernie-4.5-vl-424b-a47b",
+      "org": "baidu",
+      "variant": "reasoning=none",
+      "score": 0.2933,
+      "display": "0.29",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "3%"
+        },
+        {
+          "label": "Red",
+          "value": "72%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 156,
+      "model": "o4-mini",
+      "org": "openai",
+      "variant": "reasoning=low",
+      "score": 0.2767,
+      "display": "0.28",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "8%"
+        },
+        {
+          "label": "Red",
+          "value": "79%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 157,
+      "model": "qwen3-235b-a22b",
+      "org": "qwen",
+      "variant": "reasoning=xhigh",
+      "score": 0.2733,
       "display": "0.27",
       "extras": [
         {
           "label": "Green",
-          "value": "7%"
+          "value": "3%"
         },
         {
           "label": "Red",
-          "value": "76%"
+          "value": "73%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
         },
         {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
-      "rank": 144,
-      "model": "gemma-3-27b-it",
-      "org": "google",
+      "rank": 158,
+      "model": "ernie-4.5-300b-a47b",
+      "org": "baidu",
       "variant": "reasoning=default",
-      "score": 0.2424,
-      "display": "0.24",
+      "score": 0.2667,
+      "display": "0.27",
       "extras": [
         {
           "label": "Green",
@@ -3177,21 +4113,25 @@
         },
         {
           "label": "Red",
-          "value": "82%"
+          "value": "74%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
         },
         {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
-      "rank": 145,
-      "model": "deepseek-chat",
-      "org": "deepseek",
-      "variant": "reasoning=default",
-      "score": 0.2364,
-      "display": "0.24",
+      "rank": 159,
+      "model": "nemotron-nano-9b-v2:free",
+      "org": "nvidia",
+      "variant": "reasoning=none",
+      "score": 0.2567,
+      "display": "0.26",
       "extras": [
         {
           "label": "Green",
@@ -3199,65 +4139,181 @@
         },
         {
           "label": "Red",
-          "value": "82%"
+          "value": "77%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
         },
         {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
-      "rank": 146,
-      "model": "gpt-oss-120b",
-      "org": "openai",
-      "variant": "reasoning=high",
-      "score": 0.2303,
+      "rank": 160,
+      "model": "nemotron-nano-9b-v2:free",
+      "org": "nvidia",
+      "variant": "reasoning=xhigh",
+      "score": 0.24,
+      "display": "0.24",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "3%"
+        },
+        {
+          "label": "Red",
+          "value": "77%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 161,
+      "model": "intellect-3",
+      "org": "prime-intellect",
+      "variant": "reasoning=low",
+      "score": 0.23,
       "display": "0.23",
       "extras": [
         {
           "label": "Green",
-          "value": "4%"
+          "value": "7%"
         },
         {
           "label": "Red",
-          "value": "78%"
+          "value": "82%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
         },
         {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
-      "rank": 147,
+      "rank": 162,
+      "model": "deepseek-chat",
+      "org": "deepseek",
+      "variant": "reasoning=default",
+      "score": 0.2167,
+      "display": "0.22",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "4%"
+        },
+        {
+          "label": "Red",
+          "value": "82%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 163,
+      "model": "intellect-3",
+      "org": "prime-intellect",
+      "variant": "reasoning=high",
+      "score": 0.19,
+      "display": "0.19",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "5%"
+        },
+        {
+          "label": "Red",
+          "value": "85%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 164,
+      "model": "jamba-large-1.7",
+      "org": "ai21",
+      "variant": "reasoning=default",
+      "score": 0.1867,
+      "display": "0.19",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "5%"
+        },
+        {
+          "label": "Red",
+          "value": "86%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 165,
       "model": "mistral-large-2512",
       "org": "mistralai",
       "variant": "reasoning=default",
-      "score": 0.2,
-      "display": "0.20",
+      "score": 0.1733,
+      "display": "0.17",
       "extras": [
         {
           "label": "Green",
-          "value": "4%"
+          "value": "2%"
         },
         {
           "label": "Red",
-          "value": "82%"
+          "value": "85%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
         },
         {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
         }
       ]
     },
     {
-      "rank": 148,
-      "model": "glm-4.5",
-      "org": "z-ai",
+      "rank": 166,
+      "model": "mistral-small-2603",
+      "org": "mistralai",
       "variant": "reasoning=none",
-      "score": 0.2,
-      "display": "0.20",
+      "score": 0.16,
+      "display": "0.16",
       "extras": [
         {
           "label": "Green",
@@ -3265,11 +4321,67 @@
         },
         {
           "label": "Red",
-          "value": "82%"
+          "value": "88%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
         },
         {
           "label": "Questions",
-          "value": "55"
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 167,
+      "model": "gpt-4o-mini-2024-07-18",
+      "org": "openai",
+      "variant": "reasoning=default",
+      "score": 0.1567,
+      "display": "0.16",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "2%"
+        },
+        {
+          "label": "Red",
+          "value": "86%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 168,
+      "model": "gemma-3-27b-it",
+      "org": "google",
+      "variant": "reasoning=default",
+      "score": 0.1467,
+      "display": "0.15",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "3%"
+        },
+        {
+          "label": "Red",
+          "value": "88%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
         }
       ]
     }

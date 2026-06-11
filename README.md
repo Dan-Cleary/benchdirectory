@@ -13,7 +13,7 @@ Every score on IndieBench comes from the benchmark owner's own published results
 | Benchmark | Owner | Source of truth |
 |---|---|---|
 | SnitchBench | [Theo](https://x.com/theo) | `snitching-analysis.json` in [T3-Content/SnitchBench](https://github.com/T3-Content/SnitchBench) |
-| BullshitBench | [Peter Gostev](https://x.com/petergostev) | `data/latest/leaderboard.csv` in [petergpt/bullshit-benchmark](https://github.com/petergpt/bullshit-benchmark) |
+| BullshitBench | [Peter Gostev](https://x.com/petergostev) | `data/v2/latest/leaderboard.csv` in [petergpt/bullshit-benchmark](https://github.com/petergpt/bullshit-benchmark) (`data/latest/` is the stale v1 export) |
 | SlopBench | [Dan Cleary](https://x.com/DanJCleary) | public leaderboard query on the production [SlopBench](https://slop-bench.vercel.app) backend |
 
 ## How it works
