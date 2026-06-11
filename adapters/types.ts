@@ -37,6 +37,8 @@ export interface Entry {
 export interface Snapshot {
   benchmark: BenchmarkMeta;
   retrievedAt: string;
+  /** When the OWNER generated the data, if they publish it (e.g. a manifest's generated_at). */
+  sourceGeneratedAt?: string;
   /** Exact URL (or endpoint) the data was pulled from — provenance, always shown. */
   sourceDataUrl: string;
   entries: Entry[];

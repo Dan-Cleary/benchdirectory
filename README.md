@@ -44,11 +44,15 @@ PRs welcome. To add a bench:
 
 That's it — the UI picks up new snapshots automatically.
 
+## Freshness
+
+A GitHub Action (`.github/workflows/ingest.yml`) re-ingests every benchmark daily and commits only when an owner actually published new data. Bench owners update on their own schedule — new models trickle in over days after a launch — so daily polling catches everyone without anyone having to coordinate. Each section shows when the owner generated the data (when they publish that) and when we pulled it.
+
 ## Roadmap
 
 - More benches (got one? open an issue)
 - Cross-bench model report cards — one model, every indie bench
-- Scheduled re-ingestion via GitHub Actions
+- Bar charts per benchmark
 - `benchmark.json` manifest spec so owners can push instead of being pulled
 
 ## License

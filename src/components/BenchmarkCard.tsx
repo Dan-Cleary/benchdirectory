@@ -11,7 +11,7 @@ function timeAgo(iso: string): string {
 }
 
 export function BenchmarkCard({ snapshot }: { snapshot: Snapshot }) {
-  const { benchmark: b, entries, retrievedAt } = snapshot;
+  const { benchmark: b, entries, retrievedAt, sourceGeneratedAt } = snapshot;
   const [expanded, setExpanded] = useState(false);
   const visible = expanded ? entries : entries.slice(0, COLLAPSED_ROWS);
   const maxScore = Math.max(...entries.map((e) => e.score), 0.0001);
@@ -43,7 +43,9 @@ export function BenchmarkCard({ snapshot }: { snapshot: Snapshot }) {
       <p className="score-explainer">
         {b.scoreExplainer}{" "}
         <span className="freshness" title={retrievedAt}>
-          Data pulled {timeAgo(retrievedAt)} from the owner's published results.
+          {sourceGeneratedAt
+            ? `Owner's export generated ${timeAgo(sourceGeneratedAt)}; pulled ${timeAgo(retrievedAt)}.`
+            : `Data pulled ${timeAgo(retrievedAt)} from the owner's published results.`}
         </span>
       </p>
 

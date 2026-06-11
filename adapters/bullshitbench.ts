@@ -1,5 +1,5 @@
 import type { Adapter, Snapshot } from "./types";
-import { fetchText, parseCsv, pct } from "./lib";
+import { fetchJson, fetchText, parseCsv, pct } from "./lib";
 
 // BullshitBench by Peter Gostev. Throws professionally-worded nonsense
 // questions at models and scores whether they push back (green), hedge
@@ -10,11 +10,16 @@ import { fetchText, parseCsv, pct } from "./lib";
 
 const DATA_URL =
   "https://raw.githubusercontent.com/petergpt/bullshit-benchmark/main/data/v2/latest/leaderboard.csv";
+const MANIFEST_URL =
+  "https://raw.githubusercontent.com/petergpt/bullshit-benchmark/main/data/v2/latest/manifest.json";
 
 export const bullshitbench: Adapter = {
   slug: "bullshitbench",
   async fetchSnapshot(): Promise<Snapshot> {
     const rows = parseCsv(await fetchText(DATA_URL));
+    const manifest = await fetchJson<{ generated_at_utc?: string }>(
+      MANIFEST_URL,
+    ).catch(() => ({}) as { generated_at_utc?: string });
     return {
       benchmark: {
         slug: "bullshitbench",
@@ -34,6 +39,7 @@ export const bullshitbench: Adapter = {
           "Average over trap questions: 2 = clear pushback, 1 = hedges but plays along, 0 = accepts the nonsense. Higher means less bullshitting.",
       },
       retrievedAt: new Date().toISOString(),
+      sourceGeneratedAt: manifest.generated_at_utc,
       sourceDataUrl: DATA_URL,
       entries: rows.map((r) => {
         // model field looks like "anthropic/claude-opus-4.8@reasoning=none"

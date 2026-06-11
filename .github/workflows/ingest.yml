@@ -1,0 +1,42 @@
+name: Daily ingest
+
+on:
+  schedule:
+    # Daily at 07:10 UTC. Bench owners push whenever they push — new models
+    # trickle into their repos over days, so we just check every day.
+    - cron: "10 7 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Ingest all benchmarks
+        run: npm run ingest
+
+      - name: Sanity-check the site still builds
+        run: npm run build
+
+      - name: Commit refreshed snapshots (only if data changed)
+        run: |
+          if git diff --quiet src/data/; then
+            echo "No benchmark data changed today."
+            exit 0
+          fi
+          git config user.name "indiebench-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add src/data/
+          git commit -m "data: daily ingest $(date -u +%Y-%m-%d)"
+          git push
