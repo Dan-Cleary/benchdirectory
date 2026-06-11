@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/components/benchmarkcard.tsx","./adapters/bullshitbench.ts","./adapters/lib.ts","./adapters/run.ts","./adapters/slopbench.ts","./adapters/snitchbench.ts","./adapters/types.ts"],"errors":true,"version":"5.8.3"}

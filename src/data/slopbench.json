@@ -1,0 +1,446 @@
+{
+  "benchmark": {
+    "slug": "slopbench",
+    "name": "SlopBench",
+    "tagline": "How much classic AI slop does a model write when nobody tells it not to?",
+    "owner": {
+      "name": "Dan Cleary",
+      "xHandle": "DanJCleary",
+      "url": "https://x.com/DanJCleary"
+    },
+    "siteUrl": "https://slop-bench.vercel.app",
+    "repoUrl": "https://github.com/Dan-Cleary/slopbench",
+    "scoreLabel": "Slop rate",
+    "direction": "lower-better",
+    "scoreExplainer": "Percentage of outputs containing classic AI slop phrases and patterns. Lower is better."
+  },
+  "retrievedAt": "2026-06-11T13:49:10.742Z",
+  "sourceDataUrl": "https://uncommon-sandpiper-321.convex.cloud/api/query (runs:getLeaderboard)",
+  "entries": [
+    {
+      "rank": 1,
+      "model": "gpt-5.3-codex",
+      "org": "openai",
+      "score": 1.9,
+      "display": "1.9%",
+      "extras": [
+        {
+          "label": "Bullet rate",
+          "value": "92%"
+        },
+        {
+          "label": "Run cost",
+          "value": "$0.21"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "model": "claude-opus-4.8",
+      "org": "anthropic",
+      "score": 3.8,
+      "display": "3.8%",
+      "extras": [
+        {
+          "label": "Bullet rate",
+          "value": "94%"
+        },
+        {
+          "label": "Run cost",
+          "value": "$0.69"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "model": "gpt-5.4",
+      "org": "openai",
+      "score": 4.3,
+      "display": "4.3%",
+      "extras": [
+        {
+          "label": "Bullet rate",
+          "value": "93%"
+        },
+        {
+          "label": "Run cost",
+          "value": "$0.25"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "model": "gpt-5.3-chat",
+      "org": "openai",
+      "score": 5.7,
+      "display": "5.7%",
+      "extras": [
+        {
+          "label": "Bullet rate",
+          "value": "66%"
+        },
+        {
+          "label": "Run cost",
+          "value": "$0.16"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "model": "gpt-5.4-mini",
+      "org": "openai",
+      "score": 5.7,
+      "display": "5.7%",
+      "extras": [
+        {
+          "label": "Bullet rate",
+          "value": "92%"
+        },
+        {
+          "label": "Run cost",
+          "value": "$0.06"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "model": "gpt-5.5-20260423",
+      "org": "openai",
+      "score": 5.7,
+      "display": "5.7%",
+      "extras": [
+        {
+          "label": "Bullet rate",
+          "value": "87%"
+        },
+        {
+          "label": "Run cost",
+          "value": "$0.57"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "model": "gpt-5.4-nano",
+      "org": "openai",
+      "score": 7.5,
+      "display": "7.5%",
+      "extras": [
+        {
+          "label": "Bullet rate",
+          "value": "91%"
+        },
+        {
+          "label": "Run cost",
+          "value": "$0.03"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "model": "claude-sonnet-4.6",
+      "org": "anthropic",
+      "score": 9.8,
+      "display": "9.8%",
+      "extras": [
+        {
+          "label": "Bullet rate",
+          "value": "94%"
+        },
+        {
+          "label": "Run cost",
+          "value": "$0.23"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "model": "claude-opus-4.7",
+      "org": "anthropic",
+      "score": 11.3,
+      "display": "11.3%",
+      "extras": [
+        {
+          "label": "Bullet rate",
+          "value": "94%"
+        },
+        {
+          "label": "Run cost",
+          "value": "$0.67"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "model": "grok-4.20-beta",
+      "org": "x-ai",
+      "score": 13.2,
+      "display": "13.2%",
+      "extras": [
+        {
+          "label": "Bullet rate",
+          "value": "96%"
+        },
+        {
+          "label": "Run cost",
+          "value": "$0.19"
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "model": "gemini-3-flash-preview",
+      "org": "google",
+      "score": 15.1,
+      "display": "15.1%",
+      "extras": [
+        {
+          "label": "Bullet rate",
+          "value": "96%"
+        },
+        {
+          "label": "Run cost",
+          "value": "$0.10"
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "model": "claude-haiku-4-5",
+      "org": "anthropic",
+      "score": 15.1,
+      "display": "15.1%",
+      "extras": [
+        {
+          "label": "Bullet rate",
+          "value": "92%"
+        },
+        {
+          "label": "Run cost",
+          "value": "$0.07"
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "model": "claude-fable-5",
+      "org": "anthropic",
+      "score": 15.1,
+      "display": "15.1%",
+      "extras": [
+        {
+          "label": "Bullet rate",
+          "value": "92%"
+        },
+        {
+          "label": "Run cost",
+          "value": "$1.63"
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "model": "gpt-5.4-pro",
+      "org": "openai",
+      "score": 17,
+      "display": "17.0%",
+      "extras": [
+        {
+          "label": "Bullet rate",
+          "value": "94%"
+        },
+        {
+          "label": "Run cost",
+          "value": "$7.33"
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "model": "grok-build-0.1",
+      "org": "x-ai",
+      "score": 18.9,
+      "display": "18.9%",
+      "extras": [
+        {
+          "label": "Bullet rate",
+          "value": "91%"
+        },
+        {
+          "label": "Run cost",
+          "value": "$0.15"
+        }
+      ]
+    },
+    {
+      "rank": 16,
+      "model": "glm-5",
+      "org": "z-ai",
+      "score": 19.2,
+      "display": "19.2%",
+      "extras": [
+        {
+          "label": "Bullet rate",
+          "value": "90%"
+        },
+        {
+          "label": "Run cost",
+          "value": "$0.21"
+        }
+      ]
+    },
+    {
+      "rank": 17,
+      "model": "qwen3.5-397b-a17b",
+      "org": "qwen",
+      "score": 23.5,
+      "display": "23.5%",
+      "extras": [
+        {
+          "label": "Bullet rate",
+          "value": "90%"
+        },
+        {
+          "label": "Run cost",
+          "value": "$0.29"
+        }
+      ]
+    },
+    {
+      "rank": 18,
+      "model": "kimi-k2-thinking",
+      "org": "moonshotai",
+      "score": 24.5,
+      "display": "24.5%",
+      "extras": [
+        {
+          "label": "Bullet rate",
+          "value": "94%"
+        },
+        {
+          "label": "Run cost",
+          "value": "$0.11"
+        }
+      ]
+    },
+    {
+      "rank": 19,
+      "model": "claude-opus-4.6",
+      "org": "anthropic",
+      "score": 24.5,
+      "display": "24.5%",
+      "extras": [
+        {
+          "label": "Bullet rate",
+          "value": "91%"
+        },
+        {
+          "label": "Run cost",
+          "value": "$0.44"
+        }
+      ]
+    },
+    {
+      "rank": 20,
+      "model": "grok-4.1-fast",
+      "org": "x-ai",
+      "score": 26.4,
+      "display": "26.4%",
+      "extras": [
+        {
+          "label": "Bullet rate",
+          "value": "81%"
+        },
+        {
+          "label": "Run cost",
+          "value": "$0.02"
+        }
+      ]
+    },
+    {
+      "rank": 21,
+      "model": "minimax-m2.5",
+      "org": "minimax",
+      "score": 26.4,
+      "display": "26.4%",
+      "extras": [
+        {
+          "label": "Bullet rate",
+          "value": "85%"
+        },
+        {
+          "label": "Run cost",
+          "value": "$0.05"
+        }
+      ]
+    },
+    {
+      "rank": 22,
+      "model": "kimi-k2.5",
+      "org": "moonshotai",
+      "score": 26.4,
+      "display": "26.4%",
+      "extras": [
+        {
+          "label": "Bullet rate",
+          "value": "96%"
+        },
+        {
+          "label": "Run cost",
+          "value": "$0.12"
+        }
+      ]
+    },
+    {
+      "rank": 23,
+      "model": "gemini-3.1-pro-preview",
+      "org": "google",
+      "score": 28.3,
+      "display": "28.3%",
+      "extras": [
+        {
+          "label": "Bullet rate",
+          "value": "92%"
+        },
+        {
+          "label": "Run cost",
+          "value": "$1.04"
+        }
+      ]
+    },
+    {
+      "rank": 24,
+      "model": "qwen3-max",
+      "org": "qwen",
+      "score": 32.7,
+      "display": "32.7%",
+      "extras": [
+        {
+          "label": "Bullet rate",
+          "value": "87%"
+        },
+        {
+          "label": "Run cost",
+          "value": "$0.09"
+        }
+      ]
+    },
+    {
+      "rank": 25,
+      "model": "deepseek-v3.2",
+      "org": "deepseek",
+      "score": 44.2,
+      "display": "44.2%",
+      "extras": [
+        {
+          "label": "Bullet rate",
+          "value": "94%"
+        },
+        {
+          "label": "Run cost",
+          "value": "$0.02"
+        }
+      ]
+    }
+  ]
+}

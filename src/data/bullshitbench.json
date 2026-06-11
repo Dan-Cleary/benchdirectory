@@ -1,0 +1,3277 @@
+{
+  "benchmark": {
+    "slug": "bullshitbench",
+    "name": "BullshitBench",
+    "tagline": "Does the model call out a nonsense question, or go full expert mode on it?",
+    "owner": {
+      "name": "Peter Gostev",
+      "xHandle": "petergostev",
+      "url": "https://github.com/petergpt"
+    },
+    "siteUrl": "https://petergpt.github.io/bullshit-benchmark/",
+    "repoUrl": "https://github.com/petergpt/bullshit-benchmark",
+    "scoreLabel": "Avg score (0–2)",
+    "direction": "higher-better",
+    "scoreExplainer": "Average over trap questions: 2 = clear pushback, 1 = hedges but plays along, 0 = accepts the nonsense. Higher means less bullshitting."
+  },
+  "retrievedAt": "2026-06-11T13:49:10.678Z",
+  "sourceDataUrl": "https://raw.githubusercontent.com/petergpt/bullshit-benchmark/main/data/latest/leaderboard.csv",
+  "entries": [
+    {
+      "rank": 1,
+      "model": "claude-opus-4.8",
+      "org": "anthropic",
+      "variant": "reasoning=none",
+      "score": 1.9636,
+      "display": "1.96",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "96%"
+        },
+        {
+          "label": "Red",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "model": "claude-sonnet-4.6",
+      "org": "anthropic",
+      "variant": "reasoning=none",
+      "score": 1.897,
+      "display": "1.90",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "95%"
+        },
+        {
+          "label": "Red",
+          "value": "2%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "model": "claude-sonnet-4.6",
+      "org": "anthropic",
+      "variant": "reasoning=high",
+      "score": 1.897,
+      "display": "1.90",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "93%"
+        },
+        {
+          "label": "Red",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "model": "claude-opus-4.8",
+      "org": "anthropic",
+      "variant": "reasoning=xhigh",
+      "score": 1.8909,
+      "display": "1.89",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "93%"
+        },
+        {
+          "label": "Red",
+          "value": "2%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "model": "claude-opus-4.5",
+      "org": "anthropic",
+      "variant": "reasoning=high",
+      "score": 1.8849,
+      "display": "1.88",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "91%"
+        },
+        {
+          "label": "Red",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "model": "claude-opus-4.6",
+      "org": "anthropic",
+      "variant": "reasoning=none",
+      "score": 1.8788,
+      "display": "1.88",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "93%"
+        },
+        {
+          "label": "Red",
+          "value": "2%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "model": "claude-opus-4.6",
+      "org": "anthropic",
+      "variant": "reasoning=high",
+      "score": 1.8545,
+      "display": "1.85",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "89%"
+        },
+        {
+          "label": "Red",
+          "value": "4%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "model": "claude-haiku-4.5",
+      "org": "anthropic",
+      "variant": "reasoning=high",
+      "score": 1.7879,
+      "display": "1.79",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "87%"
+        },
+        {
+          "label": "Red",
+          "value": "4%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "model": "claude-opus-4.5",
+      "org": "anthropic",
+      "variant": "reasoning=none",
+      "score": 1.7697,
+      "display": "1.77",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "80%"
+        },
+        {
+          "label": "Red",
+          "value": "2%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "model": "claude-haiku-4.5",
+      "org": "anthropic",
+      "variant": "reasoning=none",
+      "score": 1.7333,
+      "display": "1.73",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "82%"
+        },
+        {
+          "label": "Red",
+          "value": "5%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "model": "claude-opus-4.7",
+      "org": "anthropic",
+      "variant": "reasoning=none",
+      "score": 1.697,
+      "display": "1.70",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "80%"
+        },
+        {
+          "label": "Red",
+          "value": "9%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "model": "qwen3.5-397b-a17b",
+      "org": "qwen",
+      "variant": "reasoning=none",
+      "score": 1.497,
+      "display": "1.50",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "65%"
+        },
+        {
+          "label": "Red",
+          "value": "13%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "model": "grok-4.20-multi-agent-beta",
+      "org": "x-ai",
+      "variant": "reasoning=xhigh",
+      "score": 1.4788,
+      "display": "1.48",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "67%"
+        },
+        {
+          "label": "Red",
+          "value": "22%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "model": "claude-sonnet-4.5",
+      "org": "anthropic",
+      "variant": "reasoning=high",
+      "score": 1.4606,
+      "display": "1.46",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "65%"
+        },
+        {
+          "label": "Red",
+          "value": "16%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "model": "grok-4.20-multi-agent-beta",
+      "org": "x-ai",
+      "variant": "reasoning=low",
+      "score": 1.4424,
+      "display": "1.44",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "67%"
+        },
+        {
+          "label": "Red",
+          "value": "24%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 16,
+      "model": "nemotron-3-super-120b-a12b:free",
+      "org": "nvidia",
+      "variant": "reasoning=xhigh",
+      "score": 1.4061,
+      "display": "1.41",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "65%"
+        },
+        {
+          "label": "Red",
+          "value": "18%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 17,
+      "model": "claude-opus-4.7",
+      "org": "anthropic",
+      "variant": "reasoning=max",
+      "score": 1.3879,
+      "display": "1.39",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "60%"
+        },
+        {
+          "label": "Red",
+          "value": "20%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 18,
+      "model": "qwen3.5-397b-a17b",
+      "org": "qwen",
+      "variant": "reasoning=high",
+      "score": 1.3455,
+      "display": "1.35",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "53%"
+        },
+        {
+          "label": "Red",
+          "value": "16%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 19,
+      "model": "claude-3.7-sonnet:thinking",
+      "org": "anthropic",
+      "variant": "reasoning=default",
+      "score": 1.3428,
+      "display": "1.34",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "55%"
+        },
+        {
+          "label": "Red",
+          "value": "17%"
+        },
+        {
+          "label": "Questions",
+          "value": "53"
+        }
+      ]
+    },
+    {
+      "rank": 20,
+      "model": "grok-4.3",
+      "org": "x-ai",
+      "variant": "reasoning=minimal",
+      "score": 1.3394,
+      "display": "1.34",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "62%"
+        },
+        {
+          "label": "Red",
+          "value": "22%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 21,
+      "model": "claude-sonnet-4.5",
+      "org": "anthropic",
+      "variant": "reasoning=none",
+      "score": 1.3273,
+      "display": "1.33",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "53%"
+        },
+        {
+          "label": "Red",
+          "value": "18%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 22,
+      "model": "claude-3.5-haiku",
+      "org": "anthropic",
+      "variant": "reasoning=default",
+      "score": 1.297,
+      "display": "1.30",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "58%"
+        },
+        {
+          "label": "Red",
+          "value": "27%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 23,
+      "model": "qwen3.7-max",
+      "org": "qwen",
+      "variant": "reasoning=none",
+      "score": 1.297,
+      "display": "1.30",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "53%"
+        },
+        {
+          "label": "Red",
+          "value": "18%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 24,
+      "model": "grok-4.20-beta",
+      "org": "x-ai",
+      "variant": "reasoning=low",
+      "score": 1.2909,
+      "display": "1.29",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "62%"
+        },
+        {
+          "label": "Red",
+          "value": "31%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 25,
+      "model": "grok-4.3",
+      "org": "x-ai",
+      "variant": "reasoning=xhigh",
+      "score": 1.2667,
+      "display": "1.27",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "56%"
+        },
+        {
+          "label": "Red",
+          "value": "27%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 26,
+      "model": "grok-4.20-beta",
+      "org": "x-ai",
+      "variant": "reasoning=xhigh",
+      "score": 1.2364,
+      "display": "1.24",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "58%"
+        },
+        {
+          "label": "Red",
+          "value": "31%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 27,
+      "model": "llama-4-maverick",
+      "org": "meta",
+      "variant": "reasoning=default",
+      "score": 1.2364,
+      "display": "1.24",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "55%"
+        },
+        {
+          "label": "Red",
+          "value": "27%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 28,
+      "model": "minimax-m3",
+      "org": "minimax",
+      "variant": "reasoning=xhigh",
+      "score": 1.2121,
+      "display": "1.21",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "47%"
+        },
+        {
+          "label": "Red",
+          "value": "24%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 29,
+      "model": "claude-3.7-sonnet",
+      "org": "anthropic",
+      "variant": "reasoning=default",
+      "score": 1.197,
+      "display": "1.20",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "51%"
+        },
+        {
+          "label": "Red",
+          "value": "27%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 30,
+      "model": "kimi-k2.5",
+      "org": "moonshotai",
+      "variant": "reasoning=none",
+      "score": 1.1818,
+      "display": "1.18",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "47%"
+        },
+        {
+          "label": "Red",
+          "value": "24%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 31,
+      "model": "minimax-m3",
+      "org": "minimax",
+      "variant": "reasoning=none",
+      "score": 1.1818,
+      "display": "1.18",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "45%"
+        },
+        {
+          "label": "Red",
+          "value": "22%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 32,
+      "model": "claude-3.5-sonnet",
+      "org": "anthropic",
+      "variant": "reasoning=default",
+      "score": 1.1515,
+      "display": "1.15",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "53%"
+        },
+        {
+          "label": "Red",
+          "value": "35%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 33,
+      "model": "nemotron-3-ultra-550b-a55b",
+      "org": "nvidia",
+      "variant": "reasoning=none",
+      "score": 1.1091,
+      "display": "1.11",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "42%"
+        },
+        {
+          "label": "Red",
+          "value": "33%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 34,
+      "model": "mimo-v2.5-pro",
+      "org": "xiaomi",
+      "variant": "reasoning=xhigh",
+      "score": 1.0606,
+      "display": "1.06",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "45%"
+        },
+        {
+          "label": "Red",
+          "value": "38%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 35,
+      "model": "nemotron-3-super-120b-a12b:free",
+      "org": "nvidia",
+      "variant": "reasoning=none",
+      "score": 1.0424,
+      "display": "1.04",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "38%"
+        },
+        {
+          "label": "Red",
+          "value": "29%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 36,
+      "model": "claude-opus-4.1",
+      "org": "anthropic",
+      "variant": "reasoning=none",
+      "score": 1.0182,
+      "display": "1.02",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "40%"
+        },
+        {
+          "label": "Red",
+          "value": "38%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 37,
+      "model": "gpt-5.1-chat",
+      "org": "openai",
+      "variant": "reasoning=default",
+      "score": 1.0121,
+      "display": "1.01",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "36%"
+        },
+        {
+          "label": "Red",
+          "value": "36%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 38,
+      "model": "gpt-5.2-codex",
+      "org": "openai",
+      "variant": "reasoning=low",
+      "score": 0.9394,
+      "display": "0.94",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "36%"
+        },
+        {
+          "label": "Red",
+          "value": "36%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 39,
+      "model": "gpt-5.4",
+      "org": "openai",
+      "variant": "reasoning=none",
+      "score": 0.9394,
+      "display": "0.94",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "25%"
+        },
+        {
+          "label": "Red",
+          "value": "27%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 40,
+      "model": "qwen3.7-max",
+      "org": "qwen",
+      "variant": "reasoning=xhigh",
+      "score": 0.9212,
+      "display": "0.92",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "38%"
+        },
+        {
+          "label": "Red",
+          "value": "44%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 41,
+      "model": "gpt-5.5",
+      "org": "openai",
+      "variant": "reasoning=none",
+      "score": 0.9152,
+      "display": "0.92",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "27%"
+        },
+        {
+          "label": "Red",
+          "value": "33%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 42,
+      "model": "llama-4-scout",
+      "org": "meta",
+      "variant": "reasoning=default",
+      "score": 0.8849,
+      "display": "0.88",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "36%"
+        },
+        {
+          "label": "Red",
+          "value": "44%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 43,
+      "model": "llama-3.1-8b-instruct",
+      "org": "meta",
+      "variant": "reasoning=default",
+      "score": 0.8849,
+      "display": "0.88",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "35%"
+        },
+        {
+          "label": "Red",
+          "value": "44%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 44,
+      "model": "gpt-5.2",
+      "org": "openai",
+      "variant": "reasoning=none",
+      "score": 0.8727,
+      "display": "0.87",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "27%"
+        },
+        {
+          "label": "Red",
+          "value": "31%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 45,
+      "model": "gpt-5.4-mini",
+      "org": "openai",
+      "variant": "reasoning=xhigh",
+      "score": 0.8727,
+      "display": "0.87",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "25%"
+        },
+        {
+          "label": "Red",
+          "value": "36%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 46,
+      "model": "gpt-5.3-chat",
+      "org": "openai",
+      "variant": "reasoning=default",
+      "score": 0.8667,
+      "display": "0.87",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "27%"
+        },
+        {
+          "label": "Red",
+          "value": "42%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 47,
+      "model": "gpt-5-codex",
+      "org": "openai",
+      "variant": "reasoning=default",
+      "score": 0.8606,
+      "display": "0.86",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "31%"
+        },
+        {
+          "label": "Red",
+          "value": "45%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 48,
+      "model": "gpt-5.4-mini",
+      "org": "openai",
+      "variant": "reasoning=high",
+      "score": 0.8606,
+      "display": "0.86",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "25%"
+        },
+        {
+          "label": "Red",
+          "value": "38%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 49,
+      "model": "gpt-5.4",
+      "org": "openai",
+      "variant": "reasoning=xhigh",
+      "score": 0.8606,
+      "display": "0.86",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "22%"
+        },
+        {
+          "label": "Red",
+          "value": "38%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 50,
+      "model": "hunter-alpha",
+      "org": "stealth",
+      "variant": "reasoning=none",
+      "score": 0.8545,
+      "display": "0.85",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "33%"
+        },
+        {
+          "label": "Red",
+          "value": "47%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 51,
+      "model": "kimi-k2.5",
+      "org": "moonshotai",
+      "variant": "reasoning=high",
+      "score": 0.8545,
+      "display": "0.85",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "31%"
+        },
+        {
+          "label": "Red",
+          "value": "44%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 52,
+      "model": "claude-opus-4.1",
+      "org": "anthropic",
+      "variant": "reasoning=high",
+      "score": 0.8485,
+      "display": "0.85",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "35%"
+        },
+        {
+          "label": "Red",
+          "value": "53%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 53,
+      "model": "claude-sonnet-4",
+      "org": "anthropic",
+      "variant": "reasoning=none",
+      "score": 0.8424,
+      "display": "0.84",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "25%"
+        },
+        {
+          "label": "Red",
+          "value": "45%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 54,
+      "model": "claude-opus-4",
+      "org": "anthropic",
+      "variant": "reasoning=default",
+      "score": 0.8242,
+      "display": "0.82",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "33%"
+        },
+        {
+          "label": "Red",
+          "value": "47%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 55,
+      "model": "gpt-5.4-mini",
+      "org": "openai",
+      "variant": "reasoning=none",
+      "score": 0.8061,
+      "display": "0.81",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "24%"
+        },
+        {
+          "label": "Red",
+          "value": "42%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 56,
+      "model": "nemotron-3-nano-30b-a3b:free",
+      "org": "nvidia",
+      "variant": "reasoning=none",
+      "score": 0.7939,
+      "display": "0.79",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "27%"
+        },
+        {
+          "label": "Red",
+          "value": "44%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 57,
+      "model": "mimo-v2.5",
+      "org": "xiaomi",
+      "variant": "reasoning=none",
+      "score": 0.7879,
+      "display": "0.79",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "31%"
+        },
+        {
+          "label": "Red",
+          "value": "51%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 58,
+      "model": "nemotron-3-ultra-550b-a55b",
+      "org": "nvidia",
+      "variant": "reasoning=xhigh",
+      "score": 0.7879,
+      "display": "0.79",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "31%"
+        },
+        {
+          "label": "Red",
+          "value": "49%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 59,
+      "model": "gpt-5.2-codex",
+      "org": "openai",
+      "variant": "reasoning=high",
+      "score": 0.7636,
+      "display": "0.76",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "29%"
+        },
+        {
+          "label": "Red",
+          "value": "51%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 60,
+      "model": "step-3.5-flash",
+      "org": "stepfun",
+      "variant": "reasoning=minimal",
+      "score": 0.7636,
+      "display": "0.76",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "25%"
+        },
+        {
+          "label": "Red",
+          "value": "49%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 61,
+      "model": "gpt-5.1",
+      "org": "openai",
+      "variant": "reasoning=default",
+      "score": 0.7455,
+      "display": "0.75",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "25%"
+        },
+        {
+          "label": "Red",
+          "value": "51%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 62,
+      "model": "hunter-alpha",
+      "org": "stealth",
+      "variant": "reasoning=xhigh",
+      "score": 0.7394,
+      "display": "0.74",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "27%"
+        },
+        {
+          "label": "Red",
+          "value": "56%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 63,
+      "model": "claude-sonnet-4",
+      "org": "anthropic",
+      "variant": "reasoning=high",
+      "score": 0.7394,
+      "display": "0.74",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "24%"
+        },
+        {
+          "label": "Red",
+          "value": "51%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 64,
+      "model": "gemini-3-pro-preview",
+      "org": "google",
+      "variant": "reasoning=low",
+      "score": 0.7333,
+      "display": "0.73",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "31%"
+        },
+        {
+          "label": "Red",
+          "value": "56%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 65,
+      "model": "gpt-5.1-codex",
+      "org": "openai",
+      "variant": "reasoning=default",
+      "score": 0.7333,
+      "display": "0.73",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "29%"
+        },
+        {
+          "label": "Red",
+          "value": "56%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 66,
+      "model": "gpt-5.2-codex",
+      "org": "openai",
+      "variant": "reasoning=xhigh",
+      "score": 0.7212,
+      "display": "0.72",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "25%"
+        },
+        {
+          "label": "Red",
+          "value": "49%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 67,
+      "model": "gpt-5.2",
+      "org": "openai",
+      "variant": "reasoning=high",
+      "score": 0.703,
+      "display": "0.70",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "24%"
+        },
+        {
+          "label": "Red",
+          "value": "51%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 68,
+      "model": "healer-alpha",
+      "org": "stealth",
+      "variant": "reasoning=none",
+      "score": 0.697,
+      "display": "0.70",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "29%"
+        },
+        {
+          "label": "Red",
+          "value": "58%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 69,
+      "model": "mimo-v2.5-pro",
+      "org": "xiaomi",
+      "variant": "reasoning=none",
+      "score": 0.6909,
+      "display": "0.69",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "29%"
+        },
+        {
+          "label": "Red",
+          "value": "58%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 70,
+      "model": "gpt-5.4-nano",
+      "org": "openai",
+      "variant": "reasoning=none",
+      "score": 0.6849,
+      "display": "0.68",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "16%"
+        },
+        {
+          "label": "Red",
+          "value": "45%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 71,
+      "model": "gpt-5",
+      "org": "openai",
+      "variant": "reasoning=default",
+      "score": 0.6667,
+      "display": "0.67",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "22%"
+        },
+        {
+          "label": "Red",
+          "value": "55%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 72,
+      "model": "o3",
+      "org": "openai",
+      "variant": "reasoning=low",
+      "score": 0.6606,
+      "display": "0.66",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "24%"
+        },
+        {
+          "label": "Red",
+          "value": "56%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 73,
+      "model": "mimo-v2.5",
+      "org": "xiaomi",
+      "variant": "reasoning=xhigh",
+      "score": 0.6545,
+      "display": "0.65",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "20%"
+        },
+        {
+          "label": "Red",
+          "value": "51%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 74,
+      "model": "trinity-large-thinking",
+      "org": "arcee-ai",
+      "variant": "reasoning=xhigh",
+      "score": 0.6364,
+      "display": "0.64",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "20%"
+        },
+        {
+          "label": "Red",
+          "value": "55%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 75,
+      "model": "step-3.5-flash",
+      "org": "stepfun",
+      "variant": "reasoning=xhigh",
+      "score": 0.6303,
+      "display": "0.63",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "20%"
+        },
+        {
+          "label": "Red",
+          "value": "58%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 76,
+      "model": "gpt-5.5-chat",
+      "org": "openai",
+      "variant": "reasoning=default",
+      "score": 0.6303,
+      "display": "0.63",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "15%"
+        },
+        {
+          "label": "Red",
+          "value": "49%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 77,
+      "model": "claude-3-haiku",
+      "org": "anthropic",
+      "variant": "reasoning=default",
+      "score": 0.6273,
+      "display": "0.63",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "18%"
+        },
+        {
+          "label": "Red",
+          "value": "55%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 78,
+      "model": "gpt-5.4-nano",
+      "org": "openai",
+      "variant": "reasoning=high",
+      "score": 0.6182,
+      "display": "0.62",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "11%"
+        },
+        {
+          "label": "Red",
+          "value": "51%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 79,
+      "model": "qwen3-coder",
+      "org": "qwen",
+      "variant": "reasoning=default",
+      "score": 0.6061,
+      "display": "0.61",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "20%"
+        },
+        {
+          "label": "Red",
+          "value": "60%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 80,
+      "model": "gemma-4-31b-it",
+      "org": "google",
+      "variant": "reasoning=high",
+      "score": 0.6049,
+      "display": "0.60",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "22%"
+        },
+        {
+          "label": "Red",
+          "value": "63%"
+        },
+        {
+          "label": "Questions",
+          "value": "54"
+        }
+      ]
+    },
+    {
+      "rank": 81,
+      "model": "trinity-large-thinking",
+      "org": "arcee-ai",
+      "variant": "reasoning=minimal",
+      "score": 0.6,
+      "display": "0.60",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "18%"
+        },
+        {
+          "label": "Red",
+          "value": "55%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 82,
+      "model": "gemini-3.1-pro-preview",
+      "org": "google",
+      "variant": "reasoning=low",
+      "score": 0.5879,
+      "display": "0.59",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "22%"
+        },
+        {
+          "label": "Red",
+          "value": "62%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 83,
+      "model": "mimo-v2-flash",
+      "org": "xiaomi",
+      "variant": "reasoning=none",
+      "score": 0.5879,
+      "display": "0.59",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "16%"
+        },
+        {
+          "label": "Red",
+          "value": "56%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 84,
+      "model": "gpt-5.4-nano",
+      "org": "openai",
+      "variant": "reasoning=xhigh",
+      "score": 0.5818,
+      "display": "0.58",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "15%"
+        },
+        {
+          "label": "Red",
+          "value": "56%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 85,
+      "model": "gemini-3-pro-preview",
+      "org": "google",
+      "variant": "reasoning=high",
+      "score": 0.5758,
+      "display": "0.58",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "24%"
+        },
+        {
+          "label": "Red",
+          "value": "62%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 86,
+      "model": "glm-5",
+      "org": "z-ai",
+      "variant": "reasoning=high",
+      "score": 0.5455,
+      "display": "0.55",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "20%"
+        },
+        {
+          "label": "Red",
+          "value": "65%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 87,
+      "model": "deepseek-v4-flash",
+      "org": "deepseek",
+      "variant": "reasoning=none",
+      "score": 0.5455,
+      "display": "0.55",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "16%"
+        },
+        {
+          "label": "Red",
+          "value": "60%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 88,
+      "model": "gemini-2.5-pro",
+      "org": "google",
+      "variant": "reasoning=default",
+      "score": 0.5394,
+      "display": "0.54",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "24%"
+        },
+        {
+          "label": "Red",
+          "value": "67%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 89,
+      "model": "gemini-3.1-pro-preview",
+      "org": "google",
+      "variant": "reasoning=high",
+      "score": 0.5333,
+      "display": "0.53",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "18%"
+        },
+        {
+          "label": "Red",
+          "value": "65%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 90,
+      "model": "gpt-4o-2024-08-06",
+      "org": "openai",
+      "variant": "reasoning=default",
+      "score": 0.5333,
+      "display": "0.53",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "16%"
+        },
+        {
+          "label": "Red",
+          "value": "58%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 91,
+      "model": "gpt-4o",
+      "org": "openai",
+      "variant": "reasoning=default",
+      "score": 0.5333,
+      "display": "0.53",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "15%"
+        },
+        {
+          "label": "Red",
+          "value": "56%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 92,
+      "model": "gpt-5-chat",
+      "org": "openai",
+      "variant": "reasoning=default",
+      "score": 0.5273,
+      "display": "0.53",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "15%"
+        },
+        {
+          "label": "Red",
+          "value": "60%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 93,
+      "model": "grok-4.1-fast",
+      "org": "x-ai",
+      "variant": "reasoning=high",
+      "score": 0.5273,
+      "display": "0.53",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "15%"
+        },
+        {
+          "label": "Red",
+          "value": "60%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 94,
+      "model": "kimi-k2",
+      "org": "moonshotai",
+      "variant": "reasoning=default",
+      "score": 0.5212,
+      "display": "0.52",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "20%"
+        },
+        {
+          "label": "Red",
+          "value": "67%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 95,
+      "model": "healer-alpha",
+      "org": "stealth",
+      "variant": "reasoning=xhigh",
+      "score": 0.5212,
+      "display": "0.52",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "18%"
+        },
+        {
+          "label": "Red",
+          "value": "65%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 96,
+      "model": "ernie-4.5-300b-a47b",
+      "org": "baidu",
+      "variant": "reasoning=default",
+      "score": 0.5212,
+      "display": "0.52",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "13%"
+        },
+        {
+          "label": "Red",
+          "value": "60%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 97,
+      "model": "gpt-5.2-chat",
+      "org": "openai",
+      "variant": "reasoning=default",
+      "score": 0.503,
+      "display": "0.50",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "15%"
+        },
+        {
+          "label": "Red",
+          "value": "62%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 98,
+      "model": "minimax-m2.5",
+      "org": "minimax",
+      "variant": "reasoning=low",
+      "score": 0.497,
+      "display": "0.50",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "13%"
+        },
+        {
+          "label": "Red",
+          "value": "65%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 99,
+      "model": "deepseek-v4-pro",
+      "org": "deepseek",
+      "variant": "reasoning=none",
+      "score": 0.4788,
+      "display": "0.48",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "15%"
+        },
+        {
+          "label": "Red",
+          "value": "69%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 100,
+      "model": "gpt-5.3-codex",
+      "org": "openai",
+      "variant": "reasoning=high",
+      "score": 0.4788,
+      "display": "0.48",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "13%"
+        },
+        {
+          "label": "Red",
+          "value": "62%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 101,
+      "model": "gpt-5.3-codex",
+      "org": "openai",
+      "variant": "reasoning=low",
+      "score": 0.4727,
+      "display": "0.47",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "15%"
+        },
+        {
+          "label": "Red",
+          "value": "64%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 102,
+      "model": "gemma-4-26b-a4b-it",
+      "org": "google",
+      "variant": "reasoning=xhigh",
+      "score": 0.4667,
+      "display": "0.47",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "15%"
+        },
+        {
+          "label": "Red",
+          "value": "65%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 103,
+      "model": "gemini-2.0-flash-001",
+      "org": "google",
+      "variant": "reasoning=default",
+      "score": 0.4667,
+      "display": "0.47",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "13%"
+        },
+        {
+          "label": "Red",
+          "value": "71%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 104,
+      "model": "hy3-preview:free",
+      "org": "tencent",
+      "variant": "reasoning=xhigh",
+      "score": 0.4667,
+      "display": "0.47",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "13%"
+        },
+        {
+          "label": "Red",
+          "value": "67%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 105,
+      "model": "gemini-2.5-flash",
+      "org": "google",
+      "variant": "reasoning=default",
+      "score": 0.4636,
+      "display": "0.46",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "15%"
+        },
+        {
+          "label": "Red",
+          "value": "69%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 106,
+      "model": "deepseek-v3.2",
+      "org": "deepseek",
+      "variant": "reasoning=none",
+      "score": 0.4606,
+      "display": "0.46",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "13%"
+        },
+        {
+          "label": "Red",
+          "value": "67%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 107,
+      "model": "minimax-m2.5",
+      "org": "minimax",
+      "variant": "reasoning=high",
+      "score": 0.4545,
+      "display": "0.45",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "16%"
+        },
+        {
+          "label": "Red",
+          "value": "69%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 108,
+      "model": "gpt-4.1",
+      "org": "openai",
+      "variant": "reasoning=default",
+      "score": 0.4545,
+      "display": "0.45",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "15%"
+        },
+        {
+          "label": "Red",
+          "value": "67%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 109,
+      "model": "glm-5",
+      "org": "z-ai",
+      "variant": "reasoning=none",
+      "score": 0.4424,
+      "display": "0.44",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "16%"
+        },
+        {
+          "label": "Red",
+          "value": "69%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 110,
+      "model": "ernie-4.5-vl-424b-a47b",
+      "org": "baidu",
+      "variant": "reasoning=xhigh",
+      "score": 0.4424,
+      "display": "0.44",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "15%"
+        },
+        {
+          "label": "Red",
+          "value": "69%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 111,
+      "model": "gpt-5.3-codex",
+      "org": "openai",
+      "variant": "reasoning=xhigh",
+      "score": 0.4424,
+      "display": "0.44",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "11%"
+        },
+        {
+          "label": "Red",
+          "value": "67%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 112,
+      "model": "gemma-4-31b-it",
+      "org": "google",
+      "variant": "reasoning=none",
+      "score": 0.4424,
+      "display": "0.44",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "11%"
+        },
+        {
+          "label": "Red",
+          "value": "65%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 113,
+      "model": "intellect-3",
+      "org": "prime-intellect",
+      "variant": "reasoning=high",
+      "score": 0.4364,
+      "display": "0.44",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "11%"
+        },
+        {
+          "label": "Red",
+          "value": "67%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 114,
+      "model": "deepseek-r1",
+      "org": "deepseek",
+      "variant": "reasoning=none",
+      "score": 0.4303,
+      "display": "0.43",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "13%"
+        },
+        {
+          "label": "Red",
+          "value": "73%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 115,
+      "model": "deepseek-v4-flash",
+      "org": "deepseek",
+      "variant": "reasoning=xhigh",
+      "score": 0.4182,
+      "display": "0.42",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "13%"
+        },
+        {
+          "label": "Red",
+          "value": "71%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 116,
+      "model": "hy3-preview:free",
+      "org": "tencent",
+      "variant": "reasoning=none",
+      "score": 0.4121,
+      "display": "0.41",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "13%"
+        },
+        {
+          "label": "Red",
+          "value": "69%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 117,
+      "model": "glm-4.5",
+      "org": "z-ai",
+      "variant": "reasoning=xhigh",
+      "score": 0.4061,
+      "display": "0.41",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "15%"
+        },
+        {
+          "label": "Red",
+          "value": "78%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 118,
+      "model": "intellect-3",
+      "org": "prime-intellect",
+      "variant": "reasoning=low",
+      "score": 0.4,
+      "display": "0.40",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "13%"
+        },
+        {
+          "label": "Red",
+          "value": "73%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 119,
+      "model": "o4-mini",
+      "org": "openai",
+      "variant": "reasoning=low",
+      "score": 0.4,
+      "display": "0.40",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "9%"
+        },
+        {
+          "label": "Red",
+          "value": "67%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 120,
+      "model": "nemotron-nano-9b-v2:free",
+      "org": "nvidia",
+      "variant": "reasoning=xhigh",
+      "score": 0.4,
+      "display": "0.40",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "7%"
+        },
+        {
+          "label": "Red",
+          "value": "67%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 121,
+      "model": "qwen3-235b-a22b",
+      "org": "qwen",
+      "variant": "reasoning=none",
+      "score": 0.3939,
+      "display": "0.39",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "7%"
+        },
+        {
+          "label": "Red",
+          "value": "67%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 122,
+      "model": "deepseek-v3.2",
+      "org": "deepseek",
+      "variant": "reasoning=high",
+      "score": 0.3758,
+      "display": "0.38",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "15%"
+        },
+        {
+          "label": "Red",
+          "value": "75%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 123,
+      "model": "ernie-4.5-vl-424b-a47b",
+      "org": "baidu",
+      "variant": "reasoning=none",
+      "score": 0.3697,
+      "display": "0.37",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "13%"
+        },
+        {
+          "label": "Red",
+          "value": "73%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 124,
+      "model": "gemma-4-26b-a4b-it",
+      "org": "google",
+      "variant": "reasoning=none",
+      "score": 0.3697,
+      "display": "0.37",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "9%"
+        },
+        {
+          "label": "Red",
+          "value": "71%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 125,
+      "model": "deepseek-r1",
+      "org": "deepseek",
+      "variant": "reasoning=xhigh",
+      "score": 0.3697,
+      "display": "0.37",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "7%"
+        },
+        {
+          "label": "Red",
+          "value": "67%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 126,
+      "model": "mimo-v2-flash",
+      "org": "xiaomi",
+      "variant": "reasoning=high",
+      "score": 0.3636,
+      "display": "0.36",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "9%"
+        },
+        {
+          "label": "Red",
+          "value": "73%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 127,
+      "model": "nemotron-nano-9b-v2:free",
+      "org": "nvidia",
+      "variant": "reasoning=none",
+      "score": 0.3636,
+      "display": "0.36",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "7%"
+        },
+        {
+          "label": "Red",
+          "value": "71%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 128,
+      "model": "seed-1.6",
+      "org": "bytedance-seed",
+      "variant": "reasoning=none",
+      "score": 0.3515,
+      "display": "0.35",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "11%"
+        },
+        {
+          "label": "Red",
+          "value": "73%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 129,
+      "model": "gemini-3-flash-preview",
+      "org": "google",
+      "variant": "reasoning=high",
+      "score": 0.3455,
+      "display": "0.35",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "11%"
+        },
+        {
+          "label": "Red",
+          "value": "73%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 130,
+      "model": "o4-mini",
+      "org": "openai",
+      "variant": "reasoning=high",
+      "score": 0.3455,
+      "display": "0.35",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "11%"
+        },
+        {
+          "label": "Red",
+          "value": "73%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 131,
+      "model": "grok-4.1-fast",
+      "org": "x-ai",
+      "variant": "reasoning=none",
+      "score": 0.3455,
+      "display": "0.35",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "11%"
+        },
+        {
+          "label": "Red",
+          "value": "76%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 132,
+      "model": "nemotron-3-nano-30b-a3b:free",
+      "org": "nvidia",
+      "variant": "reasoning=xhigh",
+      "score": 0.3455,
+      "display": "0.35",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "11%"
+        },
+        {
+          "label": "Red",
+          "value": "75%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 133,
+      "model": "gemini-3.5-flash",
+      "org": "google",
+      "variant": "reasoning=minimal",
+      "score": 0.3394,
+      "display": "0.34",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "9%"
+        },
+        {
+          "label": "Red",
+          "value": "73%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 134,
+      "model": "gemini-3.5-flash",
+      "org": "google",
+      "variant": "reasoning=xhigh",
+      "score": 0.3394,
+      "display": "0.34",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "9%"
+        },
+        {
+          "label": "Red",
+          "value": "75%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 135,
+      "model": "deepseek-v4-pro",
+      "org": "deepseek",
+      "variant": "reasoning=xhigh",
+      "score": 0.3333,
+      "display": "0.33",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "11%"
+        },
+        {
+          "label": "Red",
+          "value": "78%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 136,
+      "model": "seed-1.6",
+      "org": "bytedance-seed",
+      "variant": "reasoning=high",
+      "score": 0.3333,
+      "display": "0.33",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "7%"
+        },
+        {
+          "label": "Red",
+          "value": "73%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 137,
+      "model": "gpt-oss-120b",
+      "org": "openai",
+      "variant": "reasoning=low",
+      "score": 0.3333,
+      "display": "0.33",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "4%"
+        },
+        {
+          "label": "Red",
+          "value": "65%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 138,
+      "model": "gpt-4o-mini-2024-07-18",
+      "org": "openai",
+      "variant": "reasoning=default",
+      "score": 0.3212,
+      "display": "0.32",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "7%"
+        },
+        {
+          "label": "Red",
+          "value": "71%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 139,
+      "model": "qwen3-235b-a22b",
+      "org": "qwen",
+      "variant": "reasoning=xhigh",
+      "score": 0.297,
+      "display": "0.30",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "5%"
+        },
+        {
+          "label": "Red",
+          "value": "76%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 140,
+      "model": "gemini-3.1-flash-lite-preview",
+      "org": "google",
+      "variant": "reasoning=default",
+      "score": 0.2849,
+      "display": "0.28",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "9%"
+        },
+        {
+          "label": "Red",
+          "value": "78%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 141,
+      "model": "gemini-3-flash-preview",
+      "org": "google",
+      "variant": "reasoning=none",
+      "score": 0.2849,
+      "display": "0.28",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "7%"
+        },
+        {
+          "label": "Red",
+          "value": "76%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 142,
+      "model": "gpt-4o-mini",
+      "org": "openai",
+      "variant": "reasoning=default",
+      "score": 0.2849,
+      "display": "0.28",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "5%"
+        },
+        {
+          "label": "Red",
+          "value": "75%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 143,
+      "model": "jamba-large-1.7",
+      "org": "ai21",
+      "variant": "reasoning=default",
+      "score": 0.2727,
+      "display": "0.27",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "7%"
+        },
+        {
+          "label": "Red",
+          "value": "76%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 144,
+      "model": "gemma-3-27b-it",
+      "org": "google",
+      "variant": "reasoning=default",
+      "score": 0.2424,
+      "display": "0.24",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "4%"
+        },
+        {
+          "label": "Red",
+          "value": "82%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 145,
+      "model": "deepseek-chat",
+      "org": "deepseek",
+      "variant": "reasoning=default",
+      "score": 0.2364,
+      "display": "0.24",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "5%"
+        },
+        {
+          "label": "Red",
+          "value": "82%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 146,
+      "model": "gpt-oss-120b",
+      "org": "openai",
+      "variant": "reasoning=high",
+      "score": 0.2303,
+      "display": "0.23",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "4%"
+        },
+        {
+          "label": "Red",
+          "value": "78%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 147,
+      "model": "mistral-large-2512",
+      "org": "mistralai",
+      "variant": "reasoning=default",
+      "score": 0.2,
+      "display": "0.20",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "4%"
+        },
+        {
+          "label": "Red",
+          "value": "82%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "rank": 148,
+      "model": "glm-4.5",
+      "org": "z-ai",
+      "variant": "reasoning=none",
+      "score": 0.2,
+      "display": "0.20",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "4%"
+        },
+        {
+          "label": "Red",
+          "value": "82%"
+        },
+        {
+          "label": "Questions",
+          "value": "55"
+        }
+      ]
+    }
+  ]
+}
