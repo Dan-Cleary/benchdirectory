@@ -57,7 +57,12 @@ export const slopbench: Adapter = {
       sourceDataUrl: `${CONVEX_URL} (runs:getLeaderboard)`,
       entries: body.value.map((r, i) => ({
         rank: i + 1,
-        model: r.model.includes("/") ? r.model.split("/")[1] : r.model,
+        // Same display rule as slop-bench.vercel.app's formatModel():
+        // strip trailing date-stamp suffixes like -20260423
+        model: (r.model.includes("/") ? r.model.split("/")[1] : r.model).replace(
+          /-(\d{8}|\d{4}-\d{2}-\d{2})$/,
+          "",
+        ),
         org: r.model.includes("/") ? r.model.split("/")[0] : undefined,
         score: r.pure_slop_rate,
         display: pct(r.pure_slop_rate),

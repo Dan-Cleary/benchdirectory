@@ -13,8 +13,8 @@
     "direction": "higher-better",
     "scoreExplainer": "Share of tasks solved on the first attempt, run on mini-swe-agent for consistency. Tasks are written from scratch so no model saw the solutions in training."
   },
-  "retrievedAt": "2026-06-11T14:20:20.943Z",
-  "sourceGeneratedAt": "2026-06-07T00:00:00.000Z",
+  "retrievedAt": "2026-06-11T17:38:28.975Z",
+  "sourceGeneratedAt": "2026-06-11T00:00:00.000Z",
   "sourceDataUrl": "https://deepswe.datacurve.ai/",
   "entries": [
     {
@@ -159,7 +159,7 @@
     },
     {
       "rank": 12,
-      "model": "glm-5.1",
+      "model": "qwen3.7-max",
       "score": 18,
       "display": "18%",
       "extras": [
@@ -171,6 +171,18 @@
     },
     {
       "rank": 13,
+      "model": "glm-5.1",
+      "score": 18,
+      "display": "18%",
+      "extras": [
+        {
+          "label": "± CI",
+          "value": "1%"
+        }
+      ]
+    },
+    {
+      "rank": 14,
       "model": "grok-build-0.1",
       "score": 13,
       "display": "13%",
@@ -182,7 +194,7 @@
       ]
     },
     {
-      "rank": 14,
+      "rank": 15,
       "model": "gemini-3.1-pro",
       "score": 10,
       "display": "10%",
@@ -194,7 +206,7 @@
       ]
     },
     {
-      "rank": 15,
+      "rank": 16,
       "model": "deepseek-v4-pro",
       "score": 8,
       "display": "8%",
@@ -206,7 +218,7 @@
       ]
     },
     {
-      "rank": 16,
+      "rank": 17,
       "model": "gemini-3-flash",
       "score": 5,
       "display": "5%",

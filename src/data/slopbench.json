@@ -14,7 +14,7 @@
     "direction": "lower-better",
     "scoreExplainer": "Percentage of outputs containing classic AI slop phrases and patterns. Lower is better."
   },
-  "retrievedAt": "2026-06-11T13:49:10.742Z",
+  "retrievedAt": "2026-06-11T17:38:28.829Z",
   "sourceDataUrl": "https://uncommon-sandpiper-321.convex.cloud/api/query (runs:getLeaderboard)",
   "entries": [
     {
@@ -104,7 +104,7 @@
     },
     {
       "rank": 6,
-      "model": "gpt-5.5-20260423",
+      "model": "gpt-5.5",
       "org": "openai",
       "score": 5.7,
       "display": "5.7%",
