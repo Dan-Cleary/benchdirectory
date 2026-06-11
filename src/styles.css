@@ -1,12 +1,12 @@
 :root {
-  --bg: #0d0f12;
-  --surface: #14171c;
-  --border: #242a33;
-  --text: #e8ebef;
-  --muted: #8b94a1;
-  --accent: #ffb224;
-  --good: #4ade80;
-  --bad: #f87171;
+  --bg: #fafafa;
+  --surface: #ffffff;
+  --border: #e4e4e7;
+  --text: #18181b;
+  --muted: #71717a;
+  --accent: #18181b;
+  --bar: #a1a1aa;
+  --bar-strong: #52525b;
   font-family:
     ui-sans-serif,
     system-ui,
@@ -14,6 +14,17 @@
     "Segoe UI",
     Roboto,
     sans-serif;
+}
+
+[data-theme="dark"] {
+  --bg: #101113;
+  --surface: #17181b;
+  --border: #2a2c30;
+  --text: #e8e9eb;
+  --muted: #8e919a;
+  --accent: #e8e9eb;
+  --bar: #4b4e55;
+  --bar-strong: #8e919a;
 }
 
 * {
@@ -33,19 +44,41 @@ body {
   padding: 48px 20px 80px;
 }
 
+.hero-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+}
+
 .hero h1 {
-  font-size: 44px;
+  font-size: 42px;
   margin: 0 0 8px;
   letter-spacing: -0.02em;
 }
 
 .accent {
-  color: var(--accent);
+  color: var(--muted);
+}
+
+.theme-toggle {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 13px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.theme-toggle:hover {
+  color: var(--text);
+  border-color: var(--muted);
 }
 
 .tagline {
   font-size: 19px;
-  color: var(--text);
   margin: 0 0 12px;
 }
 
@@ -55,14 +88,14 @@ body {
   line-height: 1.6;
   max-width: 600px;
   margin: 0 0 16px;
-  border-left: 2px solid var(--accent);
+  border-left: 2px solid var(--border);
   padding-left: 12px;
 }
 
 .bench {
   background: var(--surface);
   border: 1px solid var(--border);
-  border-radius: 12px;
+  border-radius: 10px;
   padding: 24px;
   margin-top: 28px;
 }
@@ -104,7 +137,7 @@ body {
 }
 
 .bench-links .owner {
-  color: var(--accent);
+  color: var(--text);
   border-bottom-color: transparent;
   font-weight: 600;
 }
@@ -117,7 +150,7 @@ body {
 }
 
 .freshness {
-  opacity: 0.75;
+  opacity: 0.8;
 }
 
 table {
@@ -183,14 +216,11 @@ tr:last-child td {
   height: 6px;
   border-radius: 3px;
   min-width: 2px;
+  background: var(--bar);
 }
 
-.bar.higher-better {
-  background: var(--good);
-}
-
-.bar.lower-better {
-  background: var(--bad);
+tr:first-child .bar {
+  background: var(--bar-strong);
 }
 
 .extra {
@@ -221,7 +251,7 @@ tr:last-child td {
 }
 
 .footer a {
-  color: var(--accent);
+  color: var(--text);
 }
 
 @media (max-width: 640px) {

@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import type { Snapshot } from "../adapters/types";
 import { BenchmarkCard } from "./components/BenchmarkCard";
 
@@ -15,13 +16,36 @@ const snapshots = Object.values(modules)
     return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
   });
 
+type Theme = "light" | "dark";
+
+function useTheme() {
+  const [theme, setTheme] = useState<Theme>(
+    () => (localStorage.getItem("theme") as Theme) ?? "light",
+  );
+  useEffect(() => {
+    document.documentElement.dataset.theme = theme;
+    localStorage.setItem("theme", theme);
+  }, [theme]);
+  return [theme, setTheme] as const;
+}
+
 export default function App() {
+  const [theme, setTheme] = useTheme();
   return (
     <div className="page">
       <header className="hero">
-        <h1>
-          Indie<span className="accent">Bench</span>
-        </h1>
+        <div className="hero-row">
+          <h1>
+            Indie<span className="accent">Bench</span>
+          </h1>
+          <button
+            className="theme-toggle"
+            onClick={() => setTheme(theme === "light" ? "dark" : "light")}
+            aria-label="Toggle color theme"
+          >
+            {theme === "light" ? "◐ Dark" : "◑ Light"}
+          </button>
+        </div>
         <p className="tagline">
           The internet's personal AI benchmarks, in one place.
         </p>
