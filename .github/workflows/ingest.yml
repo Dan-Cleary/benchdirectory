@@ -25,9 +25,16 @@ jobs:
 
       - name: Ingest all benchmarks
         run: npm run ingest
+        env:
+          # Push refreshed snapshots to the Convex backend the site reads.
+          # Set both as repo secrets; ingest skips the push if absent.
+          VITE_CONVEX_URL: ${{ secrets.VITE_CONVEX_URL }}
+          INGEST_SECRET: ${{ secrets.INGEST_SECRET }}
 
       - name: Sanity-check the site still builds
         run: npm run build
+        env:
+          VITE_CONVEX_URL: ${{ secrets.VITE_CONVEX_URL }}
 
       - name: Commit refreshed snapshots (only if data changed)
         run: |

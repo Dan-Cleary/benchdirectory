@@ -1,10 +1,8 @@
 import { useEffect, useState } from "react";
+import { useQuery } from "convex/react";
+import { api } from "../convex/_generated/api";
 import type { Snapshot } from "../adapters/types";
 import { BenchmarkCard } from "./components/BenchmarkCard";
-
-const modules = import.meta.glob<{ default: Snapshot }>("./data/*.json", {
-  eager: true,
-});
 
 const ORDER = [
   "snitchbench",
@@ -16,14 +14,6 @@ const ORDER = [
   "every-senior-engineer",
   "cursorbench",
 ];
-
-const snapshots = Object.values(modules)
-  .map((m) => m.default)
-  .sort((a, b) => {
-    const ia = ORDER.indexOf(a.benchmark.slug);
-    const ib = ORDER.indexOf(b.benchmark.slug);
-    return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
-  });
 
 type Theme = "light" | "dark";
 
@@ -40,6 +30,17 @@ function useTheme() {
 
 export default function App() {
   const [theme, setTheme] = useTheme();
+  const docs = useQuery(api.snapshots.list);
+  const snapshots = docs
+    ? [...docs]
+        .map((d) => d.data as Snapshot)
+        .sort((a, b) => {
+          const ia = ORDER.indexOf(a.benchmark.slug);
+          const ib = ORDER.indexOf(b.benchmark.slug);
+          return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
+        })
+    : undefined;
+
   return (
     <div className="page">
       <header className="hero">
@@ -66,9 +67,13 @@ export default function App() {
       </header>
 
       <main>
-        {snapshots.map((s) => (
-          <BenchmarkCard key={s.benchmark.slug} snapshot={s} />
-        ))}
+        {snapshots === undefined ? (
+          <p className="loading">Loading benchmarks…</p>
+        ) : (
+          snapshots.map((s) => (
+            <BenchmarkCard key={s.benchmark.slug} snapshot={s} />
+          ))
+        )}
       </main>
 
       <footer className="footer">

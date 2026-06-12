@@ -10,6 +10,7 @@
     "ingest": "tsx adapters/run.ts"
   },
   "dependencies": {
+    "convex": "^1.41.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },

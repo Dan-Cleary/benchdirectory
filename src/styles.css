@@ -299,3 +299,9 @@ tr:first-child .bar {
     display: none;
   }
 }
+
+.loading {
+  color: var(--muted);
+  text-align: center;
+  padding: 60px 0;
+}

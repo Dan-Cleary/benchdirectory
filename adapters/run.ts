@@ -1,4 +1,5 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { existsSync, readFileSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import type { Adapter, Snapshot } from "./types";
@@ -22,7 +23,52 @@ const ADAPTERS: Adapter[] = [
   cursorbench,
 ];
 
-const DATA_DIR = join(dirname(fileURLToPath(import.meta.url)), "../src/data");
+const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
+const DATA_DIR = join(ROOT, "src/data");
+
+// Convex push config: locally from .env.local, in CI from action env.
+// If either var is missing we still write snapshot files, just skip the push.
+function loadEnv(): Record<string, string | undefined> {
+  const env: Record<string, string | undefined> = { ...process.env };
+  const envFile = join(ROOT, ".env.local");
+  if (existsSync(envFile)) {
+    for (const line of readFileSync(envFile, "utf8").split("\n")) {
+      const m = line.match(/^([A-Z_]+)=(.*)$/);
+      if (m && env[m[1]] === undefined) env[m[1]] = m[2];
+    }
+  }
+  return env;
+}
+
+async function pushToConvex(
+  env: Record<string, string | undefined>,
+  snapshot: Snapshot,
+): Promise<"pushed" | "skipped"> {
+  const url = env.VITE_CONVEX_URL;
+  const secret = env.INGEST_SECRET;
+  if (!url || !secret) return "skipped";
+  const res = await fetch(`${url}/api/mutation`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      path: "snapshots:upsert",
+      // JSON round-trip drops undefined optional fields, matching the schema
+      args: {
+        secret,
+        slug: snapshot.benchmark.slug,
+        data: JSON.parse(JSON.stringify(snapshot)),
+      },
+      format: "json",
+    }),
+  });
+  const body = (await res.json()) as { status: string; errorMessage?: string };
+  if (!res.ok || body.status !== "success") {
+    throw new Error(
+      `convex push ${snapshot.benchmark.slug}: ${body.errorMessage ?? res.status}`,
+    );
+  }
+  return "pushed";
+}
 
 /** Everything except retrievedAt — the parts that mean "the data changed". */
 function stableContent(s: Snapshot): string {
@@ -46,21 +92,25 @@ async function main() {
     process.exit(1);
   }
 
+  const env = loadEnv();
   await mkdir(DATA_DIR, { recursive: true });
   const results = await Promise.allSettled(
     targets.map(async (adapter) => {
       const snapshot = await adapter.fetchSnapshot();
       const existing = await readExisting(adapter.slug);
-      if (existing && stableContent(existing) === stableContent(snapshot)) {
-        // Same data the owner last published — keep the old file so the
-        // repo stays clean and retrievedAt reflects when the data was new.
-        return { slug: adapter.slug, entries: snapshot.entries.length, changed: false };
+      const changed = !existing || stableContent(existing) !== stableContent(snapshot);
+      if (changed) {
+        await writeFile(
+          join(DATA_DIR, `${adapter.slug}.json`),
+          JSON.stringify(snapshot, null, 2) + "\n",
+        );
       }
-      await writeFile(
-        join(DATA_DIR, `${adapter.slug}.json`),
-        JSON.stringify(snapshot, null, 2) + "\n",
-      );
-      return { slug: adapter.slug, entries: snapshot.entries.length, changed: true };
+      // Push the canonical on-disk snapshot (preserves retrievedAt when
+      // unchanged). Upsert is idempotent, so push every run — this also
+      // heals a fresh/empty Convex deployment without any data changing.
+      const canonical = changed ? snapshot : (existing as Snapshot);
+      const push = await pushToConvex(env, canonical);
+      return { slug: adapter.slug, entries: canonical.entries.length, changed, push };
     }),
   );
 
@@ -68,7 +118,7 @@ async function main() {
   for (const r of results) {
     if (r.status === "fulfilled") {
       const mark = r.value.changed ? "updated" : "unchanged";
-      console.log(`✓ ${r.value.slug}: ${r.value.entries} entries (${mark})`);
+      console.log(`✓ ${r.value.slug}: ${r.value.entries} entries (${mark}, convex ${r.value.push})`);
     } else {
       failed = true;
       console.error(`✗ ${r.reason}`);
