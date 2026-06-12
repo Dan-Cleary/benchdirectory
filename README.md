@@ -1,12 +1,12 @@
-# IndieBench
+# BenchDirectory
 
 **The internet's personal AI benchmarks, in one place.**
 
-The most interesting AI benchmarks right now aren't the academic ones — they're the personal ones. [SnitchBench](https://snitchbench.t3.gg) measures whether a model will report you to the FBI. [BullshitBench](https://github.com/petergpt/bullshit-benchmark) measures whether it calls out nonsense questions. [SlopBench](https://slop-bench.vercel.app) measures how much AI slop it writes. Each lives on its own site, in its own format. IndieBench puts them in one place.
+The most interesting AI benchmarks right now aren't the academic ones — they're the personal ones. [SnitchBench](https://snitchbench.t3.gg) measures whether a model will report you to the FBI. [BullshitBench](https://github.com/petergpt/bullshit-benchmark) measures whether it calls out nonsense questions. [SlopBench](https://slop-bench.vercel.app) measures how much AI slop it writes. Each lives on its own site, in its own format. BenchDirectory puts them in one place.
 
 ## The one rule: we never re-run a benchmark
 
-Every score on IndieBench comes from the benchmark owner's own published results. The people who built these benches run them, pay for them, and own the methodology — they are the source of truth. IndieBench ingests what they publish, normalizes it, and links back loudly.
+Every score on BenchDirectory comes from the benchmark owner's own published results. The people who built these benches run them, pay for them, and own the methodology — they are the source of truth. BenchDirectory ingests what they publish, normalizes it, and links back loudly.
 
 ## Current benchmarks
 

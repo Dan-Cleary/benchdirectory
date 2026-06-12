@@ -45,7 +45,7 @@ export default function App() {
       <header className="hero">
         <div className="hero-row">
           <h1>
-            Indie<span className="accent">Bench</span>
+            Bench<span className="accent">Directory</span>
           </h1>
           <button
             className="theme-toggle"
@@ -74,7 +74,7 @@ export default function App() {
       <footer className="footer">
         <p>
           Open source — add your benchmark with one adapter file.{" "}
-          <a href="https://github.com/Dan-Cleary/indiebench">GitHub</a>
+          <a href="https://github.com/Dan-Cleary/benchdirectory">GitHub</a>
         </p>
       </footer>
     </div>

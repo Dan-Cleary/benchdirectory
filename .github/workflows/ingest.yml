@@ -35,7 +35,7 @@ jobs:
             echo "No benchmark data changed today."
             exit 0
           fi
-          git config user.name "indiebench-bot"
+          git config user.name "benchdirectory-bot"
           git config user.email "actions@users.noreply.github.com"
           git add src/data/
           git commit -m "data: daily ingest $(date -u +%Y-%m-%d)"
