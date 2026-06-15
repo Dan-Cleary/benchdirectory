@@ -12,6 +12,7 @@ const ORDER = [
   "skatebench",
   "screenshotbench",
   "deepswe",
+  "planning-benchmark",
   "every-senior-engineer",
   "cursorbench",
 ];

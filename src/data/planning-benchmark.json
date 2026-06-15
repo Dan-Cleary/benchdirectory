@@ -1,0 +1,137 @@
+{
+  "benchmark": {
+    "slug": "planning-benchmark",
+    "name": "Planning Benchmark",
+    "tagline": "How completely does a coding agent's plan cover a real product spec — and does the harness matter?",
+    "owner": {
+      "name": "bladnman",
+      "url": "https://github.com/bladnman/planning_benchmark"
+    },
+    "repoUrl": "https://github.com/bladnman/planning_benchmark",
+    "scoreLabel": "Coverage",
+    "direction": "higher-better",
+    "scoreExplainer": "Weighted share of PRD requirements the agent's implementation plan covers (full = 1, partial = 0.5).",
+    "curatedNote": "Each run lives in its own branch and was scored against a freshly extracted requirement set (38–87 reqs, sometimes different PRDs), so read this as indicative of planning coverage — not a strictly apples-to-apples ranking. The variant column is the coding harness, the dimension this bench uniquely isolates."
+  },
+  "retrievedAt": "2026-06-15T15:01:02.474Z",
+  "sourceDataUrl": "https://api.github.com/repos/bladnman/planning_benchmark/branches?per_page=100 → per-branch results/PLAN_EVAL.md",
+  "entries": [
+    {
+      "rank": 1,
+      "model": "opus-4.6",
+      "variant": "claude code · high",
+      "score": 89.73,
+      "display": "89.7%",
+      "extras": [
+        {
+          "label": "Requirements",
+          "value": "73"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "model": "gpt-5.3-codex",
+      "variant": "codex cli · xhigh",
+      "score": 88.51,
+      "display": "88.5%",
+      "extras": [
+        {
+          "label": "Requirements",
+          "value": "87"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "model": "opus-4.5",
+      "variant": "claude code",
+      "score": 82.9,
+      "display": "82.9%",
+      "extras": [
+        {
+          "label": "Requirements",
+          "value": "70"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "model": "sonnet-4.6",
+      "variant": "claude code · high",
+      "score": 75.6,
+      "display": "75.6%",
+      "extras": [
+        {
+          "label": "Requirements",
+          "value": "78"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "model": "sonnet-4.5",
+      "variant": "claude code",
+      "score": 66.49,
+      "display": "66.5%",
+      "extras": [
+        {
+          "label": "Requirements",
+          "value": "94"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "model": "gemini-3.2-pro",
+      "variant": "gemini cli · no plan",
+      "score": 49.4,
+      "display": "49.4%",
+      "extras": [
+        {
+          "label": "Requirements",
+          "value": "83"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "model": "gemini-3.2-pro",
+      "variant": "antigravity",
+      "score": 47.5,
+      "display": "47.5%",
+      "extras": [
+        {
+          "label": "Requirements",
+          "value": "80"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "model": "gemini-3.2-pro",
+      "variant": "cursor",
+      "score": 42.1,
+      "display": "42.1%",
+      "extras": [
+        {
+          "label": "Requirements",
+          "value": "38"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "model": "gemini-3.2-pro",
+      "variant": "gemini cli",
+      "score": 36.5,
+      "display": "36.5%",
+      "extras": [
+        {
+          "label": "Requirements",
+          "value": "63"
+        }
+      ]
+    }
+  ]
+}

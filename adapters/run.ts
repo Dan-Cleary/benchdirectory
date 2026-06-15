@@ -11,6 +11,7 @@ import { screenshotbench } from "./screenshotbench";
 import { deepswe } from "./deepswe";
 import { everySeniorEngineer } from "./curated/every-senior-engineer";
 import { cursorbench } from "./curated/cursorbench";
+import { planningbench } from "./planningbench";
 
 const ADAPTERS: Adapter[] = [
   snitchbench,
@@ -19,6 +20,7 @@ const ADAPTERS: Adapter[] = [
   skatebench,
   screenshotbench,
   deepswe,
+  planningbench,
   everySeniorEngineer,
   cursorbench,
 ];
