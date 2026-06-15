@@ -1,4 +1,5 @@
-import type { Entry } from "../../adapters/types";
+import type { Entry, ScoreDirection } from "../../adapters/types";
+import { goodness } from "../lib/rank";
 
 const MAX_BARS = 12;
 const W = 840;
@@ -11,10 +12,21 @@ function shortLabel(e: Entry): string {
   return name.length > 18 ? `${name.slice(0, 17)}…` : name;
 }
 
-export function ScoreChart({ entries }: { entries: Entry[] }) {
+// `entries` arrive already in best-first order. The leftmost bar is the winner;
+// fill length is goodness-normalized so the winner is always the longest bar,
+// even for lower-better benches where the winning score is the smallest number.
+export function ScoreChart({
+  entries,
+  direction,
+}: {
+  entries: Entry[];
+  direction: ScoreDirection;
+}) {
   const shown = entries.slice(0, MAX_BARS);
   if (shown.length < 2) return null;
-  const max = Math.max(...shown.map((e) => e.score), 0.0001);
+  const scores = shown.map((e) => e.score);
+  const min = Math.min(...scores);
+  const max = Math.max(...scores);
   const barW = (W - GAP * (shown.length - 1)) / shown.length;
 
   return (
@@ -22,10 +34,11 @@ export function ScoreChart({ entries }: { entries: Entry[] }) {
       className="score-chart"
       viewBox={`0 0 ${W} ${CHART_H + LABEL_H}`}
       role="img"
-      aria-label={`Bar chart of the top ${shown.length} scores`}
+      aria-label={`Bar chart of the top ${shown.length} models, best first`}
     >
       {shown.map((e, i) => {
-        const h = Math.max((e.score / max) * (CHART_H - 22), 2);
+        const fill = goodness(e.score, min, max, direction);
+        const h = Math.max(fill * (CHART_H - 22), 2);
         const x = i * (barW + GAP);
         const y = CHART_H - h;
         return (

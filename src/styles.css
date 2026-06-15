@@ -98,6 +98,82 @@ body {
   border-radius: 10px;
   padding: 24px;
   margin-top: 28px;
+  scroll-margin-top: 72px;
+}
+
+/* Sticky pill nav: jump to any bench without scrolling to find it. */
+.bench-nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 12px 2px;
+  margin: 8px 0 4px;
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  scrollbar-width: thin;
+}
+
+.nav-pill {
+  flex: 0 0 auto;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  border-radius: 999px;
+  padding: 6px 13px;
+  font-size: 13px;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: color 0.12s, border-color 0.12s, background 0.12s;
+}
+
+.nav-pill:hover {
+  color: var(--text);
+  border-color: var(--muted);
+}
+
+.nav-pill.active {
+  color: var(--bg);
+  background: var(--text);
+  border-color: var(--text);
+}
+
+.bench-controls {
+  display: flex;
+  gap: 8px;
+  margin: 4px 0 14px;
+}
+
+.chip {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  border-radius: 6px;
+  padding: 5px 11px;
+  font-size: 12.5px;
+  cursor: pointer;
+}
+
+.chip:hover {
+  color: var(--text);
+  border-color: var(--muted);
+}
+
+th.sortable {
+  cursor: pointer;
+  user-select: none;
+}
+
+th.sortable:hover {
+  color: var(--text);
+}
+
+.direction-hint {
+  color: var(--muted);
+  font-weight: 500;
 }
 
 .bench-head {
@@ -254,10 +330,6 @@ tr:last-child td {
   border-radius: 3px;
   min-width: 2px;
   background: var(--bar);
-}
-
-tr:first-child .bar {
-  background: var(--bar-strong);
 }
 
 .extra {

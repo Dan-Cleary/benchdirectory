@@ -3,6 +3,7 @@ import { useQuery } from "convex/react";
 import { api } from "../convex/_generated/api";
 import type { Snapshot } from "../adapters/types";
 import { BenchmarkCard } from "./components/BenchmarkCard";
+import { BenchNav } from "./components/BenchNav";
 
 const ORDER = [
   "snitchbench",
@@ -65,6 +66,8 @@ export default function App() {
           the source of truth. Click through and follow them.
         </p>
       </header>
+
+      {snapshots && snapshots.length > 0 && <BenchNav snapshots={snapshots} />}
 
       <main>
         {snapshots === undefined ? (
