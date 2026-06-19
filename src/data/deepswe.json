@@ -13,42 +13,41 @@
     "direction": "higher-better",
     "scoreExplainer": "Share of tasks solved on the first attempt, run on mini-swe-agent for consistency. Tasks are written from scratch so no model saw the solutions in training."
   },
-  "retrievedAt": "2026-06-11T17:38:28.975Z",
-  "sourceGeneratedAt": "2026-06-11T00:00:00.000Z",
+  "retrievedAt": "2026-06-19T11:40:27.786Z",
   "sourceDataUrl": "https://deepswe.datacurve.ai/",
   "entries": [
     {
       "rank": 1,
-      "model": "gpt-5.5",
-      "variant": "xhigh",
+      "model": "claude-fable-5",
+      "variant": "max",
       "score": 70,
       "display": "70%",
       "extras": [
         {
           "label": "± CI",
-          "value": "3%"
+          "value": "4%"
         }
       ]
     },
     {
       "rank": 2,
-      "model": "claude-opus-4.8",
-      "variant": "max",
-      "score": 58,
-      "display": "58%",
+      "model": "gpt-5.5",
+      "variant": "xhigh",
+      "score": 67,
+      "display": "67%",
       "extras": [
         {
           "label": "± CI",
-          "value": "2%"
+          "value": "6%"
         }
       ]
     },
     {
       "rank": 3,
-      "model": "gpt-5.4",
-      "variant": "xhigh",
-      "score": 56,
-      "display": "56%",
+      "model": "claude-opus-4.8",
+      "variant": "max",
+      "score": 59,
+      "display": "59%",
       "extras": [
         {
           "label": "± CI",
@@ -58,23 +57,23 @@
     },
     {
       "rank": 4,
-      "model": "claude-opus-4.7",
-      "variant": "max",
-      "score": 54,
-      "display": "54%",
+      "model": "gpt-5.4",
+      "variant": "xhigh",
+      "score": 52,
+      "display": "52%",
       "extras": [
         {
           "label": "± CI",
-          "value": "5%"
+          "value": "2%"
         }
       ]
     },
     {
       "rank": 5,
-      "model": "claude-sonnet-4.6",
-      "variant": "high",
-      "score": 32,
-      "display": "32%",
+      "model": "gemini-3.5-flash",
+      "variant": "medium",
+      "score": 37,
+      "display": "37%",
       "extras": [
         {
           "label": "± CI",
@@ -84,23 +83,22 @@
     },
     {
       "rank": 6,
-      "model": "gemini-3.5-flash",
-      "variant": "medium",
-      "score": 28,
-      "display": "28%",
+      "model": "kimi-k2.7-code",
+      "score": 31,
+      "display": "31%",
       "extras": [
         {
           "label": "± CI",
-          "value": "4%"
+          "value": "1%"
         }
       ]
     },
     {
       "rank": 7,
-      "model": "claude-opus-4.6",
-      "variant": "max",
-      "score": 28,
-      "display": "28%",
+      "model": "claude-sonnet-4.6",
+      "variant": "high",
+      "score": 30,
+      "display": "30%",
       "extras": [
         {
           "label": "± CI",
@@ -110,118 +108,10 @@
     },
     {
       "rank": 8,
-      "model": "gpt-5.4-mini",
-      "variant": "xhigh",
-      "score": 24,
-      "display": "24%",
-      "extras": [
-        {
-          "label": "± CI",
-          "value": "3%"
-        }
-      ]
-    },
-    {
-      "rank": 9,
-      "model": "kimi-k2.6",
-      "score": 24,
-      "display": "24%",
-      "extras": [
-        {
-          "label": "± CI",
-          "value": "2%"
-        }
-      ]
-    },
-    {
-      "rank": 10,
-      "model": "minimax-m3",
-      "score": 20,
-      "display": "20%",
-      "extras": [
-        {
-          "label": "± CI",
-          "value": "4%"
-        }
-      ]
-    },
-    {
-      "rank": 11,
-      "model": "mimo-v2.5-pro",
-      "score": 19,
-      "display": "19%",
-      "extras": [
-        {
-          "label": "± CI",
-          "value": "2%"
-        }
-      ]
-    },
-    {
-      "rank": 12,
-      "model": "qwen3.7-max",
-      "score": 18,
-      "display": "18%",
-      "extras": [
-        {
-          "label": "± CI",
-          "value": "1%"
-        }
-      ]
-    },
-    {
-      "rank": 13,
-      "model": "glm-5.1",
-      "score": 18,
-      "display": "18%",
-      "extras": [
-        {
-          "label": "± CI",
-          "value": "1%"
-        }
-      ]
-    },
-    {
-      "rank": 14,
-      "model": "grok-build-0.1",
-      "score": 13,
-      "display": "13%",
-      "extras": [
-        {
-          "label": "± CI",
-          "value": "2%"
-        }
-      ]
-    },
-    {
-      "rank": 15,
       "model": "gemini-3.1-pro",
-      "score": 10,
-      "display": "10%",
-      "extras": [
-        {
-          "label": "± CI",
-          "value": "3%"
-        }
-      ]
-    },
-    {
-      "rank": 16,
-      "model": "deepseek-v4-pro",
-      "score": 8,
-      "display": "8%",
-      "extras": [
-        {
-          "label": "± CI",
-          "value": "3%"
-        }
-      ]
-    },
-    {
-      "rank": 17,
-      "model": "gemini-3-flash",
-      "score": 5,
-      "display": "5%",
+      "variant": "high",
+      "score": 12,
+      "display": "12%",
       "extras": [
         {
           "label": "± CI",
