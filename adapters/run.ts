@@ -87,7 +87,15 @@ async function readExisting(slug: string): Promise<Snapshot | null> {
 }
 
 async function main() {
-  const only = process.argv[2];
+  const args = process.argv.slice(2);
+  // Writing to the live Convex backend is opt-in: --push, INGEST_PUSH=1, or
+  // running in CI (GitHub Actions sets CI=true, which is how the daily Action
+  // pushes). A plain local `npm run ingest` does none of these, so it only
+  // refreshes local snapshot files and can never accidentally clobber prod.
+  const bootEnv = loadEnv();
+  const wantPush =
+    args.includes("--push") || bootEnv.INGEST_PUSH === "1" || bootEnv.CI === "true";
+  const only = args.find((a) => !a.startsWith("--"));
   const targets = only ? ADAPTERS.filter((a) => a.slug === only) : ADAPTERS;
   if (only && targets.length === 0) {
     console.error(`No adapter named "${only}". Known: ${ADAPTERS.map((a) => a.slug).join(", ")}`);
@@ -111,22 +119,30 @@ async function main() {
       // unchanged). Upsert is idempotent, so push every run — this also
       // heals a fresh/empty Convex deployment without any data changing.
       const canonical = changed ? snapshot : (existing as Snapshot);
-      const push = await pushToConvex(env, canonical);
+      const push = wantPush ? await pushToConvex(env, canonical) : "skipped";
       return { slug: adapter.slug, entries: canonical.entries.length, changed, push };
     }),
   );
 
-  let failed = false;
-  for (const r of results) {
+  const failures: string[] = [];
+  for (let i = 0; i < results.length; i++) {
+    const r = results[i];
     if (r.status === "fulfilled") {
       const mark = r.value.changed ? "updated" : "unchanged";
       console.log(`✓ ${r.value.slug}: ${r.value.entries} entries (${mark}, convex ${r.value.push})`);
     } else {
-      failed = true;
-      console.error(`✗ ${r.reason}`);
+      // A failed adapter keeps its previous snapshot (we never overwrite on
+      // throw) and is SKIPPED — one flaky source must not freeze the others.
+      failures.push(targets[i].slug);
+      console.error(`✗ ${targets[i].slug} skipped: ${r.reason}`);
     }
   }
-  if (failed) process.exit(1);
+  if (failures.length) {
+    console.error(`\n${failures.length}/${targets.length} skipped: ${failures.join(", ")}`);
+  }
+  // Only a hard fail (every target broke) exits non-zero. Partial success still
+  // commits/pushes the healthy benches and keeps the daily run green.
+  if (failures.length === targets.length) process.exit(1);
 }
 
 main();

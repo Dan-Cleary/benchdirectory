@@ -113,7 +113,7 @@ export const planningbench: Adapter = {
         slug: "planning-benchmark",
         name: "Planning Benchmark",
         tagline:
-          "How completely does a coding agent's plan cover a real product spec — and does the harness matter?",
+          "How completely does a coding agent's plan cover a real product spec, and does the harness matter?",
         owner: { name: "bladnman", url: `https://github.com/${REPO}` },
         repoUrl: `https://github.com/${REPO}`,
         scoreLabel: "Coverage",
@@ -121,7 +121,7 @@ export const planningbench: Adapter = {
         scoreExplainer:
           "Weighted share of PRD requirements the agent's implementation plan covers (full = 1, partial = 0.5).",
         curatedNote:
-          "Each run lives in its own branch and was scored against a freshly extracted requirement set (38–87 reqs, sometimes different PRDs), so read this as indicative of planning coverage — not a strictly apples-to-apples ranking. The variant column is the coding harness, the dimension this bench uniquely isolates.",
+          "Each run lives in its own branch and was scored against a freshly extracted requirement set (38–87 reqs, sometimes different PRDs), so read this as indicative of planning coverage, not a strictly apples-to-apples ranking. The variant column is the coding harness, the dimension this bench uniquely isolates.",
       },
       retrievedAt: new Date().toISOString(),
       sourceDataUrl: `${BRANCHES_API} → per-branch results/PLAN_EVAL.md`,

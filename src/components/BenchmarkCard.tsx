@@ -104,7 +104,7 @@ export function BenchmarkCard({ snapshot }: { snapshot: Snapshot }) {
 
       {b.curatedNote && <p className="curated-note">✎ {b.curatedNote}</p>}
 
-      <ScoreChart entries={ranked} direction={b.direction} />
+      <ScoreChart entries={tableEntries} direction={b.direction} />
 
       {variants && (
         <div className="bench-controls">

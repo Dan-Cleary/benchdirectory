@@ -64,7 +64,7 @@ export const screenshotbench: Adapter = {
       benchmark: {
         slug: "screenshotbench",
         name: "ScreenshotBench",
-        tagline: "Hand the model one screenshot — how faithfully does it rebuild the UI in React?",
+        tagline: "Hand the model one screenshot: how faithfully does it rebuild the UI in React?",
         owner: {
           name: "Dan Cleary",
           xHandle: "DanJCleary",

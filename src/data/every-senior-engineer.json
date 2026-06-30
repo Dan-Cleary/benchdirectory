@@ -13,7 +13,7 @@
     "scoreLabel": "Score (0–100)",
     "direction": "higher-better",
     "scoreExplainer": "Graded rewrite of a real vibe-coded codebase that needed a senior engineer. A human senior engineer scores high 80s to low 90s.",
-    "curatedNote": "Every publishes these scores in prose (Vibe Check articles), not as data — this table is hand-curated from their published numbers."
+    "curatedNote": "Every publishes these scores in prose (Vibe Check articles), not as data. This table is hand-curated from their published numbers."
   },
   "retrievedAt": "2026-06-11T14:19:01.240Z",
   "sourceGeneratedAt": "2026-06-09T00:00:00.000Z",
