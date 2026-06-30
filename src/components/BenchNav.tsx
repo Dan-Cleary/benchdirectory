@@ -27,7 +27,11 @@ export function BenchNav({ snapshots }: { snapshots: Snapshot[] }) {
   }, [snapshots]);
 
   function jump(slug: string) {
-    document.getElementById(slug)?.scrollIntoView({ behavior: "smooth", block: "start" });
+    // behavior:"instant" is reliable everywhere. Smooth scrolling (whether via
+    // JS behavior:"smooth" or CSS scroll-behavior) is silently a no-op in some
+    // embedded Chrome contexts, so we don't depend on it. scroll-margin-top on
+    // .bench offsets the landing position so the heading clears the sticky nav.
+    document.getElementById(slug)?.scrollIntoView({ behavior: "instant", block: "start" });
   }
 
   return (

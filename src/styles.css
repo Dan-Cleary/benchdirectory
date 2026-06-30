@@ -5,8 +5,13 @@
   --text: #18181b;
   --muted: #71717a;
   --accent: #18181b;
-  --bar: #a1a1aa;
-  --bar-strong: #52525b;
+  --bar: #c7c9f5;
+  --bar-strong: #5b5bd6;
+  /* One accent, used sparingly: wordmark, active pill, CTA, #1 bar, hovers. */
+  --brand: #5b5bd6;
+  --brand-strong: #4a4ac0;
+  --brand-soft: #efeffc;
+  --brand-contrast: #ffffff;
   font-family:
     ui-sans-serif,
     system-ui,
@@ -23,8 +28,12 @@
   --text: #e8e9eb;
   --muted: #8e919a;
   --accent: #e8e9eb;
-  --bar: #4b4e55;
-  --bar-strong: #8e919a;
+  --bar: #36366a;
+  --bar-strong: #8b8bf5;
+  --brand: #8b8bf5;
+  --brand-strong: #a3a3f8;
+  --brand-soft: #1c1d33;
+  --brand-contrast: #101113;
 }
 
 * {
@@ -36,6 +45,13 @@ body {
   background: var(--bg);
   color: var(--text);
   -webkit-font-smoothing: antialiased;
+  /* Soft brand wash up top — barely there, just enough to lift the hero. */
+  background-image: radial-gradient(
+    900px 380px at 50% -160px,
+    color-mix(in srgb, var(--brand) 13%, transparent),
+    transparent
+  );
+  background-repeat: no-repeat;
 }
 
 .page {
@@ -58,7 +74,7 @@ body {
 }
 
 .accent {
-  color: var(--muted);
+  color: var(--brand);
 }
 
 .theme-toggle {
@@ -75,6 +91,167 @@ body {
 .theme-toggle:hover {
   color: var(--text);
   border-color: var(--muted);
+}
+
+.hero-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+/* Primary CTA — filled brand, to invite submissions. Reused in the footer. */
+.submit-btn {
+  background: var(--brand);
+  color: var(--brand-contrast);
+  border: 1px solid var(--brand);
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.12s;
+}
+
+.submit-btn:hover {
+  background: var(--brand-strong);
+  border-color: var(--brand-strong);
+}
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: color-mix(in srgb, #000 45%, transparent);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+}
+
+.modal {
+  width: 100%;
+  max-width: 440px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 16px 48px color-mix(in srgb, #000 28%, transparent);
+}
+
+.modal h2 {
+  margin: 0 0 8px;
+  font-size: 21px;
+}
+
+.modal-sub {
+  margin: 0 0 18px;
+  color: var(--muted);
+  font-size: 13.5px;
+  line-height: 1.55;
+}
+
+.modal-label {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  margin: 14px 0 6px;
+}
+
+.modal-label .req,
+.modal-label .opt {
+  font-weight: 500;
+  text-transform: none;
+  letter-spacing: 0;
+  margin-left: 6px;
+}
+
+.modal-label .req {
+  color: var(--text);
+}
+
+.modal-input {
+  width: 100%;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  font: inherit;
+  font-size: 14px;
+  padding: 9px 12px;
+}
+
+.modal-input:focus {
+  outline: none;
+  border-color: var(--brand);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--brand) 18%, transparent);
+}
+
+.modal-textarea {
+  resize: vertical;
+  min-height: 64px;
+}
+
+.modal-error {
+  margin: 8px 0 0;
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: #e5484d;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.modal-cancel {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--muted);
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.modal-cancel:hover {
+  color: var(--text);
+  border-color: var(--muted);
+}
+
+.modal-submit {
+  background: var(--brand);
+  color: var(--brand-contrast);
+  border: 1px solid var(--brand);
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.modal-submit:not(:disabled):hover {
+  background: var(--brand-strong);
+  border-color: var(--brand-strong);
+}
+
+.modal-submit:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.modal-foot {
+  margin: 12px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+  text-align: right;
 }
 
 .tagline {
@@ -95,26 +272,34 @@ body {
 .bench {
   background: var(--surface);
   border: 1px solid var(--border);
-  border-radius: 10px;
+  border-radius: 12px;
   padding: 24px;
   margin-top: 28px;
-  scroll-margin-top: 72px;
+  scroll-margin-top: 84px;
+  transition: border-color 0.15s, box-shadow 0.15s;
 }
 
-/* Sticky pill nav: jump to any bench without scrolling to find it. */
+.bench:hover {
+  border-color: color-mix(in srgb, var(--brand) 35%, var(--border));
+  box-shadow: 0 1px 3px color-mix(in srgb, var(--brand) 10%, transparent);
+}
+
+/* Sticky pill nav: jump to any bench without scrolling to find it.
+   Wraps onto multiple rows instead of a janky horizontal scrollbar. */
 .bench-nav {
   position: sticky;
   top: 0;
   z-index: 10;
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
-  overflow-x: auto;
-  padding: 12px 2px;
-  margin: 8px 0 4px;
-  background: color-mix(in srgb, var(--bg) 88%, transparent);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  scrollbar-width: thin;
+  padding: 12px 14px;
+  margin: 16px 0 8px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--surface) 80%, transparent);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .nav-pill {
@@ -131,14 +316,14 @@ body {
 }
 
 .nav-pill:hover {
-  color: var(--text);
-  border-color: var(--muted);
+  color: var(--brand);
+  border-color: var(--brand);
 }
 
 .nav-pill.active {
-  color: var(--bg);
-  background: var(--text);
-  border-color: var(--text);
+  color: var(--brand-contrast);
+  background: var(--brand);
+  border-color: var(--brand);
 }
 
 .bench-controls {
@@ -209,7 +394,8 @@ th.sortable:hover {
 }
 
 .bench-links a:hover {
-  color: var(--text);
+  color: var(--brand);
+  border-bottom-color: var(--brand);
 }
 
 .bench-links .owner {

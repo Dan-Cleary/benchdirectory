@@ -38,7 +38,7 @@ export const everySeniorEngineer: Adapter = {
         scoreExplainer:
           "Graded rewrite of a real vibe-coded codebase that needed a senior engineer. A human senior engineer scores high 80s to low 90s.",
         curatedNote:
-          "Every publishes these scores in prose (Vibe Check articles), not as data — this table is hand-curated from their published numbers.",
+          "Every publishes these scores in prose (Vibe Check articles), not as data. This table is hand-curated from their published numbers.",
       },
       retrievedAt: new Date().toISOString(),
       sourceGeneratedAt: "2026-06-09T00:00:00.000Z",
