@@ -26,6 +26,9 @@ jobs:
       - name: Ingest all benchmarks
         run: npm run ingest
         env:
+          # Authenticates GitHub API calls (e.g. planning-benchmark's branch
+          # listing) so the shared-IP runner doesn't hit the 60/hr limit.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # Push refreshed snapshots to the Convex backend the site reads.
           # Set both as repo secrets; ingest skips the push if absent.
           VITE_CONVEX_URL: ${{ secrets.VITE_CONVEX_URL }}

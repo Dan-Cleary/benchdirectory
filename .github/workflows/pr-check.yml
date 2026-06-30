@@ -1,0 +1,27 @@
+name: PR check
+
+# Gate for auto-merged submissions: a PR (e.g. a new adapter the keeper built
+# from a bench-submission) only merges once this passes. Type-checks the
+# adapter, validates every committed snapshot JSON, and confirms the site still
+# builds. No secrets — runs on PRs from the keeper and from forks alike.
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      # tsc -b (in build) type-checks adapters; vite build fails on bad imports
+      # or a snapshot JSON that doesn't match the Snapshot shape the app expects.
+      - name: Type-check and build
+        run: npm run build
