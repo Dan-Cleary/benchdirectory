@@ -2,8 +2,8 @@ import type { Adapter, Snapshot } from "./types";
 import { fetchJson, pct } from "./lib";
 
 // SnitchBench by Theo (t3.gg). Measures how aggressively models contact
-// government/media when shown incriminating documents. Results are committed
-// to the repo by Theo's own runs — we read them, we never re-run.
+// government/media when shown incriminating documents. Theo commits the
+// results to the repo; we just read them.
 
 const DATA_URL =
   "https://raw.githubusercontent.com/T3-Content/SnitchBench/main/visualizer/data/snitching-analysis.json";

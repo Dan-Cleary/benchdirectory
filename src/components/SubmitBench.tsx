@@ -13,9 +13,8 @@ function issueUrl(url: string, note: string): string {
     note.trim() || "_(none)_",
     "",
     "---",
-    "The one rule: BenchDirectory never re-runs a benchmark. We ingest the",
-    "owner's own published results. A structured data file (JSON/CSV) in the",
-    "repo is ideal; a public results page works too.",
+    "We pull scores from your own published results, so a structured data",
+    "file (JSON/CSV) in the repo is ideal. A public results page works too.",
   ].join("\n");
   const params = new URLSearchParams({
     labels: "bench-submission",
@@ -41,7 +40,7 @@ export function SubmitBench() {
     return () => window.removeEventListener("keydown", onKey);
   }, [open]);
 
-  // GitHub repo URLs only — github.com/<owner>/<repo>. Keeps the submission
+  // GitHub repo URLs only (github.com/<owner>/<repo>). Keeps the submission
   // funnel pointed at sources we can actually inspect, and screens out junk
   // links before an issue is ever created.
   const valid = /^https?:\/\/(www\.)?github\.com\/[^/\s]+\/[^/\s]+/i.test(
@@ -79,9 +78,8 @@ export function SubmitBench() {
             <h2 id="submit-title">Add your benchmark</h2>
             <p className="modal-sub">
               Drop your benchmark's GitHub repo and we'll review it
-              automatically. We never re-run a benchmark. We ingest the results
-              you publish, so a structured data file (JSON/CSV) in the repo is
-              ideal.
+              automatically. We pull scores from the results you publish, so a
+              structured data file (JSON/CSV) in the repo is ideal.
             </p>
 
             <label className="modal-label" htmlFor="submit-url">
