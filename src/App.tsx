@@ -47,9 +47,10 @@ function byOrder(a: Snapshot, b: Snapshot) {
 export default function App() {
   const [theme, setTheme] = useTheme();
   const docs = useQuery(api.snapshots.list);
-  const live = docs ? docs.map((d) => d.data as Snapshot) : undefined;
-  // Prefer live Convex data; fall back to bundled so the page is never empty.
-  const snapshots = [...(live ?? bundled)].sort(byOrder);
+  const live = docs?.map((d) => d.data as Snapshot);
+  // Prefer live Convex data; fall back to bundled so the page is never empty —
+  // including when the query resolves to an empty list, not just while loading.
+  const snapshots = [...((live?.length ?? 0) > 0 ? live! : bundled)].sort(byOrder);
 
   return (
     <div className="page">

@@ -99,9 +99,10 @@ export function SubmitBench() {
                 if (e.key === "Enter") submit();
               }}
               aria-invalid={showError}
+              aria-describedby={showError ? "submit-url-error" : undefined}
             />
             {showError && (
-              <p className="modal-error">
+              <p id="submit-url-error" className="modal-error">
                 Must be a GitHub repo link (github.com/owner/repo). That's where
                 we read your published results from.
               </p>

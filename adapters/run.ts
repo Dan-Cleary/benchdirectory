@@ -118,8 +118,19 @@ async function main() {
       // Push the canonical on-disk snapshot (preserves retrievedAt when
       // unchanged). Upsert is idempotent, so push every run — this also
       // heals a fresh/empty Convex deployment without any data changing.
+      // The snapshot is already written at this point, so a push failure is
+      // best-effort: report it as "failed" rather than rejecting the adapter
+      // (which would wrongly land it in the fetch-stage "skipped" bucket).
       const canonical = changed ? snapshot : (existing as Snapshot);
-      const push = wantPush ? await pushToConvex(env, canonical) : "skipped";
+      let push: "pushed" | "skipped" | "failed" = "skipped";
+      if (wantPush) {
+        try {
+          push = await pushToConvex(env, canonical);
+        } catch (e) {
+          push = "failed";
+          console.error(`  convex push ${adapter.slug} failed: ${e instanceof Error ? e.message : e}`);
+        }
+      }
       return { slug: adapter.slug, entries: canonical.entries.length, changed, push };
     }),
   );

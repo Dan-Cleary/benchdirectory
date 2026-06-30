@@ -18,14 +18,22 @@ const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 // blips). Bench sources are public endpoints fetched in bursts — a single
 // dropped request shouldn't silently shrink a snapshot, which is how flaky
 // adapters (planning-benchmark, deepswe) lost entries.
+const ATTEMPT_TIMEOUT_MS = 15_000;
+
 async function fetchRetry(url: string, tries = 3): Promise<Response> {
   let lastErr: unknown;
   for (let i = 0; i < tries; i++) {
     try {
-      const res = await fetch(url, { headers: githubHeaders(url) });
+      // Per-attempt timeout so a stalled connection can't hang the whole ingest.
+      const res = await fetch(url, {
+        headers: githubHeaders(url),
+        signal: AbortSignal.timeout(ATTEMPT_TIMEOUT_MS),
+      });
       if (res.ok) return res;
       const transient = res.status === 403 || res.status === 429 || res.status >= 500;
       if (!transient || i === tries - 1) return res;
+      // Drain the failed response so the socket can be reused on retry.
+      await res.body?.cancel().catch(() => {});
     } catch (e) {
       lastErr = e;
       if (i === tries - 1) throw e;
