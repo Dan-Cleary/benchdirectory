@@ -31,7 +31,7 @@ function useTheme() {
   return [theme, setTheme] as const;
 }
 
-// Bundled snapshots — committed in src/data and shipped in the JS bundle.
+// Bundled snapshots, committed in src/data and shipped in the JS bundle.
 // They render instantly on first paint so there's no "loading" flash; Convex
 // (live, possibly fresher) overrides them as soon as its socket connects.
 const bundled = Object.values(
@@ -48,8 +48,8 @@ export default function App() {
   const [theme, setTheme] = useTheme();
   const docs = useQuery(api.snapshots.list);
   const live = docs?.map((d) => d.data as Snapshot);
-  // Prefer live Convex data; fall back to bundled so the page is never empty —
-  // including when the query resolves to an empty list, not just while loading.
+  // Prefer live Convex data; fall back to bundled so the page is never empty.
+  // Covers an empty-list result too, not just the loading state.
   const snapshots = [...((live?.length ?? 0) > 0 ? live! : bundled)].sort(byOrder);
 
   return (
@@ -74,9 +74,8 @@ export default function App() {
           The internet's personal AI benchmarks, in one place.
         </p>
         <p className="principle">
-          Every score below comes from the benchmark owner's own published
-          runs. We never re-run a benchmark. The people who built them are
-          the source of truth. Click through and follow them.
+          Every score comes from the person who built the benchmark. They run
+          it and publish the numbers. Click through and follow them.
         </p>
       </header>
 
