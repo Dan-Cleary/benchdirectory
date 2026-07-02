@@ -13,7 +13,7 @@
     "direction": "higher-better",
     "scoreExplainer": "Share of tasks solved on the first attempt, run on mini-swe-agent for consistency. Tasks are written from scratch so no model saw the solutions in training."
   },
-  "retrievedAt": "2026-06-21T10:39:12.997Z",
+  "retrievedAt": "2026-07-02T10:13:29.608Z",
   "sourceDataUrl": "https://deepswe.datacurve.ai/",
   "entries": [
     {
@@ -57,6 +57,19 @@
     },
     {
       "rank": 4,
+      "model": "claude-sonnet-5",
+      "variant": "max",
+      "score": 54,
+      "display": "54%",
+      "extras": [
+        {
+          "label": "± CI",
+          "value": "4%"
+        }
+      ]
+    },
+    {
+      "rank": 5,
       "model": "gpt-5.4",
       "variant": "xhigh",
       "score": 52,
@@ -69,7 +82,7 @@
       ]
     },
     {
-      "rank": 5,
+      "rank": 6,
       "model": "glm-5.2",
       "variant": "max",
       "score": 44,
@@ -82,7 +95,7 @@
       ]
     },
     {
-      "rank": 6,
+      "rank": 7,
       "model": "gemini-3.5-flash",
       "variant": "medium",
       "score": 37,
@@ -95,7 +108,7 @@
       ]
     },
     {
-      "rank": 7,
+      "rank": 8,
       "model": "kimi-k2.7-code",
       "score": 31,
       "display": "31%",
@@ -107,7 +120,7 @@
       ]
     },
     {
-      "rank": 8,
+      "rank": 9,
       "model": "claude-sonnet-4.6",
       "variant": "high",
       "score": 30,
@@ -120,7 +133,7 @@
       ]
     },
     {
-      "rank": 9,
+      "rank": 10,
       "model": "gemini-3.1-pro",
       "variant": "high",
       "score": 12,
