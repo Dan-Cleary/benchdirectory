@@ -14,8 +14,8 @@
     "direction": "higher-better",
     "scoreExplainer": "Average over trap questions: 2 = clear pushback, 1 = hedges but plays along, 0 = accepts the nonsense. Higher means less bullshitting."
   },
-  "retrievedAt": "2026-06-19T11:40:27.792Z",
-  "sourceGeneratedAt": "2026-06-18T22:34:19Z",
+  "retrievedAt": "2026-07-11T08:55:15.941Z",
+  "sourceGeneratedAt": "2026-07-10T18:53:31Z",
   "sourceDataUrl": "https://raw.githubusercontent.com/petergpt/bullshit-benchmark/main/data/v2/latest/leaderboard.csv",
   "entries": [
     {
@@ -254,6 +254,58 @@
     },
     {
       "rank": 10,
+      "model": "claude-sonnet-5",
+      "org": "anthropic",
+      "variant": "reasoning=low",
+      "score": 1.7172,
+      "display": "1.72",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "80%"
+        },
+        {
+          "label": "Red",
+          "value": "8%"
+        },
+        {
+          "label": "Refused",
+          "value": "1%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "model": "claude-sonnet-5",
+      "org": "anthropic",
+      "variant": "reasoning=max",
+      "score": 1.7172,
+      "display": "1.72",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "78%"
+        },
+        {
+          "label": "Red",
+          "value": "3%"
+        },
+        {
+          "label": "Refused",
+          "value": "1%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 12,
       "model": "qwen3.5-397b-a17b",
       "org": "qwen",
       "variant": "reasoning=high",
@@ -279,7 +331,7 @@
       ]
     },
     {
-      "rank": 11,
+      "rank": 13,
       "model": "claude-sonnet-4.5",
       "org": "anthropic",
       "variant": "reasoning=high",
@@ -305,7 +357,7 @@
       ]
     },
     {
-      "rank": 12,
+      "rank": 14,
       "model": "claude-opus-4.5",
       "org": "anthropic",
       "variant": "reasoning=none",
@@ -331,7 +383,7 @@
       ]
     },
     {
-      "rank": 13,
+      "rank": 15,
       "model": "claude-fable-5",
       "org": "anthropic",
       "variant": "reasoning=low",
@@ -357,7 +409,7 @@
       ]
     },
     {
-      "rank": 14,
+      "rank": 16,
       "model": "claude-haiku-4.5",
       "org": "anthropic",
       "variant": "reasoning=high",
@@ -383,7 +435,7 @@
       ]
     },
     {
-      "rank": 15,
+      "rank": 17,
       "model": "claude-haiku-4.5",
       "org": "anthropic",
       "variant": "reasoning=none",
@@ -409,7 +461,7 @@
       ]
     },
     {
-      "rank": 16,
+      "rank": 18,
       "model": "claude-opus-4.7",
       "org": "anthropic",
       "variant": "reasoning=max",
@@ -435,7 +487,7 @@
       ]
     },
     {
-      "rank": 17,
+      "rank": 19,
       "model": "claude-sonnet-4.5",
       "org": "anthropic",
       "variant": "reasoning=none",
@@ -461,7 +513,7 @@
       ]
     },
     {
-      "rank": 18,
+      "rank": 20,
       "model": "qwen3.7-max",
       "org": "qwen",
       "variant": "reasoning=none",
@@ -487,7 +539,7 @@
       ]
     },
     {
-      "rank": 19,
+      "rank": 21,
       "model": "qwen3.6-plus",
       "org": "qwen",
       "variant": "reasoning=none",
@@ -513,7 +565,7 @@
       ]
     },
     {
-      "rank": 20,
+      "rank": 22,
       "model": "qwen3.5-397b-a17b",
       "org": "qwen",
       "variant": "reasoning=none",
@@ -539,7 +591,7 @@
       ]
     },
     {
-      "rank": 21,
+      "rank": 23,
       "model": "qwen3-max-thinking",
       "org": "qwen",
       "variant": "reasoning=high",
@@ -565,7 +617,7 @@
       ]
     },
     {
-      "rank": 22,
+      "rank": 24,
       "model": "kimi-k2.6",
       "org": "moonshotai",
       "variant": "reasoning=none",
@@ -591,7 +643,7 @@
       ]
     },
     {
-      "rank": 23,
+      "rank": 25,
       "model": "minimax-m3",
       "org": "minimax",
       "variant": "reasoning=xhigh",
@@ -617,7 +669,7 @@
       ]
     },
     {
-      "rank": 24,
+      "rank": 26,
       "model": "minimax-m3",
       "org": "minimax",
       "variant": "reasoning=none",
@@ -643,7 +695,7 @@
       ]
     },
     {
-      "rank": 25,
+      "rank": 27,
       "model": "grok-4.20-multi-agent-beta",
       "org": "x-ai",
       "variant": "reasoning=xhigh",
@@ -669,7 +721,7 @@
       ]
     },
     {
-      "rank": 26,
+      "rank": 28,
       "model": "grok-4.20-multi-agent-beta",
       "org": "x-ai",
       "variant": "reasoning=low",
@@ -695,7 +747,7 @@
       ]
     },
     {
-      "rank": 27,
+      "rank": 29,
       "model": "mimo-v2.5-pro",
       "org": "xiaomi",
       "variant": "reasoning=xhigh",
@@ -721,7 +773,7 @@
       ]
     },
     {
-      "rank": 28,
+      "rank": 30,
       "model": "qwen3.6-plus",
       "org": "qwen",
       "variant": "reasoning=xhigh",
@@ -747,7 +799,33 @@
       ]
     },
     {
-      "rank": 29,
+      "rank": 31,
+      "model": "gpt-5.6-terra",
+      "org": "openai",
+      "variant": "reasoning=max",
+      "score": 1.37,
+      "display": "1.37",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "53%"
+        },
+        {
+          "label": "Red",
+          "value": "12%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 32,
       "model": "qwen3.7-max",
       "org": "qwen",
       "variant": "reasoning=xhigh",
@@ -773,7 +851,7 @@
       ]
     },
     {
-      "rank": 30,
+      "rank": 33,
       "model": "grok-4.3",
       "org": "x-ai",
       "variant": "reasoning=minimal",
@@ -799,7 +877,59 @@
       ]
     },
     {
-      "rank": 31,
+      "rank": 34,
+      "model": "gpt-5.6-sol",
+      "org": "openai",
+      "variant": "reasoning=low",
+      "score": 1.2933,
+      "display": "1.29",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "47%"
+        },
+        {
+          "label": "Red",
+          "value": "14%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 35,
+      "model": "gpt-5.6-sol",
+      "org": "openai",
+      "variant": "reasoning=max",
+      "score": 1.2867,
+      "display": "1.29",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "46%"
+        },
+        {
+          "label": "Red",
+          "value": "13%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 36,
       "model": "grok-4.20-beta",
       "org": "x-ai",
       "variant": "reasoning=xhigh",
@@ -825,7 +955,7 @@
       ]
     },
     {
-      "rank": 32,
+      "rank": 37,
       "model": "kimi-k2.6",
       "org": "moonshotai",
       "variant": "reasoning=xhigh",
@@ -851,7 +981,7 @@
       ]
     },
     {
-      "rank": 33,
+      "rank": 38,
       "model": "gpt-5.5",
       "org": "openai",
       "variant": "reasoning=xhigh",
@@ -877,7 +1007,7 @@
       ]
     },
     {
-      "rank": 34,
+      "rank": 39,
       "model": "grok-4.20-beta",
       "org": "x-ai",
       "variant": "reasoning=low",
@@ -903,7 +1033,7 @@
       ]
     },
     {
-      "rank": 35,
+      "rank": 40,
       "model": "gpt-5.4",
       "org": "openai",
       "variant": "reasoning=none",
@@ -929,7 +1059,7 @@
       ]
     },
     {
-      "rank": 36,
+      "rank": 41,
       "model": "nemotron-3-super-120b-a12b:free",
       "org": "nvidia",
       "variant": "reasoning=xhigh",
@@ -955,7 +1085,7 @@
       ]
     },
     {
-      "rank": 37,
+      "rank": 42,
       "model": "kimi-k2.5",
       "org": "moonshotai",
       "variant": "reasoning=none",
@@ -981,7 +1111,7 @@
       ]
     },
     {
-      "rank": 38,
+      "rank": 43,
       "model": "gpt-5.5",
       "org": "openai",
       "variant": "reasoning=none",
@@ -1007,7 +1137,7 @@
       ]
     },
     {
-      "rank": 39,
+      "rank": 44,
       "model": "gpt-5.5",
       "org": "openai",
       "variant": "reasoning=low",
@@ -1033,7 +1163,59 @@
       ]
     },
     {
-      "rank": 40,
+      "rank": 45,
+      "model": "gpt-5.6-terra",
+      "org": "openai",
+      "variant": "reasoning=low",
+      "score": 1.1967,
+      "display": "1.20",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "46%"
+        },
+        {
+          "label": "Red",
+          "value": "20%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 46,
+      "model": "gpt-5.6-luna",
+      "org": "openai",
+      "variant": "reasoning=max",
+      "score": 1.19,
+      "display": "1.19",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "40%"
+        },
+        {
+          "label": "Red",
+          "value": "18%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 47,
       "model": "gpt-5.4",
       "org": "openai",
       "variant": "reasoning=xhigh",
@@ -1059,7 +1241,7 @@
       ]
     },
     {
-      "rank": 41,
+      "rank": 48,
       "model": "claude-3.7-sonnet:thinking",
       "org": "anthropic",
       "variant": "reasoning=default",
@@ -1085,7 +1267,7 @@
       ]
     },
     {
-      "rank": 42,
+      "rank": 49,
       "model": "qwen3-max-thinking",
       "org": "qwen",
       "variant": "reasoning=none",
@@ -1111,7 +1293,7 @@
       ]
     },
     {
-      "rank": 43,
+      "rank": 50,
       "model": "gpt-5.2-codex",
       "org": "openai",
       "variant": "reasoning=low",
@@ -1137,7 +1319,7 @@
       ]
     },
     {
-      "rank": 44,
+      "rank": 51,
       "model": "gemini-3-pro-preview",
       "org": "google",
       "variant": "reasoning=low",
@@ -1163,7 +1345,7 @@
       ]
     },
     {
-      "rank": 45,
+      "rank": 52,
       "model": "claude-opus-4.1",
       "org": "anthropic",
       "variant": "reasoning=none",
@@ -1189,7 +1371,7 @@
       ]
     },
     {
-      "rank": 46,
+      "rank": 53,
       "model": "nemotron-3-super-120b-a12b",
       "org": "nvidia",
       "variant": "reasoning=high",
@@ -1215,7 +1397,7 @@
       ]
     },
     {
-      "rank": 47,
+      "rank": 54,
       "model": "grok-4.3",
       "org": "x-ai",
       "variant": "reasoning=xhigh",
@@ -1241,7 +1423,7 @@
       ]
     },
     {
-      "rank": 48,
+      "rank": 55,
       "model": "claude-opus-4.1",
       "org": "anthropic",
       "variant": "reasoning=high",
@@ -1267,7 +1449,7 @@
       ]
     },
     {
-      "rank": 49,
+      "rank": 56,
       "model": "claude-3.5-haiku",
       "org": "anthropic",
       "variant": "reasoning=default",
@@ -1293,7 +1475,7 @@
       ]
     },
     {
-      "rank": 50,
+      "rank": 57,
       "model": "gpt-5.2",
       "org": "openai",
       "variant": "reasoning=none",
@@ -1319,7 +1501,7 @@
       ]
     },
     {
-      "rank": 51,
+      "rank": 58,
       "model": "gpt-5.5-pro",
       "org": "openai",
       "variant": "reasoning=medium",
@@ -1345,7 +1527,7 @@
       ]
     },
     {
-      "rank": 52,
+      "rank": 59,
       "model": "nemotron-3-ultra-550b-a55b",
       "org": "nvidia",
       "variant": "reasoning=none",
@@ -1371,7 +1553,7 @@
       ]
     },
     {
-      "rank": 53,
+      "rank": 60,
       "model": "gpt-5.5-pro",
       "org": "openai",
       "variant": "reasoning=xhigh",
@@ -1397,7 +1579,7 @@
       ]
     },
     {
-      "rank": 54,
+      "rank": 61,
       "model": "claude-3.5-sonnet",
       "org": "anthropic",
       "variant": "reasoning=default",
@@ -1423,7 +1605,7 @@
       ]
     },
     {
-      "rank": 55,
+      "rank": 62,
       "model": "gpt-5.3-chat",
       "org": "openai",
       "variant": "reasoning=default",
@@ -1449,7 +1631,33 @@
       ]
     },
     {
-      "rank": 56,
+      "rank": 63,
+      "model": "gpt-5.6-luna",
+      "org": "openai",
+      "variant": "reasoning=low",
+      "score": 1.0567,
+      "display": "1.06",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "36%"
+        },
+        {
+          "label": "Red",
+          "value": "24%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 64,
       "model": "gpt-5.1-chat",
       "org": "openai",
       "variant": "reasoning=default",
@@ -1475,7 +1683,7 @@
       ]
     },
     {
-      "rank": 57,
+      "rank": 65,
       "model": "gemini-3.1-pro-preview",
       "org": "google",
       "variant": "reasoning=low",
@@ -1501,7 +1709,7 @@
       ]
     },
     {
-      "rank": 58,
+      "rank": 66,
       "model": "gpt-5.4-mini",
       "org": "openai",
       "variant": "reasoning=xhigh",
@@ -1527,7 +1735,7 @@
       ]
     },
     {
-      "rank": 59,
+      "rank": 67,
       "model": "claude-3.7-sonnet",
       "org": "anthropic",
       "variant": "reasoning=default",
@@ -1553,7 +1761,7 @@
       ]
     },
     {
-      "rank": 60,
+      "rank": 68,
       "model": "nemotron-3-super-120b-a12b:free",
       "org": "nvidia",
       "variant": "reasoning=none",
@@ -1579,7 +1787,7 @@
       ]
     },
     {
-      "rank": 61,
+      "rank": 69,
       "model": "hunter-alpha",
       "org": "stealth",
       "variant": "reasoning=none",
@@ -1605,7 +1813,7 @@
       ]
     },
     {
-      "rank": 62,
+      "rank": 70,
       "model": "gpt-5.2",
       "org": "openai",
       "variant": "reasoning=high",
@@ -1631,7 +1839,7 @@
       ]
     },
     {
-      "rank": 63,
+      "rank": 71,
       "model": "gpt-5.5-chat",
       "org": "openai",
       "variant": "reasoning=default",
@@ -1657,7 +1865,7 @@
       ]
     },
     {
-      "rank": 64,
+      "rank": 72,
       "model": "gpt-5-codex",
       "org": "openai",
       "variant": "reasoning=default",
@@ -1683,7 +1891,7 @@
       ]
     },
     {
-      "rank": 65,
+      "rank": 73,
       "model": "gpt-5.2-codex",
       "org": "openai",
       "variant": "reasoning=xhigh",
@@ -1709,7 +1917,7 @@
       ]
     },
     {
-      "rank": 66,
+      "rank": 74,
       "model": "claude-opus-4",
       "org": "anthropic",
       "variant": "reasoning=default",
@@ -1735,7 +1943,7 @@
       ]
     },
     {
-      "rank": 67,
+      "rank": 75,
       "model": "gpt-5.4-mini",
       "org": "openai",
       "variant": "reasoning=high",
@@ -1761,7 +1969,7 @@
       ]
     },
     {
-      "rank": 68,
+      "rank": 76,
       "model": "gpt-5.2-codex",
       "org": "openai",
       "variant": "reasoning=high",
@@ -1787,7 +1995,7 @@
       ]
     },
     {
-      "rank": 69,
+      "rank": 77,
       "model": "kimi-k2.5",
       "org": "moonshotai",
       "variant": "reasoning=high",
@@ -1813,7 +2021,7 @@
       ]
     },
     {
-      "rank": 70,
+      "rank": 78,
       "model": "gemini-3-pro-preview",
       "org": "google",
       "variant": "reasoning=high",
@@ -1839,7 +2047,7 @@
       ]
     },
     {
-      "rank": 71,
+      "rank": 79,
       "model": "gpt-5.4-mini",
       "org": "openai",
       "variant": "reasoning=none",
@@ -1865,7 +2073,7 @@
       ]
     },
     {
-      "rank": 72,
+      "rank": 80,
       "model": "nemotron-3-ultra-550b-a55b",
       "org": "nvidia",
       "variant": "reasoning=xhigh",
@@ -1891,7 +2099,7 @@
       ]
     },
     {
-      "rank": 73,
+      "rank": 81,
       "model": "mimo-v2.5-pro",
       "org": "xiaomi",
       "variant": "reasoning=none",
@@ -1917,7 +2125,7 @@
       ]
     },
     {
-      "rank": 74,
+      "rank": 82,
       "model": "healer-alpha",
       "org": "stealth",
       "variant": "reasoning=none",
@@ -1943,7 +2151,7 @@
       ]
     },
     {
-      "rank": 75,
+      "rank": 83,
       "model": "gpt-5.1",
       "org": "openai",
       "variant": "reasoning=default",
@@ -1969,7 +2177,7 @@
       ]
     },
     {
-      "rank": 76,
+      "rank": 84,
       "model": "claude-sonnet-4",
       "org": "anthropic",
       "variant": "reasoning=none",
@@ -1995,7 +2203,7 @@
       ]
     },
     {
-      "rank": 77,
+      "rank": 85,
       "model": "mimo-v2.5",
       "org": "xiaomi",
       "variant": "reasoning=xhigh",
@@ -2021,7 +2229,7 @@
       ]
     },
     {
-      "rank": 78,
+      "rank": 86,
       "model": "gemini-3.1-pro-preview",
       "org": "google",
       "variant": "reasoning=high",
@@ -2047,7 +2255,7 @@
       ]
     },
     {
-      "rank": 79,
+      "rank": 87,
       "model": "hunter-alpha",
       "org": "stealth",
       "variant": "reasoning=xhigh",
@@ -2073,7 +2281,7 @@
       ]
     },
     {
-      "rank": 80,
+      "rank": 88,
       "model": "claude-sonnet-4",
       "org": "anthropic",
       "variant": "reasoning=high",
@@ -2099,7 +2307,7 @@
       ]
     },
     {
-      "rank": 81,
+      "rank": 89,
       "model": "gpt-5.1-codex",
       "org": "openai",
       "variant": "reasoning=default",
@@ -2125,7 +2333,7 @@
       ]
     },
     {
-      "rank": 82,
+      "rank": 90,
       "model": "llama-4-maverick",
       "org": "meta",
       "variant": "reasoning=default",
@@ -2151,7 +2359,7 @@
       ]
     },
     {
-      "rank": 83,
+      "rank": 91,
       "model": "gpt-5.2-chat",
       "org": "openai",
       "variant": "reasoning=default",
@@ -2177,7 +2385,7 @@
       ]
     },
     {
-      "rank": 84,
+      "rank": 92,
       "model": "gpt-5.3-codex",
       "org": "openai",
       "variant": "reasoning=low",
@@ -2203,7 +2411,7 @@
       ]
     },
     {
-      "rank": 85,
+      "rank": 93,
       "model": "gpt-5",
       "org": "openai",
       "variant": "reasoning=default",
@@ -2229,7 +2437,7 @@
       ]
     },
     {
-      "rank": 86,
+      "rank": 94,
       "model": "glm-5-turbo",
       "org": "z-ai",
       "variant": "reasoning=high",
@@ -2255,7 +2463,7 @@
       ]
     },
     {
-      "rank": 87,
+      "rank": 95,
       "model": "nemotron-3-super-120b-a12b",
       "org": "nvidia",
       "variant": "reasoning=none",
@@ -2281,7 +2489,7 @@
       ]
     },
     {
-      "rank": 88,
+      "rank": 96,
       "model": "glm-5.2",
       "org": "z-ai",
       "variant": "reasoning=xhigh",
@@ -2307,7 +2515,7 @@
       ]
     },
     {
-      "rank": 89,
+      "rank": 97,
       "model": "gemma-4-31b-it",
       "org": "google",
       "variant": "reasoning=high",
@@ -2333,7 +2541,7 @@
       ]
     },
     {
-      "rank": 90,
+      "rank": 98,
       "model": "glm-5",
       "org": "z-ai",
       "variant": "reasoning=high",
@@ -2359,7 +2567,7 @@
       ]
     },
     {
-      "rank": 91,
+      "rank": 99,
       "model": "nemotron-3-nano-30b-a3b:free",
       "org": "nvidia",
       "variant": "reasoning=none",
@@ -2385,7 +2593,7 @@
       ]
     },
     {
-      "rank": 92,
+      "rank": 100,
       "model": "gpt-5.3-codex",
       "org": "openai",
       "variant": "reasoning=high",
@@ -2411,7 +2619,7 @@
       ]
     },
     {
-      "rank": 93,
+      "rank": 101,
       "model": "gpt-5.3-codex",
       "org": "openai",
       "variant": "reasoning=xhigh",
@@ -2437,7 +2645,7 @@
       ]
     },
     {
-      "rank": 94,
+      "rank": 102,
       "model": "o3",
       "org": "openai",
       "variant": "reasoning=default",
@@ -2463,7 +2671,7 @@
       ]
     },
     {
-      "rank": 95,
+      "rank": 103,
       "model": "healer-alpha",
       "org": "stealth",
       "variant": "reasoning=xhigh",
@@ -2489,7 +2697,7 @@
       ]
     },
     {
-      "rank": 96,
+      "rank": 104,
       "model": "gemma-4-26b-a4b-it",
       "org": "google",
       "variant": "reasoning=xhigh",
@@ -2515,7 +2723,7 @@
       ]
     },
     {
-      "rank": 97,
+      "rank": 105,
       "model": "gpt-5-chat",
       "org": "openai",
       "variant": "reasoning=default",
@@ -2541,7 +2749,7 @@
       ]
     },
     {
-      "rank": 98,
+      "rank": 106,
       "model": "mimo-v2.5",
       "org": "xiaomi",
       "variant": "reasoning=none",
@@ -2567,7 +2775,7 @@
       ]
     },
     {
-      "rank": 99,
+      "rank": 107,
       "model": "qwen3-coder",
       "org": "qwen",
       "variant": "reasoning=default",
@@ -2593,7 +2801,7 @@
       ]
     },
     {
-      "rank": 100,
+      "rank": 108,
       "model": "glm-5-turbo",
       "org": "z-ai",
       "variant": "reasoning=none",
@@ -2619,7 +2827,7 @@
       ]
     },
     {
-      "rank": 101,
+      "rank": 109,
       "model": "glm-5.1",
       "org": "z-ai",
       "variant": "reasoning=xhigh",
@@ -2645,7 +2853,7 @@
       ]
     },
     {
-      "rank": 102,
+      "rank": 110,
       "model": "step-3.5-flash",
       "org": "stepfun",
       "variant": "reasoning=xhigh",
@@ -2671,7 +2879,7 @@
       ]
     },
     {
-      "rank": 103,
+      "rank": 111,
       "model": "gemini-2.5-pro",
       "org": "google",
       "variant": "reasoning=default",
@@ -2697,7 +2905,7 @@
       ]
     },
     {
-      "rank": 104,
+      "rank": 112,
       "model": "glm-5",
       "org": "z-ai",
       "variant": "reasoning=none",
@@ -2723,7 +2931,7 @@
       ]
     },
     {
-      "rank": 105,
+      "rank": 113,
       "model": "deepseek-v4-flash",
       "org": "deepseek",
       "variant": "reasoning=none",
@@ -2749,7 +2957,7 @@
       ]
     },
     {
-      "rank": 106,
+      "rank": 114,
       "model": "grok-4.1-fast",
       "org": "x-ai",
       "variant": "reasoning=high",
@@ -2775,7 +2983,7 @@
       ]
     },
     {
-      "rank": 107,
+      "rank": 115,
       "model": "deepseek-v4-pro",
       "org": "deepseek",
       "variant": "reasoning=xhigh",
@@ -2801,7 +3009,7 @@
       ]
     },
     {
-      "rank": 108,
+      "rank": 116,
       "model": "llama-4-scout",
       "org": "meta",
       "variant": "reasoning=default",
@@ -2827,7 +3035,7 @@
       ]
     },
     {
-      "rank": 109,
+      "rank": 117,
       "model": "llama-3.1-8b-instruct",
       "org": "meta",
       "variant": "reasoning=default",
@@ -2853,7 +3061,7 @@
       ]
     },
     {
-      "rank": 110,
+      "rank": 118,
       "model": "glm-5.2",
       "org": "z-ai",
       "variant": "reasoning=none",
@@ -2879,7 +3087,7 @@
       ]
     },
     {
-      "rank": 111,
+      "rank": 119,
       "model": "gemma-4-31b-it",
       "org": "google",
       "variant": "reasoning=none",
@@ -2905,7 +3113,7 @@
       ]
     },
     {
-      "rank": 112,
+      "rank": 120,
       "model": "gemini-3.5-flash",
       "org": "google",
       "variant": "reasoning=xhigh",
@@ -2931,7 +3139,7 @@
       ]
     },
     {
-      "rank": 113,
+      "rank": 121,
       "model": "mimo-v2-flash",
       "org": "xiaomi",
       "variant": "reasoning=none",
@@ -2957,7 +3165,7 @@
       ]
     },
     {
-      "rank": 114,
+      "rank": 122,
       "model": "hy3-preview:free",
       "org": "tencent",
       "variant": "reasoning=none",
@@ -2983,7 +3191,7 @@
       ]
     },
     {
-      "rank": 115,
+      "rank": 123,
       "model": "gemini-2.5-flash",
       "org": "google",
       "variant": "reasoning=default",
@@ -3009,7 +3217,7 @@
       ]
     },
     {
-      "rank": 116,
+      "rank": 124,
       "model": "gpt-5.4-nano",
       "org": "openai",
       "variant": "reasoning=high",
@@ -3035,7 +3243,7 @@
       ]
     },
     {
-      "rank": 117,
+      "rank": 125,
       "model": "trinity-large-thinking",
       "org": "arcee-ai",
       "variant": "reasoning=minimal",
@@ -3061,7 +3269,7 @@
       ]
     },
     {
-      "rank": 118,
+      "rank": 126,
       "model": "glm-5.1",
       "org": "z-ai",
       "variant": "reasoning=none",
@@ -3087,7 +3295,7 @@
       ]
     },
     {
-      "rank": 119,
+      "rank": 127,
       "model": "gpt-5.4-nano",
       "org": "openai",
       "variant": "reasoning=none",
@@ -3113,7 +3321,7 @@
       ]
     },
     {
-      "rank": 120,
+      "rank": 128,
       "model": "gpt-4o-2024-08-06",
       "org": "openai",
       "variant": "reasoning=default",
@@ -3139,7 +3347,7 @@
       ]
     },
     {
-      "rank": 121,
+      "rank": 129,
       "model": "gemini-3.5-flash",
       "org": "google",
       "variant": "reasoning=minimal",
@@ -3165,7 +3373,7 @@
       ]
     },
     {
-      "rank": 122,
+      "rank": 130,
       "model": "deepseek-v4-pro",
       "org": "deepseek",
       "variant": "reasoning=none",
@@ -3191,7 +3399,7 @@
       ]
     },
     {
-      "rank": 123,
+      "rank": 131,
       "model": "gemini-2.0-flash-001",
       "org": "google",
       "variant": "reasoning=default",
@@ -3217,7 +3425,7 @@
       ]
     },
     {
-      "rank": 124,
+      "rank": 132,
       "model": "deepseek-v3.2",
       "org": "deepseek",
       "variant": "reasoning=high",
@@ -3243,7 +3451,7 @@
       ]
     },
     {
-      "rank": 125,
+      "rank": 133,
       "model": "hy3-preview:free",
       "org": "tencent",
       "variant": "reasoning=xhigh",
@@ -3269,7 +3477,7 @@
       ]
     },
     {
-      "rank": 126,
+      "rank": 134,
       "model": "minimax-m2.5",
       "org": "minimax",
       "variant": "reasoning=low",
@@ -3295,7 +3503,7 @@
       ]
     },
     {
-      "rank": 127,
+      "rank": 135,
       "model": "gpt-4.1",
       "org": "openai",
       "variant": "reasoning=default",
@@ -3321,7 +3529,7 @@
       ]
     },
     {
-      "rank": 128,
+      "rank": 136,
       "model": "step-3.5-flash",
       "org": "stepfun",
       "variant": "reasoning=minimal",
@@ -3347,7 +3555,7 @@
       ]
     },
     {
-      "rank": 129,
+      "rank": 137,
       "model": "trinity-large-thinking",
       "org": "arcee-ai",
       "variant": "reasoning=xhigh",
@@ -3373,7 +3581,7 @@
       ]
     },
     {
-      "rank": 130,
+      "rank": 138,
       "model": "gpt-5.4-nano",
       "org": "openai",
       "variant": "reasoning=xhigh",
@@ -3399,7 +3607,7 @@
       ]
     },
     {
-      "rank": 131,
+      "rank": 139,
       "model": "gemma-4-26b-a4b-it",
       "org": "google",
       "variant": "reasoning=none",
@@ -3425,7 +3633,7 @@
       ]
     },
     {
-      "rank": 132,
+      "rank": 140,
       "model": "gemini-3-flash-preview",
       "org": "google",
       "variant": "reasoning=high",
@@ -3451,7 +3659,7 @@
       ]
     },
     {
-      "rank": 133,
+      "rank": 141,
       "model": "seed-1.6",
       "org": "bytedance-seed",
       "variant": "reasoning=high",
@@ -3477,7 +3685,7 @@
       ]
     },
     {
-      "rank": 134,
+      "rank": 142,
       "model": "gemini-3.1-flash-lite-preview",
       "org": "google",
       "variant": "reasoning=default",
@@ -3503,7 +3711,7 @@
       ]
     },
     {
-      "rank": 135,
+      "rank": 143,
       "model": "deepseek-v4-flash",
       "org": "deepseek",
       "variant": "reasoning=xhigh",
@@ -3529,7 +3737,7 @@
       ]
     },
     {
-      "rank": 136,
+      "rank": 144,
       "model": "mimo-v2-flash",
       "org": "xiaomi",
       "variant": "reasoning=high",
@@ -3555,7 +3763,7 @@
       ]
     },
     {
-      "rank": 137,
+      "rank": 145,
       "model": "seed-1.6",
       "org": "bytedance-seed",
       "variant": "reasoning=none",
@@ -3581,7 +3789,7 @@
       ]
     },
     {
-      "rank": 138,
+      "rank": 146,
       "model": "gpt-oss-120b",
       "org": "openai",
       "variant": "reasoning=low",
@@ -3607,7 +3815,7 @@
       ]
     },
     {
-      "rank": 139,
+      "rank": 147,
       "model": "deepseek-v3.2",
       "org": "deepseek",
       "variant": "reasoning=none",
@@ -3633,7 +3841,7 @@
       ]
     },
     {
-      "rank": 140,
+      "rank": 148,
       "model": "minimax-m2.7",
       "org": "minimax",
       "variant": "reasoning=low",
@@ -3659,7 +3867,7 @@
       ]
     },
     {
-      "rank": 141,
+      "rank": 149,
       "model": "minimax-m2.5",
       "org": "minimax",
       "variant": "reasoning=high",
@@ -3685,7 +3893,7 @@
       ]
     },
     {
-      "rank": 142,
+      "rank": 150,
       "model": "ernie-4.5-vl-424b-a47b",
       "org": "baidu",
       "variant": "reasoning=xhigh",
@@ -3711,7 +3919,7 @@
       ]
     },
     {
-      "rank": 143,
+      "rank": 151,
       "model": "claude-3-haiku",
       "org": "anthropic",
       "variant": "reasoning=default",
@@ -3737,7 +3945,7 @@
       ]
     },
     {
-      "rank": 144,
+      "rank": 152,
       "model": "deepseek-r1",
       "org": "deepseek",
       "variant": "reasoning=none",
@@ -3763,7 +3971,7 @@
       ]
     },
     {
-      "rank": 145,
+      "rank": 153,
       "model": "gemini-3-flash-preview",
       "org": "google",
       "variant": "reasoning=none",
@@ -3789,7 +3997,7 @@
       ]
     },
     {
-      "rank": 146,
+      "rank": 154,
       "model": "glm-4.5",
       "org": "z-ai",
       "variant": "reasoning=xhigh",
@@ -3815,7 +4023,7 @@
       ]
     },
     {
-      "rank": 147,
+      "rank": 155,
       "model": "nemotron-3-nano-30b-a3b:free",
       "org": "nvidia",
       "variant": "reasoning=xhigh",
@@ -3841,7 +4049,7 @@
       ]
     },
     {
-      "rank": 148,
+      "rank": 156,
       "model": "kimi-k2",
       "org": "moonshotai",
       "variant": "reasoning=default",
@@ -3867,7 +4075,7 @@
       ]
     },
     {
-      "rank": 149,
+      "rank": 157,
       "model": "minimax-m2.7",
       "org": "minimax",
       "variant": "reasoning=high",
@@ -3893,7 +4101,7 @@
       ]
     },
     {
-      "rank": 150,
+      "rank": 158,
       "model": "mistral-small-2603",
       "org": "mistralai",
       "variant": "reasoning=high",
@@ -3919,7 +4127,7 @@
       ]
     },
     {
-      "rank": 151,
+      "rank": 159,
       "model": "deepseek-r1",
       "org": "deepseek",
       "variant": "reasoning=xhigh",
@@ -3945,7 +4153,7 @@
       ]
     },
     {
-      "rank": 152,
+      "rank": 160,
       "model": "qwen3-235b-a22b",
       "org": "qwen",
       "variant": "reasoning=none",
@@ -3971,7 +4179,7 @@
       ]
     },
     {
-      "rank": 153,
+      "rank": 161,
       "model": "grok-4.1-fast",
       "org": "x-ai",
       "variant": "reasoning=none",
@@ -3997,7 +4205,7 @@
       ]
     },
     {
-      "rank": 154,
+      "rank": 162,
       "model": "glm-4.5",
       "org": "z-ai",
       "variant": "reasoning=none",
@@ -4023,7 +4231,7 @@
       ]
     },
     {
-      "rank": 155,
+      "rank": 163,
       "model": "gpt-oss-120b",
       "org": "openai",
       "variant": "reasoning=high",
@@ -4049,7 +4257,7 @@
       ]
     },
     {
-      "rank": 156,
+      "rank": 164,
       "model": "o4-mini",
       "org": "openai",
       "variant": "reasoning=high",
@@ -4075,7 +4283,7 @@
       ]
     },
     {
-      "rank": 157,
+      "rank": 165,
       "model": "ernie-4.5-vl-424b-a47b",
       "org": "baidu",
       "variant": "reasoning=none",
@@ -4101,7 +4309,7 @@
       ]
     },
     {
-      "rank": 158,
+      "rank": 166,
       "model": "o4-mini",
       "org": "openai",
       "variant": "reasoning=low",
@@ -4127,7 +4335,7 @@
       ]
     },
     {
-      "rank": 159,
+      "rank": 167,
       "model": "qwen3-235b-a22b",
       "org": "qwen",
       "variant": "reasoning=xhigh",
@@ -4153,7 +4361,7 @@
       ]
     },
     {
-      "rank": 160,
+      "rank": 168,
       "model": "ernie-4.5-300b-a47b",
       "org": "baidu",
       "variant": "reasoning=default",
@@ -4179,7 +4387,7 @@
       ]
     },
     {
-      "rank": 161,
+      "rank": 169,
       "model": "nemotron-nano-9b-v2:free",
       "org": "nvidia",
       "variant": "reasoning=none",
@@ -4205,7 +4413,7 @@
       ]
     },
     {
-      "rank": 162,
+      "rank": 170,
       "model": "nemotron-nano-9b-v2:free",
       "org": "nvidia",
       "variant": "reasoning=xhigh",
@@ -4231,7 +4439,7 @@
       ]
     },
     {
-      "rank": 163,
+      "rank": 171,
       "model": "intellect-3",
       "org": "prime-intellect",
       "variant": "reasoning=low",
@@ -4257,7 +4465,7 @@
       ]
     },
     {
-      "rank": 164,
+      "rank": 172,
       "model": "deepseek-chat",
       "org": "deepseek",
       "variant": "reasoning=default",
@@ -4283,7 +4491,7 @@
       ]
     },
     {
-      "rank": 165,
+      "rank": 173,
       "model": "intellect-3",
       "org": "prime-intellect",
       "variant": "reasoning=high",
@@ -4309,7 +4517,7 @@
       ]
     },
     {
-      "rank": 166,
+      "rank": 174,
       "model": "jamba-large-1.7",
       "org": "ai21",
       "variant": "reasoning=default",
@@ -4335,7 +4543,7 @@
       ]
     },
     {
-      "rank": 167,
+      "rank": 175,
       "model": "mistral-large-2512",
       "org": "mistralai",
       "variant": "reasoning=default",
@@ -4361,7 +4569,7 @@
       ]
     },
     {
-      "rank": 168,
+      "rank": 176,
       "model": "mistral-small-2603",
       "org": "mistralai",
       "variant": "reasoning=none",
@@ -4387,7 +4595,7 @@
       ]
     },
     {
-      "rank": 169,
+      "rank": 177,
       "model": "gpt-4o-mini-2024-07-18",
       "org": "openai",
       "variant": "reasoning=default",
@@ -4413,7 +4621,7 @@
       ]
     },
     {
-      "rank": 170,
+      "rank": 178,
       "model": "gemma-3-27b-it",
       "org": "google",
       "variant": "reasoning=default",
