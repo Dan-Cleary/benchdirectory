@@ -16,6 +16,7 @@ const ORDER = [
   "planning-benchmark",
   "every-senior-engineer",
   "cursorbench",
+  "clawbench",
 ];
 
 type Theme = "light" | "dark";
