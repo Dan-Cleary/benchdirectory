@@ -1,0 +1,22 @@
+name: Label bench submissions
+
+# The submit form deep-links to a pre-filled issue with labels=bench-submission,
+# but GitHub silently drops the labels param for anyone without write access to
+# the repo. External submitters (the whole point of the funnel) therefore arrive
+# unlabeled and the keeper never sees them. This runs on the repo's own token, so
+# it can label regardless of who opened the issue.
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  issues: write
+
+jobs:
+  label:
+    if: startsWith(github.event.issue.title, 'Bench submission:')
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh issue edit "${{ github.event.issue.number }}" --repo "${{ github.repository }}" --add-label bench-submission
