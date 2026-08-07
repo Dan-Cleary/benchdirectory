@@ -1,0 +1,149 @@
+{
+  "benchmark": {
+    "slug": "clawbench",
+    "name": "ClawBench",
+    "tagline": "Can an agent finish real everyday tasks across 144 live websites?",
+    "owner": {
+      "name": "TIGER-AI-Lab (NAIL Group)",
+      "url": "https://github.com/TIGER-AI-Lab/ClawBench"
+    },
+    "siteUrl": "https://claw-bench.com",
+    "repoUrl": "https://github.com/TIGER-AI-Lab/ClawBench",
+    "scoreLabel": "Task success",
+    "direction": "higher-better",
+    "scoreExplainer": "Share of the 130 v2 tasks where the agent intercepted the correct final request and passed the LLM judge. Interception rate (did it attempt the right action) is shown alongside. Higher is better."
+  },
+  "retrievedAt": "2026-08-07T19:12:03.042Z",
+  "sourceGeneratedAt": "2026-05-20T00:00:00.000Z",
+  "sourceDataUrl": "https://claw-bench.com/api/leaderboard.json",
+  "entries": [
+    {
+      "rank": 1,
+      "model": "claude-opus-4-7",
+      "score": 44.62,
+      "display": "44.6%",
+      "extras": [
+        {
+          "label": "Interception",
+          "value": "54.6%"
+        },
+        {
+          "label": "Tasks",
+          "value": "130"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "model": "gpt-5.5",
+      "score": 35.38,
+      "display": "35.4%",
+      "extras": [
+        {
+          "label": "Interception",
+          "value": "45.4%"
+        },
+        {
+          "label": "Tasks",
+          "value": "130"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "model": "glm-5.1",
+      "score": 34.62,
+      "display": "34.6%",
+      "extras": [
+        {
+          "label": "Interception",
+          "value": "48.5%"
+        },
+        {
+          "label": "Tasks",
+          "value": "130"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "model": "deepseek-v4-pro",
+      "score": 33.85,
+      "display": "33.9%",
+      "extras": [
+        {
+          "label": "Interception",
+          "value": "43.9%"
+        },
+        {
+          "label": "Tasks",
+          "value": "130"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "model": "deepseek-v4-flash:free",
+      "score": 2.33,
+      "display": "2.3%",
+      "extras": [
+        {
+          "label": "Interception",
+          "value": "3.1%"
+        },
+        {
+          "label": "Tasks",
+          "value": "130"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "model": "z-ai/glm-4.5-air:free",
+      "score": 2.31,
+      "display": "2.3%",
+      "extras": [
+        {
+          "label": "Interception",
+          "value": "4.6%"
+        },
+        {
+          "label": "Tasks",
+          "value": "130"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "model": "minimax-m2.5:free",
+      "score": 1.54,
+      "display": "1.5%",
+      "extras": [
+        {
+          "label": "Interception",
+          "value": "2.3%"
+        },
+        {
+          "label": "Tasks",
+          "value": "130"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "model": "openrouter-owl-alpha",
+      "score": 0,
+      "display": "0.0%",
+      "extras": [
+        {
+          "label": "Interception",
+          "value": "14.6%"
+        },
+        {
+          "label": "Tasks",
+          "value": "130"
+        }
+      ]
+    }
+  ]
+}
