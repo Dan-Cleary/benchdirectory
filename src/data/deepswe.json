@@ -13,7 +13,7 @@
     "direction": "higher-better",
     "scoreExplainer": "Share of tasks solved on the first attempt, run on mini-swe-agent for consistency. Tasks are written from scratch so no model saw the solutions in training."
   },
-  "retrievedAt": "2026-08-06T09:46:03.887Z",
+  "retrievedAt": "2026-08-08T07:54:48.090Z",
   "sourceDataUrl": "https://deepswe.datacurve.ai/",
   "entries": [
     {
@@ -135,6 +135,19 @@
     },
     {
       "rank": 10,
+      "model": "muse-spark-1.2",
+      "variant": "xhigh",
+      "score": 55,
+      "display": "55%",
+      "extras": [
+        {
+          "label": "± CI",
+          "value": "2%"
+        }
+      ]
+    },
+    {
+      "rank": 11,
       "model": "claude-sonnet-5",
       "variant": "max",
       "score": 54,
@@ -147,7 +160,7 @@
       ]
     },
     {
-      "rank": 11,
+      "rank": 12,
       "model": "grok-4.5",
       "variant": "high",
       "score": 54,
@@ -160,7 +173,7 @@
       ]
     },
     {
-      "rank": 12,
+      "rank": 13,
       "model": "deepseek-v4-flash",
       "variant": "max",
       "score": 53,
@@ -173,7 +186,7 @@
       ]
     },
     {
-      "rank": 13,
+      "rank": 14,
       "model": "muse-spark-1.1",
       "variant": "xhigh",
       "score": 53,
@@ -186,7 +199,7 @@
       ]
     },
     {
-      "rank": 14,
+      "rank": 15,
       "model": "gpt-5.4",
       "variant": "xhigh",
       "score": 52,
@@ -199,7 +212,7 @@
       ]
     },
     {
-      "rank": 15,
+      "rank": 16,
       "model": "gemini-3.6-flash",
       "variant": "high",
       "score": 49,
@@ -212,7 +225,7 @@
       ]
     },
     {
-      "rank": 16,
+      "rank": 17,
       "model": "glm-5.2",
       "variant": "max",
       "score": 44,
@@ -225,7 +238,7 @@
       ]
     },
     {
-      "rank": 17,
+      "rank": 18,
       "model": "gemini-3.5-flash",
       "variant": "medium",
       "score": 37,
@@ -238,7 +251,7 @@
       ]
     },
     {
-      "rank": 18,
+      "rank": 19,
       "model": "kimi-k2.7-code",
       "score": 31,
       "display": "31%",
@@ -250,7 +263,7 @@
       ]
     },
     {
-      "rank": 19,
+      "rank": 20,
       "model": "claude-sonnet-4.6",
       "variant": "high",
       "score": 30,
@@ -263,7 +276,7 @@
       ]
     },
     {
-      "rank": 20,
+      "rank": 21,
       "model": "gemini-3.1-pro",
       "variant": "high",
       "score": 12,
