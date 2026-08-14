@@ -13,7 +13,7 @@
     "direction": "higher-better",
     "scoreExplainer": "Share of tasks solved on the first attempt, run on mini-swe-agent for consistency. Tasks are written from scratch so no model saw the solutions in training."
   },
-  "retrievedAt": "2026-08-13T08:38:36.820Z",
+  "retrievedAt": "2026-08-14T08:23:20.705Z",
   "sourceDataUrl": "https://deepswe.datacurve.ai/",
   "entries": [
     {
@@ -57,19 +57,6 @@
     },
     {
       "rank": 4,
-      "model": "gpt-5.6-terra",
-      "variant": "max",
-      "score": 70,
-      "display": "70%",
-      "extras": [
-        {
-          "label": "± CI",
-          "value": "3%"
-        }
-      ]
-    },
-    {
-      "rank": 5,
       "model": "kimi-k3",
       "variant": "max",
       "score": 69,
@@ -82,7 +69,7 @@
       ]
     },
     {
-      "rank": 6,
+      "rank": 5,
       "model": "gpt-5.6-luna",
       "variant": "max",
       "score": 67,
@@ -95,7 +82,7 @@
       ]
     },
     {
-      "rank": 7,
+      "rank": 6,
       "model": "gpt-5.5",
       "variant": "xhigh",
       "score": 67,
@@ -108,11 +95,24 @@
       ]
     },
     {
-      "rank": 8,
+      "rank": 7,
       "model": "grok-4.6",
       "variant": "xhigh",
       "score": 67,
       "display": "67%",
+      "extras": [
+        {
+          "label": "± CI",
+          "value": "2%"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "model": "gemini-3.7-flash",
+      "variant": "high",
+      "score": 65,
+      "display": "65%",
       "extras": [
         {
           "label": "± CI",
@@ -187,19 +187,6 @@
     },
     {
       "rank": 14,
-      "model": "grok-4.5",
-      "variant": "high",
-      "score": 54,
-      "display": "54%",
-      "extras": [
-        {
-          "label": "± CI",
-          "value": "2%"
-        }
-      ]
-    },
-    {
-      "rank": 15,
       "model": "deepseek-v4-flash",
       "variant": "max",
       "score": 53,
@@ -212,46 +199,20 @@
       ]
     },
     {
-      "rank": 16,
-      "model": "muse-spark-1.1",
-      "variant": "xhigh",
-      "score": 53,
-      "display": "53%",
-      "extras": [
-        {
-          "label": "± CI",
-          "value": "3%"
-        }
-      ]
-    },
-    {
-      "rank": 17,
-      "model": "gpt-5.4",
-      "variant": "xhigh",
-      "score": 52,
-      "display": "52%",
-      "extras": [
-        {
-          "label": "± CI",
-          "value": "2%"
-        }
-      ]
-    },
-    {
-      "rank": 18,
+      "rank": 15,
       "model": "gemini-3.6-flash",
       "variant": "high",
-      "score": 49,
-      "display": "49%",
+      "score": 47,
+      "display": "47%",
       "extras": [
         {
           "label": "± CI",
-          "value": "5%"
+          "value": "4%"
         }
       ]
     },
     {
-      "rank": 19,
+      "rank": 16,
       "model": "glm-5.2",
       "variant": "max",
       "score": 44,
@@ -264,53 +225,15 @@
       ]
     },
     {
-      "rank": 20,
+      "rank": 17,
       "model": "gemini-3.5-flash",
-      "variant": "medium",
-      "score": 37,
-      "display": "37%",
-      "extras": [
-        {
-          "label": "± CI",
-          "value": "2%"
-        }
-      ]
-    },
-    {
-      "rank": 21,
-      "model": "kimi-k2.7-code",
-      "score": 31,
-      "display": "31%",
-      "extras": [
-        {
-          "label": "± CI",
-          "value": "1%"
-        }
-      ]
-    },
-    {
-      "rank": 22,
-      "model": "claude-sonnet-4.6",
       "variant": "high",
-      "score": 30,
-      "display": "30%",
+      "score": 36,
+      "display": "36%",
       "extras": [
         {
           "label": "± CI",
           "value": "4%"
-        }
-      ]
-    },
-    {
-      "rank": 23,
-      "model": "gemini-3.1-pro",
-      "variant": "high",
-      "score": 12,
-      "display": "12%",
-      "extras": [
-        {
-          "label": "± CI",
-          "value": "2%"
         }
       ]
     }
