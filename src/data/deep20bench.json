@@ -14,7 +14,7 @@
     "direction": "lower-better",
     "scoreExplainer": "Average counted questions and guesses per trial, with failed trials scored as 51. Lower means the model identified the hidden subject more efficiently."
   },
-  "retrievedAt": "2026-08-28T07:11:32.416Z",
+  "retrievedAt": "2026-08-28T07:26:24.033Z",
   "sourceGeneratedAt": "2026-08-24T22:51:38.912004Z",
   "sourceDataUrl": "https://mindalyze-com.github.io/deep-20-bench/data/leaderboard.json",
   "entries": [
@@ -296,6 +296,7 @@
     {
       "rank": 12,
       "model": "Ox Alpha (high)",
+      "org": "Stealth",
       "score": 17.6,
       "display": "17.60",
       "extras": [

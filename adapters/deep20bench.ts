@@ -47,6 +47,7 @@ const MODEL_ORGS: Record<string, string> = {
   mistralai: "Mistral AI",
   moonshotai: "Moonshot AI",
   openai: "OpenAI",
+  stealth: "Stealth",
   "x-ai": "xAI",
 };
 
