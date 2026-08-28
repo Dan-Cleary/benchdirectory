@@ -1,0 +1,396 @@
+{
+  "benchmark": {
+    "slug": "deep20bench",
+    "name": "Deep20Bench",
+    "tagline": "How efficiently can a model identify a hidden person or character by asking yes-or-no questions?",
+    "owner": {
+      "name": "Patrick Heusser and Markus Tuor",
+      "url": "https://github.com/mindalyze-com"
+    },
+    "siteUrl": "https://mindalyze-com.github.io/deep-20-bench/",
+    "repoUrl": "https://github.com/mindalyze-com/deep-20-bench",
+    "license": "CC BY 4.0",
+    "scoreLabel": "Question score",
+    "direction": "lower-better",
+    "scoreExplainer": "Average counted questions and guesses per trial, with failed trials scored as 51. Lower means the model identified the hidden subject more efficiently."
+  },
+  "retrievedAt": "2026-08-28T07:11:32.416Z",
+  "sourceGeneratedAt": "2026-08-24T22:51:38.912004Z",
+  "sourceDataUrl": "https://mindalyze-com.github.io/deep-20-bench/data/leaderboard.json",
+  "entries": [
+    {
+      "rank": 1,
+      "model": "Claude Fable 5 (high)",
+      "org": "Anthropic",
+      "score": 12.057142857142857,
+      "display": "12.06",
+      "extras": [
+        {
+          "label": "Success",
+          "value": "100.0%"
+        },
+        {
+          "label": "95% CI",
+          "value": "10.13-13.98"
+        },
+        {
+          "label": "Trials",
+          "value": "35"
+        },
+        {
+          "label": "Total cost",
+          "value": "$7.87"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "model": "Claude Opus 5 (high)",
+      "org": "Anthropic",
+      "score": 12.342857142857143,
+      "display": "12.34",
+      "extras": [
+        {
+          "label": "Success",
+          "value": "100.0%"
+        },
+        {
+          "label": "95% CI",
+          "value": "11.41-13.27"
+        },
+        {
+          "label": "Trials",
+          "value": "35"
+        },
+        {
+          "label": "Total cost",
+          "value": "$5.47"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "model": "Kimi K3 (high)",
+      "org": "Moonshot AI",
+      "score": 12.742857142857142,
+      "display": "12.74",
+      "extras": [
+        {
+          "label": "Success",
+          "value": "94.3%"
+        },
+        {
+          "label": "95% CI",
+          "value": "9.16-16.33"
+        },
+        {
+          "label": "Trials",
+          "value": "35"
+        },
+        {
+          "label": "Total cost",
+          "value": "$10.09"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "model": "gpt-oss-120B (high)",
+      "org": "OpenAI",
+      "score": 13.628571428571428,
+      "display": "13.63",
+      "extras": [
+        {
+          "label": "Success",
+          "value": "94.3%"
+        },
+        {
+          "label": "95% CI",
+          "value": "9.79-17.46"
+        },
+        {
+          "label": "Trials",
+          "value": "35"
+        },
+        {
+          "label": "Total cost",
+          "value": "$4.64"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "model": "Gemini 3.7 Flash (high)",
+      "org": "Google",
+      "score": 14.028571428571428,
+      "display": "14.03",
+      "extras": [
+        {
+          "label": "Success",
+          "value": "97.1%"
+        },
+        {
+          "label": "95% CI",
+          "value": "10.78-17.28"
+        },
+        {
+          "label": "Trials",
+          "value": "35"
+        },
+        {
+          "label": "Total cost",
+          "value": "$9.58"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "model": "Grok 4.6 (high)",
+      "org": "xAI",
+      "score": 14.285714285714286,
+      "display": "14.29",
+      "extras": [
+        {
+          "label": "Success",
+          "value": "100.0%"
+        },
+        {
+          "label": "95% CI",
+          "value": "12.36-16.21"
+        },
+        {
+          "label": "Trials",
+          "value": "35"
+        },
+        {
+          "label": "Total cost",
+          "value": "$8.25"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "model": "GPT-5.6 Sol (high)",
+      "org": "OpenAI",
+      "score": 14.4,
+      "display": "14.40",
+      "extras": [
+        {
+          "label": "Success",
+          "value": "100.0%"
+        },
+        {
+          "label": "95% CI",
+          "value": "12.84-15.96"
+        },
+        {
+          "label": "Trials",
+          "value": "35"
+        },
+        {
+          "label": "Total cost",
+          "value": "$9.97"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "model": "Claude Sonnet 5 (high)",
+      "org": "Anthropic",
+      "score": 14.742857142857142,
+      "display": "14.74",
+      "extras": [
+        {
+          "label": "Success",
+          "value": "100.0%"
+        },
+        {
+          "label": "95% CI",
+          "value": "12.78-16.71"
+        },
+        {
+          "label": "Trials",
+          "value": "35"
+        },
+        {
+          "label": "Total cost",
+          "value": "$5.01"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "model": "Grok 4.5 (high)",
+      "org": "xAI",
+      "score": 15.17142857142857,
+      "display": "15.17",
+      "extras": [
+        {
+          "label": "Success",
+          "value": "94.3%"
+        },
+        {
+          "label": "95% CI",
+          "value": "11.70-18.64"
+        },
+        {
+          "label": "Trials",
+          "value": "35"
+        },
+        {
+          "label": "Total cost",
+          "value": "$4.99"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "model": "GPT-5 Nano (medium)",
+      "org": "OpenAI",
+      "score": 15.485714285714286,
+      "display": "15.49",
+      "extras": [
+        {
+          "label": "Success",
+          "value": "94.3%"
+        },
+        {
+          "label": "95% CI",
+          "value": "13.84-17.13"
+        },
+        {
+          "label": "Trials",
+          "value": "35"
+        },
+        {
+          "label": "Total cost",
+          "value": "$4.59"
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "model": "Gemini 3.6 Flash (high)",
+      "org": "Google",
+      "score": 16.885714285714286,
+      "display": "16.89",
+      "extras": [
+        {
+          "label": "Success",
+          "value": "97.1%"
+        },
+        {
+          "label": "95% CI",
+          "value": "14.08-19.69"
+        },
+        {
+          "label": "Trials",
+          "value": "35"
+        },
+        {
+          "label": "Total cost",
+          "value": "$9.86"
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "model": "Ox Alpha (high)",
+      "score": 17.6,
+      "display": "17.60",
+      "extras": [
+        {
+          "label": "Success",
+          "value": "91.4%"
+        },
+        {
+          "label": "95% CI",
+          "value": "14.60-20.60"
+        },
+        {
+          "label": "Trials",
+          "value": "35"
+        },
+        {
+          "label": "Total cost",
+          "value": "$9.78"
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "model": "GPT-5.6 Luna (high)",
+      "org": "OpenAI",
+      "score": 17.742857142857144,
+      "display": "17.74",
+      "extras": [
+        {
+          "label": "Success",
+          "value": "91.4%"
+        },
+        {
+          "label": "95% CI",
+          "value": "14.74-20.75"
+        },
+        {
+          "label": "Trials",
+          "value": "35"
+        },
+        {
+          "label": "Total cost",
+          "value": "$5.88"
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "model": "Mistral Medium 3.5 (high)",
+      "org": "Mistral AI",
+      "score": 20.057142857142857,
+      "display": "20.06",
+      "extras": [
+        {
+          "label": "Success",
+          "value": "88.6%"
+        },
+        {
+          "label": "95% CI",
+          "value": "16.11-24.01"
+        },
+        {
+          "label": "Trials",
+          "value": "35"
+        },
+        {
+          "label": "Total cost",
+          "value": "$18.55"
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "model": "Llama 4 Maverick (non-thinking)",
+      "org": "Meta",
+      "score": 32.22857142857143,
+      "display": "32.23",
+      "extras": [
+        {
+          "label": "Success",
+          "value": "48.6%"
+        },
+        {
+          "label": "95% CI",
+          "value": "26.82-37.63"
+        },
+        {
+          "label": "Trials",
+          "value": "35"
+        },
+        {
+          "label": "Total cost",
+          "value": "$3.73"
+        }
+      ]
+    }
+  ]
+}

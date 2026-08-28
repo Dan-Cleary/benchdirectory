@@ -13,6 +13,7 @@ import { everySeniorEngineer } from "./curated/every-senior-engineer";
 import { cursorbench } from "./curated/cursorbench";
 import { planningbench } from "./planningbench";
 import { clawbench } from "./clawbench";
+import { deep20bench } from "./deep20bench";
 
 const ADAPTERS: Adapter[] = [
   snitchbench,
@@ -25,6 +26,7 @@ const ADAPTERS: Adapter[] = [
   everySeniorEngineer,
   cursorbench,
   clawbench,
+  deep20bench,
 ];
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
