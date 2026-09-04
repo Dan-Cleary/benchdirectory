@@ -13,11 +13,24 @@
     "direction": "higher-better",
     "scoreExplainer": "Share of tasks solved on the first attempt, run on mini-swe-agent for consistency. Tasks are written from scratch so no model saw the solutions in training."
   },
-  "retrievedAt": "2026-09-03T12:03:20.039Z",
+  "retrievedAt": "2026-09-04T12:05:17.303Z",
   "sourceDataUrl": "https://deepswe.datacurve.ai/",
   "entries": [
     {
       "rank": 1,
+      "model": "gpt-6-astra",
+      "variant": "xhigh",
+      "score": 74,
+      "display": "74%",
+      "extras": [
+        {
+          "label": "± CI",
+          "value": "3%"
+        }
+      ]
+    },
+    {
+      "rank": 2,
       "model": "gemini-3.8-flash",
       "variant": "high",
       "score": 74,
@@ -30,7 +43,7 @@
       ]
     },
     {
-      "rank": 2,
+      "rank": 3,
       "model": "claude-opus-5",
       "variant": "max",
       "score": 74,
@@ -43,7 +56,7 @@
       ]
     },
     {
-      "rank": 3,
+      "rank": 4,
       "model": "gpt-5.6-sol",
       "variant": "max",
       "score": 73,
@@ -56,20 +69,20 @@
       ]
     },
     {
-      "rank": 4,
+      "rank": 5,
       "model": "claude-fable-5",
-      "variant": "max",
+      "variant": "xhigh",
       "score": 70,
       "display": "70%",
       "extras": [
         {
           "label": "± CI",
-          "value": "4%"
+          "value": "3%"
         }
       ]
     },
     {
-      "rank": 5,
+      "rank": 6,
       "model": "glm-5.3",
       "variant": "max",
       "score": 69,
@@ -82,7 +95,7 @@
       ]
     },
     {
-      "rank": 6,
+      "rank": 7,
       "model": "kimi-k3",
       "variant": "max",
       "score": 69,
@@ -95,7 +108,20 @@
       ]
     },
     {
-      "rank": 7,
+      "rank": 8,
+      "model": "grok-4.6",
+      "variant": "medium",
+      "score": 67,
+      "display": "67%",
+      "extras": [
+        {
+          "label": "± CI",
+          "value": "2%"
+        }
+      ]
+    },
+    {
+      "rank": 9,
       "model": "gpt-5.6-luna",
       "variant": "max",
       "score": 67,
@@ -108,7 +134,7 @@
       ]
     },
     {
-      "rank": 8,
+      "rank": 10,
       "model": "gpt-5.5",
       "variant": "xhigh",
       "score": 67,
@@ -121,33 +147,20 @@
       ]
     },
     {
-      "rank": 9,
-      "model": "grok-4.6",
-      "variant": "xhigh",
-      "score": 67,
-      "display": "67%",
-      "extras": [
-        {
-          "label": "± CI",
-          "value": "2%"
-        }
-      ]
-    },
-    {
-      "rank": 10,
+      "rank": 11,
       "model": "gemini-3.7-flash",
-      "variant": "high",
+      "variant": "medium",
       "score": 65,
       "display": "65%",
       "extras": [
         {
           "label": "± CI",
-          "value": "2%"
+          "value": "3%"
         }
       ]
     },
     {
-      "rank": 11,
+      "rank": 12,
       "model": "glm-5.3-flash",
       "variant": "max",
       "score": 63,
@@ -160,7 +173,7 @@
       ]
     },
     {
-      "rank": 12,
+      "rank": 13,
       "model": "deepseek-v4-pro",
       "variant": "max",
       "score": 63,
@@ -173,7 +186,7 @@
       ]
     },
     {
-      "rank": 13,
+      "rank": 14,
       "model": "claude-opus-4.8",
       "variant": "max",
       "score": 59,
@@ -186,7 +199,7 @@
       ]
     },
     {
-      "rank": 14,
+      "rank": 15,
       "model": "qwen3.8-max",
       "variant": "xhigh",
       "score": 57,
@@ -199,7 +212,7 @@
       ]
     },
     {
-      "rank": 15,
+      "rank": 16,
       "model": "muse-spark-1.2",
       "variant": "xhigh",
       "score": 55,
@@ -212,7 +225,7 @@
       ]
     },
     {
-      "rank": 16,
+      "rank": 17,
       "model": "claude-sonnet-5",
       "variant": "max",
       "score": 54,
@@ -225,7 +238,7 @@
       ]
     },
     {
-      "rank": 17,
+      "rank": 18,
       "model": "deepseek-v4-flash",
       "variant": "max",
       "score": 53,
@@ -238,7 +251,7 @@
       ]
     },
     {
-      "rank": 18,
+      "rank": 19,
       "model": "gemini-3.6-flash",
       "variant": "high",
       "score": 47,
@@ -251,7 +264,7 @@
       ]
     },
     {
-      "rank": 19,
+      "rank": 20,
       "model": "glm-5.2",
       "variant": "max",
       "score": 44,
@@ -264,7 +277,7 @@
       ]
     },
     {
-      "rank": 20,
+      "rank": 21,
       "model": "gemini-3.5-flash",
       "variant": "high",
       "score": 36,
