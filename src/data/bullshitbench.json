@@ -14,8 +14,8 @@
     "direction": "higher-better",
     "scoreExplainer": "Average over trap questions: 2 = clear pushback, 1 = hedges but plays along, 0 = accepts the nonsense. Higher means less bullshitting."
   },
-  "retrievedAt": "2026-08-26T07:53:25.648Z",
-  "sourceGeneratedAt": "2026-08-24T21:50:33Z",
+  "retrievedAt": "2026-09-11T12:09:53.958Z",
+  "sourceGeneratedAt": "2026-09-10T20:20:46Z",
   "sourceDataUrl": "https://raw.githubusercontent.com/petergpt/bullshit-benchmark/main/data/v2/latest/leaderboard.csv",
   "entries": [
     {
@@ -75,12 +75,12 @@
       "model": "qwen3.8-max",
       "org": "qwen",
       "variant": "reasoning=minimal",
-      "score": 1.9133,
-      "display": "1.91",
+      "score": 1.92,
+      "display": "1.92",
       "extras": [
         {
           "label": "Green",
-          "value": "94%"
+          "value": "95%"
         },
         {
           "label": "Red",
@@ -101,7 +101,7 @@
       "model": "claude-sonnet-4.6",
       "org": "anthropic",
       "variant": "reasoning=high",
-      "score": 1.87,
+      "score": 1.8717,
       "display": "1.87",
       "extras": [
         {
@@ -110,7 +110,7 @@
         },
         {
           "label": "Red",
-          "value": "3%"
+          "value": "2%"
         },
         {
           "label": "Refused",
@@ -179,7 +179,7 @@
       "model": "claude-opus-4.6",
       "org": "anthropic",
       "variant": "reasoning=high",
-      "score": 1.8367,
+      "score": 1.8383,
       "display": "1.84",
       "extras": [
         {
@@ -188,7 +188,7 @@
         },
         {
           "label": "Red",
-          "value": "3%"
+          "value": "2%"
         },
         {
           "label": "Refused",
@@ -202,6 +202,32 @@
     },
     {
       "rank": 8,
+      "model": "claude-fable-5.1",
+      "org": "anthropic",
+      "variant": "reasoning=low",
+      "score": 1.8165,
+      "display": "1.82",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "77%"
+        },
+        {
+          "label": "Red",
+          "value": "2%"
+        },
+        {
+          "label": "Refused",
+          "value": "11%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 9,
       "model": "claude-opus-4.6",
       "org": "anthropic",
       "variant": "reasoning=none",
@@ -227,7 +253,7 @@
       ]
     },
     {
-      "rank": 9,
+      "rank": 10,
       "model": "claude-opus-4.7",
       "org": "anthropic",
       "variant": "reasoning=none",
@@ -253,16 +279,16 @@
       ]
     },
     {
-      "rank": 10,
+      "rank": 11,
       "model": "claude-fable-5",
       "org": "anthropic",
       "variant": "reasoning=xhigh",
-      "score": 1.7487,
-      "display": "1.75",
+      "score": 1.7562,
+      "display": "1.76",
       "extras": [
         {
           "label": "Green",
-          "value": "54%"
+          "value": "56%"
         },
         {
           "label": "Red",
@@ -270,7 +296,7 @@
         },
         {
           "label": "Refused",
-          "value": "35%"
+          "value": "33%"
         },
         {
           "label": "Questions",
@@ -279,11 +305,11 @@
       ]
     },
     {
-      "rank": 11,
+      "rank": 12,
       "model": "claude-opus-5",
       "org": "anthropic",
       "variant": "reasoning=xhigh",
-      "score": 1.7191,
+      "score": 1.721,
       "display": "1.72",
       "extras": [
         {
@@ -292,7 +318,7 @@
         },
         {
           "label": "Red",
-          "value": "5%"
+          "value": "4%"
         },
         {
           "label": "Refused",
@@ -305,7 +331,7 @@
       ]
     },
     {
-      "rank": 12,
+      "rank": 13,
       "model": "claude-sonnet-5",
       "org": "anthropic",
       "variant": "reasoning=low",
@@ -331,7 +357,7 @@
       ]
     },
     {
-      "rank": 13,
+      "rank": 14,
       "model": "claude-sonnet-5",
       "org": "anthropic",
       "variant": "reasoning=max",
@@ -357,7 +383,7 @@
       ]
     },
     {
-      "rank": 14,
+      "rank": 15,
       "model": "claude-opus-5",
       "org": "anthropic",
       "variant": "reasoning=low",
@@ -383,7 +409,7 @@
       ]
     },
     {
-      "rank": 15,
+      "rank": 16,
       "model": "qwen3.5-397b-a17b",
       "org": "qwen",
       "variant": "reasoning=high",
@@ -409,7 +435,7 @@
       ]
     },
     {
-      "rank": 16,
+      "rank": 17,
       "model": "claude-sonnet-4.5",
       "org": "anthropic",
       "variant": "reasoning=high",
@@ -435,7 +461,7 @@
       ]
     },
     {
-      "rank": 17,
+      "rank": 18,
       "model": "claude-opus-4.5",
       "org": "anthropic",
       "variant": "reasoning=none",
@@ -461,16 +487,16 @@
       ]
     },
     {
-      "rank": 18,
+      "rank": 19,
       "model": "kimi-k3",
       "org": "moonshotai",
       "variant": "reasoning=xhigh",
-      "score": 1.66,
-      "display": "1.66",
+      "score": 1.6667,
+      "display": "1.67",
       "extras": [
         {
           "label": "Green",
-          "value": "73%"
+          "value": "74%"
         },
         {
           "label": "Red",
@@ -487,7 +513,85 @@
       ]
     },
     {
-      "rank": 19,
+      "rank": 20,
+      "model": "claude-fable-5.1",
+      "org": "anthropic",
+      "variant": "reasoning=max",
+      "score": 1.655,
+      "display": "1.66",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "64%"
+        },
+        {
+          "label": "Red",
+          "value": "6%"
+        },
+        {
+          "label": "Refused",
+          "value": "14%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 21,
+      "model": "kimi-k3",
+      "org": "moonshotai",
+      "variant": "reasoning=minimal",
+      "score": 1.6433,
+      "display": "1.64",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "72%"
+        },
+        {
+          "label": "Red",
+          "value": "9%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 22,
+      "model": "claude-fable-5",
+      "org": "anthropic",
+      "variant": "reasoning=low",
+      "score": 1.6406,
+      "display": "1.64",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "45%"
+        },
+        {
+          "label": "Red",
+          "value": "4%"
+        },
+        {
+          "label": "Refused",
+          "value": "36%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 23,
       "model": "claude-haiku-4.5",
       "org": "anthropic",
       "variant": "reasoning=high",
@@ -513,20 +617,20 @@
       ]
     },
     {
-      "rank": 20,
-      "model": "kimi-k3",
-      "org": "moonshotai",
-      "variant": "reasoning=minimal",
-      "score": 1.6367,
-      "display": "1.64",
+      "rank": 24,
+      "model": "qwen3.8-27b",
+      "org": "qwen",
+      "variant": "reasoning=none",
+      "score": 1.63,
+      "display": "1.63",
       "extras": [
         {
           "label": "Green",
-          "value": "71%"
+          "value": "79%"
         },
         {
           "label": "Red",
-          "value": "9%"
+          "value": "12%"
         },
         {
           "label": "Refused",
@@ -539,33 +643,7 @@
       ]
     },
     {
-      "rank": 21,
-      "model": "claude-fable-5",
-      "org": "anthropic",
-      "variant": "reasoning=low",
-      "score": 1.6349,
-      "display": "1.63",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "44%"
-        },
-        {
-          "label": "Red",
-          "value": "4%"
-        },
-        {
-          "label": "Refused",
-          "value": "37%"
-        },
-        {
-          "label": "Questions",
-          "value": "100"
-        }
-      ]
-    },
-    {
-      "rank": 22,
+      "rank": 25,
       "model": "claude-haiku-4.5",
       "org": "anthropic",
       "variant": "reasoning=none",
@@ -591,33 +669,7 @@
       ]
     },
     {
-      "rank": 23,
-      "model": "qwen3.8-27b",
-      "org": "qwen",
-      "variant": "reasoning=none",
-      "score": 1.6233,
-      "display": "1.62",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "78%"
-        },
-        {
-          "label": "Red",
-          "value": "12%"
-        },
-        {
-          "label": "Refused",
-          "value": "0%"
-        },
-        {
-          "label": "Questions",
-          "value": "100"
-        }
-      ]
-    },
-    {
-      "rank": 24,
+      "rank": 26,
       "model": "claude-opus-4.7",
       "org": "anthropic",
       "variant": "reasoning=max",
@@ -643,16 +695,16 @@
       ]
     },
     {
-      "rank": 25,
+      "rank": 27,
       "model": "glm-5.3",
       "org": "z-ai",
       "variant": "reasoning=minimal",
-      "score": 1.6,
-      "display": "1.60",
+      "score": 1.6067,
+      "display": "1.61",
       "extras": [
         {
           "label": "Green",
-          "value": "71%"
+          "value": "72%"
         },
         {
           "label": "Red",
@@ -669,7 +721,33 @@
       ]
     },
     {
-      "rank": 26,
+      "rank": 28,
+      "model": "gpt-6-astra",
+      "org": "openai",
+      "variant": "reasoning=max",
+      "score": 1.6067,
+      "display": "1.61",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "69%"
+        },
+        {
+          "label": "Red",
+          "value": "4%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 29,
       "model": "claude-sonnet-4.5",
       "org": "anthropic",
       "variant": "reasoning=none",
@@ -695,16 +773,16 @@
       ]
     },
     {
-      "rank": 27,
+      "rank": 30,
       "model": "qwen3.7-max",
       "org": "qwen",
       "variant": "reasoning=none",
-      "score": 1.5667,
+      "score": 1.5733,
       "display": "1.57",
       "extras": [
         {
           "label": "Green",
-          "value": "71%"
+          "value": "72%"
         },
         {
           "label": "Red",
@@ -721,7 +799,7 @@
       ]
     },
     {
-      "rank": 28,
+      "rank": 31,
       "model": "qwen3.6-plus",
       "org": "qwen",
       "variant": "reasoning=none",
@@ -747,16 +825,16 @@
       ]
     },
     {
-      "rank": 29,
+      "rank": 32,
       "model": "glm-5.3",
       "org": "z-ai",
       "variant": "reasoning=max",
-      "score": 1.5367,
+      "score": 1.5433,
       "display": "1.54",
       "extras": [
         {
           "label": "Green",
-          "value": "65%"
+          "value": "66%"
         },
         {
           "label": "Red",
@@ -773,7 +851,33 @@
       ]
     },
     {
-      "rank": 30,
+      "rank": 33,
+      "model": "gpt-6-astra",
+      "org": "openai",
+      "variant": "reasoning=low",
+      "score": 1.5433,
+      "display": "1.54",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "64%"
+        },
+        {
+          "label": "Red",
+          "value": "4%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 34,
       "model": "qwen3.5-397b-a17b",
       "org": "qwen",
       "variant": "reasoning=none",
@@ -799,16 +903,16 @@
       ]
     },
     {
-      "rank": 31,
+      "rank": 35,
       "model": "gemini-3.5-flash-lite",
       "org": "google",
       "variant": "reasoning=minimal",
-      "score": 1.5133,
-      "display": "1.51",
+      "score": 1.52,
+      "display": "1.52",
       "extras": [
         {
           "label": "Green",
-          "value": "65%"
+          "value": "66%"
         },
         {
           "label": "Red",
@@ -825,7 +929,7 @@
       ]
     },
     {
-      "rank": 32,
+      "rank": 36,
       "model": "qwen3-max-thinking",
       "org": "qwen",
       "variant": "reasoning=high",
@@ -851,7 +955,7 @@
       ]
     },
     {
-      "rank": 33,
+      "rank": 37,
       "model": "kimi-k2.6",
       "org": "moonshotai",
       "variant": "reasoning=none",
@@ -877,16 +981,16 @@
       ]
     },
     {
-      "rank": 34,
+      "rank": 38,
       "model": "minimax-m3",
       "org": "minimax",
       "variant": "reasoning=xhigh",
-      "score": 1.4767,
+      "score": 1.4833,
       "display": "1.48",
       "extras": [
         {
           "label": "Green",
-          "value": "63%"
+          "value": "64%"
         },
         {
           "label": "Red",
@@ -903,16 +1007,16 @@
       ]
     },
     {
-      "rank": 35,
+      "rank": 39,
       "model": "grok-4.6",
       "org": "x-ai",
       "variant": "reasoning=minimal",
-      "score": 1.4733,
-      "display": "1.47",
+      "score": 1.48,
+      "display": "1.48",
       "extras": [
         {
           "label": "Green",
-          "value": "65%"
+          "value": "66%"
         },
         {
           "label": "Red",
@@ -929,16 +1033,16 @@
       ]
     },
     {
-      "rank": 36,
+      "rank": 40,
       "model": "ox-alpha",
       "org": "stealth",
       "variant": "reasoning=low",
-      "score": 1.4667,
+      "score": 1.4717,
       "display": "1.47",
       "extras": [
         {
           "label": "Green",
-          "value": "64%"
+          "value": "65%"
         },
         {
           "label": "Red",
@@ -955,16 +1059,16 @@
       ]
     },
     {
-      "rank": 37,
+      "rank": 41,
       "model": "minimax-m3",
       "org": "minimax",
       "variant": "reasoning=none",
-      "score": 1.4367,
+      "score": 1.4433,
       "display": "1.44",
       "extras": [
         {
           "label": "Green",
-          "value": "62%"
+          "value": "63%"
         },
         {
           "label": "Red",
@@ -981,7 +1085,7 @@
       ]
     },
     {
-      "rank": 38,
+      "rank": 42,
       "model": "grok-4.20-multi-agent-beta",
       "org": "x-ai",
       "variant": "reasoning=xhigh",
@@ -1007,7 +1111,7 @@
       ]
     },
     {
-      "rank": 39,
+      "rank": 43,
       "model": "grok-4.20-multi-agent-beta",
       "org": "x-ai",
       "variant": "reasoning=low",
@@ -1033,7 +1137,7 @@
       ]
     },
     {
-      "rank": 40,
+      "rank": 44,
       "model": "mimo-v2.5-pro",
       "org": "xiaomi",
       "variant": "reasoning=xhigh",
@@ -1059,7 +1163,33 @@
       ]
     },
     {
-      "rank": 41,
+      "rank": 45,
+      "model": "ox-alpha",
+      "org": "stealth",
+      "variant": "reasoning=max",
+      "score": 1.42,
+      "display": "1.42",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "54%"
+        },
+        {
+          "label": "Red",
+          "value": "13%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 46,
       "model": "qwen3.6-plus",
       "org": "qwen",
       "variant": "reasoning=xhigh",
@@ -1085,16 +1215,16 @@
       ]
     },
     {
-      "rank": 42,
-      "model": "ox-alpha",
-      "org": "stealth",
+      "rank": 47,
+      "model": "deepseek-v4.1-flash",
+      "org": "deepseek",
       "variant": "reasoning=max",
-      "score": 1.4133,
-      "display": "1.41",
+      "score": 1.4167,
+      "display": "1.42",
       "extras": [
         {
           "label": "Green",
-          "value": "53%"
+          "value": "57%"
         },
         {
           "label": "Red",
@@ -1111,16 +1241,16 @@
       ]
     },
     {
-      "rank": 43,
+      "rank": 48,
       "model": "gemini-3.5-flash-lite",
       "org": "google",
       "variant": "reasoning=xhigh",
-      "score": 1.4067,
+      "score": 1.4133,
       "display": "1.41",
       "extras": [
         {
           "label": "Green",
-          "value": "59%"
+          "value": "60%"
         },
         {
           "label": "Red",
@@ -1137,16 +1267,42 @@
       ]
     },
     {
-      "rank": 44,
-      "model": "gpt-5.6-terra",
-      "org": "openai",
-      "variant": "reasoning=max",
-      "score": 1.37,
-      "display": "1.37",
+      "rank": 49,
+      "model": "deepseek-v4.1-flash",
+      "org": "deepseek",
+      "variant": "reasoning=low",
+      "score": 1.4067,
+      "display": "1.41",
       "extras": [
         {
           "label": "Green",
-          "value": "53%"
+          "value": "57%"
+        },
+        {
+          "label": "Red",
+          "value": "13%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 50,
+      "model": "gpt-5.6-terra",
+      "org": "openai",
+      "variant": "reasoning=max",
+      "score": 1.3767,
+      "display": "1.38",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "54%"
         },
         {
           "label": "Red",
@@ -1163,16 +1319,16 @@
       ]
     },
     {
-      "rank": 45,
+      "rank": 51,
       "model": "grok-4.6",
       "org": "x-ai",
       "variant": "reasoning=max",
-      "score": 1.3467,
+      "score": 1.3533,
       "display": "1.35",
       "extras": [
         {
           "label": "Green",
-          "value": "55%"
+          "value": "56%"
         },
         {
           "label": "Red",
@@ -1189,16 +1345,16 @@
       ]
     },
     {
-      "rank": 46,
+      "rank": 52,
       "model": "qwen3.7-max",
       "org": "qwen",
       "variant": "reasoning=xhigh",
-      "score": 1.3333,
-      "display": "1.33",
+      "score": 1.34,
+      "display": "1.34",
       "extras": [
         {
           "label": "Green",
-          "value": "56%"
+          "value": "57%"
         },
         {
           "label": "Red",
@@ -1215,11 +1371,11 @@
       ]
     },
     {
-      "rank": 47,
+      "rank": 53,
       "model": "grok-4.5",
       "org": "x-ai",
       "variant": "reasoning=low",
-      "score": 1.3167,
+      "score": 1.3183,
       "display": "1.32",
       "extras": [
         {
@@ -1228,7 +1384,7 @@
         },
         {
           "label": "Red",
-          "value": "23%"
+          "value": "22%"
         },
         {
           "label": "Refused",
@@ -1241,7 +1397,33 @@
       ]
     },
     {
-      "rank": 48,
+      "rank": 54,
+      "model": "grok-4.5",
+      "org": "x-ai",
+      "variant": "reasoning=high",
+      "score": 1.3033,
+      "display": "1.30",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "55%"
+        },
+        {
+          "label": "Red",
+          "value": "19%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 55,
       "model": "grok-4.3",
       "org": "x-ai",
       "variant": "reasoning=minimal",
@@ -1267,42 +1449,16 @@
       ]
     },
     {
-      "rank": 49,
-      "model": "grok-4.5",
-      "org": "x-ai",
-      "variant": "reasoning=high",
-      "score": 1.2967,
+      "rank": 56,
+      "model": "gpt-5.6-sol",
+      "org": "openai",
+      "variant": "reasoning=low",
+      "score": 1.3,
       "display": "1.30",
       "extras": [
         {
           "label": "Green",
-          "value": "54%"
-        },
-        {
-          "label": "Red",
-          "value": "19%"
-        },
-        {
-          "label": "Refused",
-          "value": "0%"
-        },
-        {
-          "label": "Questions",
-          "value": "100"
-        }
-      ]
-    },
-    {
-      "rank": 50,
-      "model": "gpt-5.6-sol",
-      "org": "openai",
-      "variant": "reasoning=low",
-      "score": 1.2933,
-      "display": "1.29",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "47%"
+          "value": "48%"
         },
         {
           "label": "Red",
@@ -1319,16 +1475,16 @@
       ]
     },
     {
-      "rank": 51,
+      "rank": 57,
       "model": "gpt-5.6-sol",
       "org": "openai",
       "variant": "reasoning=max",
-      "score": 1.2867,
+      "score": 1.2933,
       "display": "1.29",
       "extras": [
         {
           "label": "Green",
-          "value": "46%"
+          "value": "47%"
         },
         {
           "label": "Red",
@@ -1345,7 +1501,7 @@
       ]
     },
     {
-      "rank": 52,
+      "rank": 58,
       "model": "grok-4.20-beta",
       "org": "x-ai",
       "variant": "reasoning=xhigh",
@@ -1371,7 +1527,7 @@
       ]
     },
     {
-      "rank": 53,
+      "rank": 59,
       "model": "kimi-k2.6",
       "org": "moonshotai",
       "variant": "reasoning=xhigh",
@@ -1397,7 +1553,7 @@
       ]
     },
     {
-      "rank": 54,
+      "rank": 60,
       "model": "gpt-5.5",
       "org": "openai",
       "variant": "reasoning=xhigh",
@@ -1423,7 +1579,7 @@
       ]
     },
     {
-      "rank": 55,
+      "rank": 61,
       "model": "grok-4.20-beta",
       "org": "x-ai",
       "variant": "reasoning=low",
@@ -1449,7 +1605,7 @@
       ]
     },
     {
-      "rank": 56,
+      "rank": 62,
       "model": "gpt-5.4",
       "org": "openai",
       "variant": "reasoning=none",
@@ -1475,7 +1631,7 @@
       ]
     },
     {
-      "rank": 57,
+      "rank": 63,
       "model": "nemotron-3-super-120b-a12b:free",
       "org": "nvidia",
       "variant": "reasoning=xhigh",
@@ -1501,7 +1657,7 @@
       ]
     },
     {
-      "rank": 58,
+      "rank": 64,
       "model": "kimi-k2.5",
       "org": "moonshotai",
       "variant": "reasoning=none",
@@ -1527,7 +1683,7 @@
       ]
     },
     {
-      "rank": 59,
+      "rank": 65,
       "model": "gpt-5.5",
       "org": "openai",
       "variant": "reasoning=none",
@@ -1553,11 +1709,11 @@
       ]
     },
     {
-      "rank": 60,
+      "rank": 66,
       "model": "muse-spark-1.2",
       "org": "meta",
       "variant": "reasoning=minimal",
-      "score": 1.2067,
+      "score": 1.21,
       "display": "1.21",
       "extras": [
         {
@@ -1579,7 +1735,33 @@
       ]
     },
     {
-      "rank": 61,
+      "rank": 67,
+      "model": "gpt-5.6-terra",
+      "org": "openai",
+      "variant": "reasoning=low",
+      "score": 1.2033,
+      "display": "1.20",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "47%"
+        },
+        {
+          "label": "Red",
+          "value": "20%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 68,
       "model": "gpt-5.5",
       "org": "openai",
       "variant": "reasoning=low",
@@ -1605,42 +1787,16 @@
       ]
     },
     {
-      "rank": 62,
-      "model": "gpt-5.6-terra",
+      "rank": 69,
+      "model": "gpt-5.6-luna",
       "org": "openai",
-      "variant": "reasoning=low",
+      "variant": "reasoning=max",
       "score": 1.1967,
       "display": "1.20",
       "extras": [
         {
           "label": "Green",
-          "value": "46%"
-        },
-        {
-          "label": "Red",
-          "value": "20%"
-        },
-        {
-          "label": "Refused",
-          "value": "0%"
-        },
-        {
-          "label": "Questions",
-          "value": "100"
-        }
-      ]
-    },
-    {
-      "rank": 63,
-      "model": "gpt-5.6-luna",
-      "org": "openai",
-      "variant": "reasoning=max",
-      "score": 1.19,
-      "display": "1.19",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "40%"
+          "value": "41%"
         },
         {
           "label": "Red",
@@ -1657,7 +1813,7 @@
       ]
     },
     {
-      "rank": 64,
+      "rank": 70,
       "model": "gpt-5.4",
       "org": "openai",
       "variant": "reasoning=xhigh",
@@ -1683,7 +1839,33 @@
       ]
     },
     {
-      "rank": 65,
+      "rank": 71,
+      "model": "muse-spark-1.2",
+      "org": "meta",
+      "variant": "reasoning=xhigh",
+      "score": 1.1467,
+      "display": "1.15",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "49%"
+        },
+        {
+          "label": "Red",
+          "value": "34%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 72,
       "model": "claude-3.7-sonnet:thinking",
       "org": "anthropic",
       "variant": "reasoning=default",
@@ -1709,33 +1891,7 @@
       ]
     },
     {
-      "rank": 66,
-      "model": "muse-spark-1.2",
-      "org": "meta",
-      "variant": "reasoning=xhigh",
-      "score": 1.1433,
-      "display": "1.14",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "49%"
-        },
-        {
-          "label": "Red",
-          "value": "34%"
-        },
-        {
-          "label": "Refused",
-          "value": "0%"
-        },
-        {
-          "label": "Questions",
-          "value": "100"
-        }
-      ]
-    },
-    {
-      "rank": 67,
+      "rank": 73,
       "model": "qwen3-max-thinking",
       "org": "qwen",
       "variant": "reasoning=none",
@@ -1761,7 +1917,7 @@
       ]
     },
     {
-      "rank": 68,
+      "rank": 74,
       "model": "gpt-5.2-codex",
       "org": "openai",
       "variant": "reasoning=low",
@@ -1787,7 +1943,7 @@
       ]
     },
     {
-      "rank": 69,
+      "rank": 75,
       "model": "gemini-3-pro-preview",
       "org": "google",
       "variant": "reasoning=low",
@@ -1813,7 +1969,7 @@
       ]
     },
     {
-      "rank": 70,
+      "rank": 76,
       "model": "claude-opus-4.1",
       "org": "anthropic",
       "variant": "reasoning=none",
@@ -1839,7 +1995,7 @@
       ]
     },
     {
-      "rank": 71,
+      "rank": 77,
       "model": "nemotron-3-super-120b-a12b",
       "org": "nvidia",
       "variant": "reasoning=high",
@@ -1865,7 +2021,7 @@
       ]
     },
     {
-      "rank": 72,
+      "rank": 78,
       "model": "grok-4.3",
       "org": "x-ai",
       "variant": "reasoning=xhigh",
@@ -1891,7 +2047,7 @@
       ]
     },
     {
-      "rank": 73,
+      "rank": 79,
       "model": "claude-opus-4.1",
       "org": "anthropic",
       "variant": "reasoning=high",
@@ -1917,7 +2073,7 @@
       ]
     },
     {
-      "rank": 74,
+      "rank": 80,
       "model": "claude-3.5-haiku",
       "org": "anthropic",
       "variant": "reasoning=default",
@@ -1943,7 +2099,7 @@
       ]
     },
     {
-      "rank": 75,
+      "rank": 81,
       "model": "gpt-5.2",
       "org": "openai",
       "variant": "reasoning=none",
@@ -1969,7 +2125,7 @@
       ]
     },
     {
-      "rank": 76,
+      "rank": 82,
       "model": "gpt-5.5-pro",
       "org": "openai",
       "variant": "reasoning=medium",
@@ -1995,7 +2151,33 @@
       ]
     },
     {
-      "rank": 77,
+      "rank": 83,
+      "model": "deepseek-v4-flash-0731",
+      "org": "deepseek",
+      "variant": "reasoning=xhigh",
+      "score": 1.0767,
+      "display": "1.08",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "39%"
+        },
+        {
+          "label": "Red",
+          "value": "32%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 84,
       "model": "nemotron-3-ultra-550b-a55b",
       "org": "nvidia",
       "variant": "reasoning=none",
@@ -2021,20 +2203,20 @@
       ]
     },
     {
-      "rank": 78,
-      "model": "deepseek-v4-flash-0731",
-      "org": "deepseek",
-      "variant": "reasoning=xhigh",
+      "rank": 85,
+      "model": "claude-3.5-sonnet",
+      "org": "anthropic",
+      "variant": "reasoning=default",
       "score": 1.07,
       "display": "1.07",
       "extras": [
         {
           "label": "Green",
-          "value": "38%"
+          "value": "46%"
         },
         {
           "label": "Red",
-          "value": "32%"
+          "value": "36%"
         },
         {
           "label": "Refused",
@@ -2047,7 +2229,7 @@
       ]
     },
     {
-      "rank": 79,
+      "rank": 86,
       "model": "gpt-5.5-pro",
       "org": "openai",
       "variant": "reasoning=xhigh",
@@ -2073,20 +2255,20 @@
       ]
     },
     {
-      "rank": 80,
-      "model": "claude-3.5-sonnet",
-      "org": "anthropic",
-      "variant": "reasoning=default",
+      "rank": 87,
+      "model": "gpt-5.6-luna",
+      "org": "openai",
+      "variant": "reasoning=low",
       "score": 1.0633,
       "display": "1.06",
       "extras": [
         {
           "label": "Green",
-          "value": "45%"
+          "value": "37%"
         },
         {
           "label": "Red",
-          "value": "36%"
+          "value": "24%"
         },
         {
           "label": "Refused",
@@ -2099,7 +2281,7 @@
       ]
     },
     {
-      "rank": 81,
+      "rank": 88,
       "model": "gpt-5.3-chat",
       "org": "openai",
       "variant": "reasoning=default",
@@ -2125,33 +2307,7 @@
       ]
     },
     {
-      "rank": 82,
-      "model": "gpt-5.6-luna",
-      "org": "openai",
-      "variant": "reasoning=low",
-      "score": 1.0567,
-      "display": "1.06",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "36%"
-        },
-        {
-          "label": "Red",
-          "value": "24%"
-        },
-        {
-          "label": "Refused",
-          "value": "0%"
-        },
-        {
-          "label": "Questions",
-          "value": "100"
-        }
-      ]
-    },
-    {
-      "rank": 83,
+      "rank": 89,
       "model": "gpt-5.1-chat",
       "org": "openai",
       "variant": "reasoning=default",
@@ -2177,7 +2333,7 @@
       ]
     },
     {
-      "rank": 84,
+      "rank": 90,
       "model": "gemini-3.1-pro-preview",
       "org": "google",
       "variant": "reasoning=low",
@@ -2203,7 +2359,7 @@
       ]
     },
     {
-      "rank": 85,
+      "rank": 91,
       "model": "gpt-5.4-mini",
       "org": "openai",
       "variant": "reasoning=xhigh",
@@ -2229,16 +2385,16 @@
       ]
     },
     {
-      "rank": 86,
+      "rank": 92,
       "model": "claude-3.7-sonnet",
       "org": "anthropic",
       "variant": "reasoning=default",
-      "score": 1.0267,
+      "score": 1.0333,
       "display": "1.03",
       "extras": [
         {
           "label": "Green",
-          "value": "43%"
+          "value": "44%"
         },
         {
           "label": "Red",
@@ -2255,7 +2411,7 @@
       ]
     },
     {
-      "rank": 87,
+      "rank": 93,
       "model": "nemotron-3-super-120b-a12b:free",
       "org": "nvidia",
       "variant": "reasoning=none",
@@ -2281,7 +2437,7 @@
       ]
     },
     {
-      "rank": 88,
+      "rank": 94,
       "model": "hunter-alpha",
       "org": "stealth",
       "variant": "reasoning=none",
@@ -2307,7 +2463,7 @@
       ]
     },
     {
-      "rank": 89,
+      "rank": 95,
       "model": "gpt-5.2",
       "org": "openai",
       "variant": "reasoning=high",
@@ -2333,7 +2489,7 @@
       ]
     },
     {
-      "rank": 90,
+      "rank": 96,
       "model": "gpt-5.5-chat",
       "org": "openai",
       "variant": "reasoning=default",
@@ -2359,7 +2515,7 @@
       ]
     },
     {
-      "rank": 91,
+      "rank": 97,
       "model": "gpt-5-codex",
       "org": "openai",
       "variant": "reasoning=default",
@@ -2385,7 +2541,7 @@
       ]
     },
     {
-      "rank": 92,
+      "rank": 98,
       "model": "gpt-5.2-codex",
       "org": "openai",
       "variant": "reasoning=xhigh",
@@ -2411,7 +2567,7 @@
       ]
     },
     {
-      "rank": 93,
+      "rank": 99,
       "model": "claude-opus-4",
       "org": "anthropic",
       "variant": "reasoning=default",
@@ -2437,11 +2593,11 @@
       ]
     },
     {
-      "rank": 94,
+      "rank": 100,
       "model": "deepseek-v4-pro-0813",
       "org": "deepseek",
       "variant": "reasoning=max",
-      "score": 0.9833,
+      "score": 0.985,
       "display": "0.98",
       "extras": [
         {
@@ -2450,7 +2606,7 @@
         },
         {
           "label": "Red",
-          "value": "38%"
+          "value": "37%"
         },
         {
           "label": "Refused",
@@ -2463,7 +2619,7 @@
       ]
     },
     {
-      "rank": 95,
+      "rank": 101,
       "model": "gpt-5.4-mini",
       "org": "openai",
       "variant": "reasoning=high",
@@ -2489,7 +2645,7 @@
       ]
     },
     {
-      "rank": 96,
+      "rank": 102,
       "model": "gpt-5.2-codex",
       "org": "openai",
       "variant": "reasoning=high",
@@ -2515,7 +2671,7 @@
       ]
     },
     {
-      "rank": 97,
+      "rank": 103,
       "model": "kimi-k2.5",
       "org": "moonshotai",
       "variant": "reasoning=high",
@@ -2541,7 +2697,33 @@
       ]
     },
     {
-      "rank": 98,
+      "rank": 104,
+      "model": "qwen3.8-max",
+      "org": "qwen",
+      "variant": "reasoning=max",
+      "score": 0.9467,
+      "display": "0.95",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "27%"
+        },
+        {
+          "label": "Red",
+          "value": "31%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 105,
       "model": "gemini-3-pro-preview",
       "org": "google",
       "variant": "reasoning=high",
@@ -2567,7 +2749,7 @@
       ]
     },
     {
-      "rank": 99,
+      "rank": 106,
       "model": "gpt-5.4-mini",
       "org": "openai",
       "variant": "reasoning=none",
@@ -2593,37 +2775,11 @@
       ]
     },
     {
-      "rank": 100,
-      "model": "qwen3.8-max",
-      "org": "qwen",
-      "variant": "reasoning=max",
-      "score": 0.94,
-      "display": "0.94",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "26%"
-        },
-        {
-          "label": "Red",
-          "value": "31%"
-        },
-        {
-          "label": "Refused",
-          "value": "0%"
-        },
-        {
-          "label": "Questions",
-          "value": "100"
-        }
-      ]
-    },
-    {
-      "rank": 101,
+      "rank": 107,
       "model": "nemotron-3-ultra-550b-a55b",
       "org": "nvidia",
       "variant": "reasoning=xhigh",
-      "score": 0.9367,
+      "score": 0.9383,
       "display": "0.94",
       "extras": [
         {
@@ -2632,7 +2788,7 @@
         },
         {
           "label": "Red",
-          "value": "46%"
+          "value": "45%"
         },
         {
           "label": "Refused",
@@ -2645,7 +2801,7 @@
       ]
     },
     {
-      "rank": 102,
+      "rank": 108,
       "model": "mimo-v2.5-pro",
       "org": "xiaomi",
       "variant": "reasoning=none",
@@ -2671,7 +2827,33 @@
       ]
     },
     {
-      "rank": 103,
+      "rank": 109,
+      "model": "qwen3.8-27b",
+      "org": "qwen",
+      "variant": "reasoning=max",
+      "score": 0.9367,
+      "display": "0.94",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "29%"
+        },
+        {
+          "label": "Red",
+          "value": "30%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 110,
       "model": "gemini-3.7-flash",
       "org": "google",
       "variant": "reasoning=minimal",
@@ -2697,20 +2879,20 @@
       ]
     },
     {
-      "rank": 104,
-      "model": "qwen3.8-27b",
-      "org": "qwen",
-      "variant": "reasoning=max",
-      "score": 0.93,
-      "display": "0.93",
+      "rank": 111,
+      "model": "deepseek-v4-pro-0813",
+      "org": "deepseek",
+      "variant": "reasoning=low",
+      "score": 0.9183,
+      "display": "0.92",
       "extras": [
         {
           "label": "Green",
-          "value": "28%"
+          "value": "32%"
         },
         {
           "label": "Red",
-          "value": "30%"
+          "value": "38%"
         },
         {
           "label": "Refused",
@@ -2723,7 +2905,7 @@
       ]
     },
     {
-      "rank": 105,
+      "rank": 112,
       "model": "gemini-3.6-flash",
       "org": "google",
       "variant": "reasoning=minimal",
@@ -2749,7 +2931,7 @@
       ]
     },
     {
-      "rank": 106,
+      "rank": 113,
       "model": "healer-alpha",
       "org": "stealth",
       "variant": "reasoning=none",
@@ -2775,33 +2957,7 @@
       ]
     },
     {
-      "rank": 107,
-      "model": "deepseek-v4-pro-0813",
-      "org": "deepseek",
-      "variant": "reasoning=low",
-      "score": 0.9167,
-      "display": "0.92",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "32%"
-        },
-        {
-          "label": "Red",
-          "value": "39%"
-        },
-        {
-          "label": "Refused",
-          "value": "0%"
-        },
-        {
-          "label": "Questions",
-          "value": "100"
-        }
-      ]
-    },
-    {
-      "rank": 108,
+      "rank": 114,
       "model": "gpt-5.1",
       "org": "openai",
       "variant": "reasoning=default",
@@ -2827,7 +2983,7 @@
       ]
     },
     {
-      "rank": 109,
+      "rank": 115,
       "model": "claude-sonnet-4",
       "org": "anthropic",
       "variant": "reasoning=none",
@@ -2853,7 +3009,7 @@
       ]
     },
     {
-      "rank": 110,
+      "rank": 116,
       "model": "mimo-v2.5",
       "org": "xiaomi",
       "variant": "reasoning=xhigh",
@@ -2879,7 +3035,7 @@
       ]
     },
     {
-      "rank": 111,
+      "rank": 117,
       "model": "gemini-3.1-pro-preview",
       "org": "google",
       "variant": "reasoning=high",
@@ -2905,7 +3061,7 @@
       ]
     },
     {
-      "rank": 112,
+      "rank": 118,
       "model": "hunter-alpha",
       "org": "stealth",
       "variant": "reasoning=xhigh",
@@ -2931,7 +3087,7 @@
       ]
     },
     {
-      "rank": 113,
+      "rank": 119,
       "model": "claude-sonnet-4",
       "org": "anthropic",
       "variant": "reasoning=high",
@@ -2957,7 +3113,7 @@
       ]
     },
     {
-      "rank": 114,
+      "rank": 120,
       "model": "gpt-5.1-codex",
       "org": "openai",
       "variant": "reasoning=default",
@@ -2983,16 +3139,16 @@
       ]
     },
     {
-      "rank": 115,
+      "rank": 121,
       "model": "llama-4-maverick",
       "org": "meta",
       "variant": "reasoning=default",
-      "score": 0.8333,
-      "display": "0.83",
+      "score": 0.84,
+      "display": "0.84",
       "extras": [
         {
           "label": "Green",
-          "value": "28%"
+          "value": "29%"
         },
         {
           "label": "Red",
@@ -3009,7 +3165,7 @@
       ]
     },
     {
-      "rank": 116,
+      "rank": 122,
       "model": "gpt-5.2-chat",
       "org": "openai",
       "variant": "reasoning=default",
@@ -3035,7 +3191,7 @@
       ]
     },
     {
-      "rank": 117,
+      "rank": 123,
       "model": "gpt-5.3-codex",
       "org": "openai",
       "variant": "reasoning=low",
@@ -3061,7 +3217,7 @@
       ]
     },
     {
-      "rank": 118,
+      "rank": 124,
       "model": "gemini-3.7-flash",
       "org": "google",
       "variant": "reasoning=max",
@@ -3087,7 +3243,7 @@
       ]
     },
     {
-      "rank": 119,
+      "rank": 125,
       "model": "gpt-5",
       "org": "openai",
       "variant": "reasoning=default",
@@ -3113,7 +3269,7 @@
       ]
     },
     {
-      "rank": 120,
+      "rank": 126,
       "model": "gemini-3.6-flash",
       "org": "google",
       "variant": "reasoning=xhigh",
@@ -3139,7 +3295,7 @@
       ]
     },
     {
-      "rank": 121,
+      "rank": 127,
       "model": "glm-5-turbo",
       "org": "z-ai",
       "variant": "reasoning=high",
@@ -3165,7 +3321,7 @@
       ]
     },
     {
-      "rank": 122,
+      "rank": 128,
       "model": "nemotron-3-super-120b-a12b",
       "org": "nvidia",
       "variant": "reasoning=none",
@@ -3191,7 +3347,7 @@
       ]
     },
     {
-      "rank": 123,
+      "rank": 129,
       "model": "glm-5.2",
       "org": "z-ai",
       "variant": "reasoning=xhigh",
@@ -3217,7 +3373,7 @@
       ]
     },
     {
-      "rank": 124,
+      "rank": 130,
       "model": "gemma-4-31b-it",
       "org": "google",
       "variant": "reasoning=high",
@@ -3243,7 +3399,7 @@
       ]
     },
     {
-      "rank": 125,
+      "rank": 131,
       "model": "glm-5",
       "org": "z-ai",
       "variant": "reasoning=high",
@@ -3269,7 +3425,7 @@
       ]
     },
     {
-      "rank": 126,
+      "rank": 132,
       "model": "nemotron-3-nano-30b-a3b:free",
       "org": "nvidia",
       "variant": "reasoning=none",
@@ -3295,7 +3451,7 @@
       ]
     },
     {
-      "rank": 127,
+      "rank": 133,
       "model": "gpt-5.3-codex",
       "org": "openai",
       "variant": "reasoning=high",
@@ -3321,7 +3477,7 @@
       ]
     },
     {
-      "rank": 128,
+      "rank": 134,
       "model": "gpt-5.3-codex",
       "org": "openai",
       "variant": "reasoning=xhigh",
@@ -3347,7 +3503,7 @@
       ]
     },
     {
-      "rank": 129,
+      "rank": 135,
       "model": "o3",
       "org": "openai",
       "variant": "reasoning=default",
@@ -3373,7 +3529,7 @@
       ]
     },
     {
-      "rank": 130,
+      "rank": 136,
       "model": "healer-alpha",
       "org": "stealth",
       "variant": "reasoning=xhigh",
@@ -3399,11 +3555,11 @@
       ]
     },
     {
-      "rank": 131,
+      "rank": 137,
       "model": "deepseek-v4-flash-0731",
       "org": "deepseek",
       "variant": "reasoning=none",
-      "score": 0.66,
+      "score": 0.6617,
       "display": "0.66",
       "extras": [
         {
@@ -3412,7 +3568,7 @@
         },
         {
           "label": "Red",
-          "value": "57%"
+          "value": "56%"
         },
         {
           "label": "Refused",
@@ -3425,7 +3581,7 @@
       ]
     },
     {
-      "rank": 132,
+      "rank": 138,
       "model": "gemma-4-26b-a4b-it",
       "org": "google",
       "variant": "reasoning=xhigh",
@@ -3451,7 +3607,7 @@
       ]
     },
     {
-      "rank": 133,
+      "rank": 139,
       "model": "gpt-5-chat",
       "org": "openai",
       "variant": "reasoning=default",
@@ -3477,7 +3633,7 @@
       ]
     },
     {
-      "rank": 134,
+      "rank": 140,
       "model": "mimo-v2.5",
       "org": "xiaomi",
       "variant": "reasoning=none",
@@ -3503,7 +3659,7 @@
       ]
     },
     {
-      "rank": 135,
+      "rank": 141,
       "model": "qwen3-coder",
       "org": "qwen",
       "variant": "reasoning=default",
@@ -3529,7 +3685,7 @@
       ]
     },
     {
-      "rank": 136,
+      "rank": 142,
       "model": "glm-5-turbo",
       "org": "z-ai",
       "variant": "reasoning=none",
@@ -3555,7 +3711,7 @@
       ]
     },
     {
-      "rank": 137,
+      "rank": 143,
       "model": "glm-5.1",
       "org": "z-ai",
       "variant": "reasoning=xhigh",
@@ -3581,7 +3737,7 @@
       ]
     },
     {
-      "rank": 138,
+      "rank": 144,
       "model": "step-3.5-flash",
       "org": "stepfun",
       "variant": "reasoning=xhigh",
@@ -3607,7 +3763,33 @@
       ]
     },
     {
-      "rank": 139,
+      "rank": 145,
+      "model": "laguna-s-2.1",
+      "org": "poolside",
+      "variant": "reasoning=xhigh",
+      "score": 0.5967,
+      "display": "0.60",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "21%"
+        },
+        {
+          "label": "Red",
+          "value": "58%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 146,
       "model": "gemini-2.5-pro",
       "org": "google",
       "variant": "reasoning=default",
@@ -3633,33 +3815,7 @@
       ]
     },
     {
-      "rank": 140,
-      "model": "laguna-s-2.1",
-      "org": "poolside",
-      "variant": "reasoning=xhigh",
-      "score": 0.59,
-      "display": "0.59",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "20%"
-        },
-        {
-          "label": "Red",
-          "value": "58%"
-        },
-        {
-          "label": "Refused",
-          "value": "0%"
-        },
-        {
-          "label": "Questions",
-          "value": "100"
-        }
-      ]
-    },
-    {
-      "rank": 141,
+      "rank": 147,
       "model": "glm-5",
       "org": "z-ai",
       "variant": "reasoning=none",
@@ -3685,7 +3841,7 @@
       ]
     },
     {
-      "rank": 142,
+      "rank": 148,
       "model": "deepseek-v4-flash",
       "org": "deepseek",
       "variant": "reasoning=none",
@@ -3711,7 +3867,7 @@
       ]
     },
     {
-      "rank": 143,
+      "rank": 149,
       "model": "grok-4.1-fast",
       "org": "x-ai",
       "variant": "reasoning=high",
@@ -3737,7 +3893,7 @@
       ]
     },
     {
-      "rank": 144,
+      "rank": 150,
       "model": "deepseek-v4-pro",
       "org": "deepseek",
       "variant": "reasoning=xhigh",
@@ -3763,16 +3919,16 @@
       ]
     },
     {
-      "rank": 145,
+      "rank": 151,
       "model": "llama-4-scout",
       "org": "meta",
       "variant": "reasoning=default",
-      "score": 0.5633,
-      "display": "0.56",
+      "score": 0.57,
+      "display": "0.57",
       "extras": [
         {
           "label": "Green",
-          "value": "19%"
+          "value": "20%"
         },
         {
           "label": "Red",
@@ -3789,12 +3945,12 @@
       ]
     },
     {
-      "rank": 146,
+      "rank": 152,
       "model": "llama-3.1-8b-instruct",
       "org": "meta",
       "variant": "reasoning=default",
-      "score": 0.5633,
-      "display": "0.56",
+      "score": 0.5667,
+      "display": "0.57",
       "extras": [
         {
           "label": "Green",
@@ -3815,7 +3971,7 @@
       ]
     },
     {
-      "rank": 147,
+      "rank": 153,
       "model": "glm-5.2",
       "org": "z-ai",
       "variant": "reasoning=none",
@@ -3841,7 +3997,7 @@
       ]
     },
     {
-      "rank": 148,
+      "rank": 154,
       "model": "gemma-4-31b-it",
       "org": "google",
       "variant": "reasoning=none",
@@ -3867,7 +4023,7 @@
       ]
     },
     {
-      "rank": 149,
+      "rank": 155,
       "model": "gemini-3.5-flash",
       "org": "google",
       "variant": "reasoning=xhigh",
@@ -3893,7 +4049,7 @@
       ]
     },
     {
-      "rank": 150,
+      "rank": 156,
       "model": "mimo-v2-flash",
       "org": "xiaomi",
       "variant": "reasoning=none",
@@ -3919,7 +4075,7 @@
       ]
     },
     {
-      "rank": 151,
+      "rank": 157,
       "model": "hy3-preview:free",
       "org": "tencent",
       "variant": "reasoning=none",
@@ -3945,7 +4101,7 @@
       ]
     },
     {
-      "rank": 152,
+      "rank": 158,
       "model": "gemini-2.5-flash",
       "org": "google",
       "variant": "reasoning=default",
@@ -3971,7 +4127,7 @@
       ]
     },
     {
-      "rank": 153,
+      "rank": 159,
       "model": "laguna-s-2.1",
       "org": "poolside",
       "variant": "reasoning=none",
@@ -3997,7 +4153,7 @@
       ]
     },
     {
-      "rank": 154,
+      "rank": 160,
       "model": "gpt-5.4-nano",
       "org": "openai",
       "variant": "reasoning=high",
@@ -4023,7 +4179,7 @@
       ]
     },
     {
-      "rank": 155,
+      "rank": 161,
       "model": "trinity-large-thinking",
       "org": "arcee-ai",
       "variant": "reasoning=minimal",
@@ -4049,7 +4205,7 @@
       ]
     },
     {
-      "rank": 156,
+      "rank": 162,
       "model": "glm-5.1",
       "org": "z-ai",
       "variant": "reasoning=none",
@@ -4075,16 +4231,16 @@
       ]
     },
     {
-      "rank": 157,
+      "rank": 163,
       "model": "gpt-5.4-nano",
       "org": "openai",
       "variant": "reasoning=none",
-      "score": 0.4933,
-      "display": "0.49",
+      "score": 0.5,
+      "display": "0.50",
       "extras": [
         {
           "label": "Green",
-          "value": "13%"
+          "value": "14%"
         },
         {
           "label": "Red",
@@ -4101,7 +4257,7 @@
       ]
     },
     {
-      "rank": 158,
+      "rank": 164,
       "model": "gpt-4o-2024-08-06",
       "org": "openai",
       "variant": "reasoning=default",
@@ -4127,7 +4283,7 @@
       ]
     },
     {
-      "rank": 159,
+      "rank": 165,
       "model": "gemini-3.5-flash",
       "org": "google",
       "variant": "reasoning=minimal",
@@ -4153,7 +4309,7 @@
       ]
     },
     {
-      "rank": 160,
+      "rank": 166,
       "model": "deepseek-v4-pro",
       "org": "deepseek",
       "variant": "reasoning=none",
@@ -4179,7 +4335,7 @@
       ]
     },
     {
-      "rank": 161,
+      "rank": 167,
       "model": "gemini-2.0-flash-001",
       "org": "google",
       "variant": "reasoning=default",
@@ -4205,7 +4361,7 @@
       ]
     },
     {
-      "rank": 162,
+      "rank": 168,
       "model": "deepseek-v3.2",
       "org": "deepseek",
       "variant": "reasoning=high",
@@ -4231,7 +4387,7 @@
       ]
     },
     {
-      "rank": 163,
+      "rank": 169,
       "model": "hy3-preview:free",
       "org": "tencent",
       "variant": "reasoning=xhigh",
@@ -4257,7 +4413,7 @@
       ]
     },
     {
-      "rank": 164,
+      "rank": 170,
       "model": "minimax-m2.5",
       "org": "minimax",
       "variant": "reasoning=low",
@@ -4283,7 +4439,7 @@
       ]
     },
     {
-      "rank": 165,
+      "rank": 171,
       "model": "gpt-4.1",
       "org": "openai",
       "variant": "reasoning=default",
@@ -4309,7 +4465,7 @@
       ]
     },
     {
-      "rank": 166,
+      "rank": 172,
       "model": "step-3.5-flash",
       "org": "stepfun",
       "variant": "reasoning=minimal",
@@ -4335,7 +4491,7 @@
       ]
     },
     {
-      "rank": 167,
+      "rank": 173,
       "model": "trinity-large-thinking",
       "org": "arcee-ai",
       "variant": "reasoning=xhigh",
@@ -4361,7 +4517,7 @@
       ]
     },
     {
-      "rank": 168,
+      "rank": 174,
       "model": "gpt-5.4-nano",
       "org": "openai",
       "variant": "reasoning=xhigh",
@@ -4387,7 +4543,7 @@
       ]
     },
     {
-      "rank": 169,
+      "rank": 175,
       "model": "gemma-4-26b-a4b-it",
       "org": "google",
       "variant": "reasoning=none",
@@ -4413,7 +4569,7 @@
       ]
     },
     {
-      "rank": 170,
+      "rank": 176,
       "model": "gemini-3-flash-preview",
       "org": "google",
       "variant": "reasoning=high",
@@ -4439,7 +4595,7 @@
       ]
     },
     {
-      "rank": 171,
+      "rank": 177,
       "model": "seed-1.6",
       "org": "bytedance-seed",
       "variant": "reasoning=high",
@@ -4465,7 +4621,7 @@
       ]
     },
     {
-      "rank": 172,
+      "rank": 178,
       "model": "gemini-3.1-flash-lite-preview",
       "org": "google",
       "variant": "reasoning=default",
@@ -4491,7 +4647,33 @@
       ]
     },
     {
-      "rank": 173,
+      "rank": 179,
+      "model": "gpt-oss-120b",
+      "org": "openai",
+      "variant": "reasoning=low",
+      "score": 0.4017,
+      "display": "0.40",
+      "extras": [
+        {
+          "label": "Green",
+          "value": "12%"
+        },
+        {
+          "label": "Red",
+          "value": "67%"
+        },
+        {
+          "label": "Refused",
+          "value": "0%"
+        },
+        {
+          "label": "Questions",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "rank": 180,
       "model": "deepseek-v4-flash",
       "org": "deepseek",
       "variant": "reasoning=xhigh",
@@ -4517,7 +4699,7 @@
       ]
     },
     {
-      "rank": 174,
+      "rank": 181,
       "model": "mimo-v2-flash",
       "org": "xiaomi",
       "variant": "reasoning=high",
@@ -4543,7 +4725,7 @@
       ]
     },
     {
-      "rank": 175,
+      "rank": 182,
       "model": "seed-1.6",
       "org": "bytedance-seed",
       "variant": "reasoning=none",
@@ -4569,33 +4751,7 @@
       ]
     },
     {
-      "rank": 176,
-      "model": "gpt-oss-120b",
-      "org": "openai",
-      "variant": "reasoning=low",
-      "score": 0.3967,
-      "display": "0.40",
-      "extras": [
-        {
-          "label": "Green",
-          "value": "11%"
-        },
-        {
-          "label": "Red",
-          "value": "67%"
-        },
-        {
-          "label": "Refused",
-          "value": "0%"
-        },
-        {
-          "label": "Questions",
-          "value": "100"
-        }
-      ]
-    },
-    {
-      "rank": 177,
+      "rank": 183,
       "model": "deepseek-v3.2",
       "org": "deepseek",
       "variant": "reasoning=none",
@@ -4621,7 +4777,7 @@
       ]
     },
     {
-      "rank": 178,
+      "rank": 184,
       "model": "minimax-m2.7",
       "org": "minimax",
       "variant": "reasoning=low",
@@ -4647,7 +4803,7 @@
       ]
     },
     {
-      "rank": 179,
+      "rank": 185,
       "model": "minimax-m2.5",
       "org": "minimax",
       "variant": "reasoning=high",
@@ -4673,7 +4829,7 @@
       ]
     },
     {
-      "rank": 180,
+      "rank": 186,
       "model": "ernie-4.5-vl-424b-a47b",
       "org": "baidu",
       "variant": "reasoning=xhigh",
@@ -4699,11 +4855,11 @@
       ]
     },
     {
-      "rank": 181,
+      "rank": 187,
       "model": "claude-3-haiku",
       "org": "anthropic",
       "variant": "reasoning=default",
-      "score": 0.3433,
+      "score": 0.345,
       "display": "0.34",
       "extras": [
         {
@@ -4712,7 +4868,7 @@
         },
         {
           "label": "Red",
-          "value": "75%"
+          "value": "74%"
         },
         {
           "label": "Refused",
@@ -4725,7 +4881,7 @@
       ]
     },
     {
-      "rank": 182,
+      "rank": 188,
       "model": "deepseek-r1",
       "org": "deepseek",
       "variant": "reasoning=none",
@@ -4751,7 +4907,7 @@
       ]
     },
     {
-      "rank": 183,
+      "rank": 189,
       "model": "gemini-3-flash-preview",
       "org": "google",
       "variant": "reasoning=none",
@@ -4777,7 +4933,7 @@
       ]
     },
     {
-      "rank": 184,
+      "rank": 190,
       "model": "glm-4.5",
       "org": "z-ai",
       "variant": "reasoning=xhigh",
@@ -4803,7 +4959,7 @@
       ]
     },
     {
-      "rank": 185,
+      "rank": 191,
       "model": "nemotron-3-nano-30b-a3b:free",
       "org": "nvidia",
       "variant": "reasoning=xhigh",
@@ -4829,7 +4985,7 @@
       ]
     },
     {
-      "rank": 186,
+      "rank": 192,
       "model": "kimi-k2",
       "org": "moonshotai",
       "variant": "reasoning=default",
@@ -4855,7 +5011,7 @@
       ]
     },
     {
-      "rank": 187,
+      "rank": 193,
       "model": "minimax-m2.7",
       "org": "minimax",
       "variant": "reasoning=high",
@@ -4881,7 +5037,7 @@
       ]
     },
     {
-      "rank": 188,
+      "rank": 194,
       "model": "mistral-small-2603",
       "org": "mistralai",
       "variant": "reasoning=high",
@@ -4907,7 +5063,7 @@
       ]
     },
     {
-      "rank": 189,
+      "rank": 195,
       "model": "deepseek-r1",
       "org": "deepseek",
       "variant": "reasoning=xhigh",
@@ -4933,7 +5089,7 @@
       ]
     },
     {
-      "rank": 190,
+      "rank": 196,
       "model": "qwen3-235b-a22b",
       "org": "qwen",
       "variant": "reasoning=none",
@@ -4959,7 +5115,7 @@
       ]
     },
     {
-      "rank": 191,
+      "rank": 197,
       "model": "grok-4.1-fast",
       "org": "x-ai",
       "variant": "reasoning=none",
@@ -4985,7 +5141,7 @@
       ]
     },
     {
-      "rank": 192,
+      "rank": 198,
       "model": "glm-4.5",
       "org": "z-ai",
       "variant": "reasoning=none",
@@ -5011,7 +5167,7 @@
       ]
     },
     {
-      "rank": 193,
+      "rank": 199,
       "model": "gpt-oss-120b",
       "org": "openai",
       "variant": "reasoning=high",
@@ -5037,7 +5193,7 @@
       ]
     },
     {
-      "rank": 194,
+      "rank": 200,
       "model": "o4-mini",
       "org": "openai",
       "variant": "reasoning=high",
@@ -5063,7 +5219,7 @@
       ]
     },
     {
-      "rank": 195,
+      "rank": 201,
       "model": "ernie-4.5-vl-424b-a47b",
       "org": "baidu",
       "variant": "reasoning=none",
@@ -5089,7 +5245,7 @@
       ]
     },
     {
-      "rank": 196,
+      "rank": 202,
       "model": "o4-mini",
       "org": "openai",
       "variant": "reasoning=low",
@@ -5115,7 +5271,7 @@
       ]
     },
     {
-      "rank": 197,
+      "rank": 203,
       "model": "qwen3-235b-a22b",
       "org": "qwen",
       "variant": "reasoning=xhigh",
@@ -5141,7 +5297,7 @@
       ]
     },
     {
-      "rank": 198,
+      "rank": 204,
       "model": "ernie-4.5-300b-a47b",
       "org": "baidu",
       "variant": "reasoning=default",
@@ -5167,7 +5323,7 @@
       ]
     },
     {
-      "rank": 199,
+      "rank": 205,
       "model": "nemotron-nano-9b-v2:free",
       "org": "nvidia",
       "variant": "reasoning=none",
@@ -5193,7 +5349,7 @@
       ]
     },
     {
-      "rank": 200,
+      "rank": 206,
       "model": "nemotron-nano-9b-v2:free",
       "org": "nvidia",
       "variant": "reasoning=xhigh",
@@ -5219,7 +5375,7 @@
       ]
     },
     {
-      "rank": 201,
+      "rank": 207,
       "model": "intellect-3",
       "org": "prime-intellect",
       "variant": "reasoning=low",
@@ -5245,7 +5401,7 @@
       ]
     },
     {
-      "rank": 202,
+      "rank": 208,
       "model": "deepseek-chat",
       "org": "deepseek",
       "variant": "reasoning=default",
@@ -5271,7 +5427,7 @@
       ]
     },
     {
-      "rank": 203,
+      "rank": 209,
       "model": "intellect-3",
       "org": "prime-intellect",
       "variant": "reasoning=high",
@@ -5297,7 +5453,7 @@
       ]
     },
     {
-      "rank": 204,
+      "rank": 210,
       "model": "jamba-large-1.7",
       "org": "ai21",
       "variant": "reasoning=default",
@@ -5323,7 +5479,7 @@
       ]
     },
     {
-      "rank": 205,
+      "rank": 211,
       "model": "mistral-large-2512",
       "org": "mistralai",
       "variant": "reasoning=default",
@@ -5349,7 +5505,7 @@
       ]
     },
     {
-      "rank": 206,
+      "rank": 212,
       "model": "mistral-small-2603",
       "org": "mistralai",
       "variant": "reasoning=none",
@@ -5375,7 +5531,7 @@
       ]
     },
     {
-      "rank": 207,
+      "rank": 213,
       "model": "gpt-4o-mini-2024-07-18",
       "org": "openai",
       "variant": "reasoning=default",
@@ -5401,7 +5557,7 @@
       ]
     },
     {
-      "rank": 208,
+      "rank": 214,
       "model": "gemma-3-27b-it",
       "org": "google",
       "variant": "reasoning=default",
